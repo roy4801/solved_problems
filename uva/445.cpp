@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cctype>
+#include <cstring>
 
 using namespace std;
 
@@ -12,61 +13,63 @@ int main(int argc, char *argv[])
     #endif
     char line[100] = {0};
     bool first = true;
+    char *last;
+    int length;
     
     while(cin.getline(line, 100, '\n'))
     {
         int count = cin.gcount();
-        printf("%d\n", count);
+        // printf("%d\n", count);
+        length = strlen(line);
+
         
-        if(count > 1)
+        if(!first)
+            putchar('\n');
+        else
+            first = false;
+
+        char *ch = line;
+        int num = 0;
+        char c;
+
+        // Parse the string
+        while(*ch)
         {
-            if(!first)
-                putchar('\n');
-            else
-                first = false;
-            // cout << line << endl;
-            //
-            char *ch = line;
-            int num = 0;
-            char c;
-            // Parse the string
-            while(*ch)
+            if(isdigit(*ch))
             {
-                if(isdigit(*ch))
+                num += *ch - '0';
+            }
+            else
+            {
+                c = *ch;
+                
+                if(c == '!')
                 {
-                    num += *ch - '0';
+                	last = ch;
+                    putchar('\n');
                 }
                 else
                 {
-                    c = *ch;
-                    
-                    if(c == '!')
+                    if(c == 'b')
                     {
-                        putchar('\n');
+                        c = ' ';
                     }
-                    else
-                    {
-                        if(c == 'b')
-                        {
-                            c = ' ';
-                        }
 
-                        for(int i = 0; i < num; i++)
-                        {
-                            putchar(c);
-                        }
+                    for(int i = 0; i < num; i++)
+                    {
+                        putchar(c);
                     }
-                    num = 0;
                 }
-                ch++;
+                num = 0;
             }
-        }
-        else
-        {
-            putchar('\n');
+            ch++;
         }
     }
-    putchar('\n');
+
+    // printf("%d %d %d\n", length, line + length - 1, last);
+
+    if(line + length - 1 != last)
+    	putchar('\n');
     
     return 0;
 }
