@@ -5,23 +5,62 @@ using namespace std;
 
 #define MAX_FACTORIAL 1001
 
+#define MAX_DIGIT 1000
+
 struct BigNum
 {
-	vector<char> d;
+public:
+// private:
+	char d[MAX_DIGIT];
+	int digit;
 
-	BigNum() {}
+	void initDigit()
+	{
+		for(int i = 0; i < MAX_DIGIT; i++)
+			d[i] = 0;
+	}
+
+public:
+	BigNum()
+	{
+		digit = 0;
+		initDigit();
+	}
 	BigNum(int n)
 	{
+		initDigit();
+		digit = 0;
+
+		int i = 0;
 		while(n > 9)
 		{
-			d.push_back(n % 10);
+			d[i++] = n % 10;
 			n /= 10;
+			digit++;
 		}
-		d.push_back(n);
+		d[i++] = n;
+		digit++;
 	}
 	BigNum(BigNum &b)
 	{
-		d = b.d;
+		digit = b.digit;
+		initDigit();
+
+		for(int i = 0; i < digit; i++)
+		{
+			d[i] = b.d[i];
+		}
+	}
+	BigNum(const char num[])
+	{
+		digit = strlen(num);
+		initDigit();
+
+		int l = strlen(num);
+		for(int i = l-1; i >= 0; i--)
+		{
+			d[l-1 - i] = num[i] - '0';
+		}
 	}
 
 	// relation operators
@@ -29,57 +68,50 @@ struct BigNum
 	friend bool operator==(const BigNum& lhs, const BigNum& rhs);
 
 	// arithmetic operators
+	//
+	// Addition
 	BigNum& operator+=(const BigNum& rhs)
 	{
-		int dSize = d.size(), rhsSize = rhs.d.size();
-		const vector<char> up = dSize > rhsSize ? d : rhs.d;
-		const vector<char> down = dSize > rhsSize ? rhs.d : d;
+		int dSize = digit, rhsSize = rhs.digit;
+		const char *up = dSize > rhsSize ? d : rhs.d;
+		const char *down = dSize > rhsSize ? rhs.d : d;
 		int upLength = max(dSize, rhsSize), downLength = min(dSize, rhsSize);
 
-		// putchar('\n');
-		// putchar('\n');
-		// cout << dSize << ' ' << rhsSize << endl;
-		// cout << "U:" << upLength << ' ' << "D:" << downLength << endl;
-		// for(auto i = up.rbegin(); i != up.rend(); i++)
-		// {
-		// 	putchar(*i + '0');
-		// }
-		// putchar('\n');
-		// putchar('\n');
-
+		digit = upLength;
 		for(int i = 0; i < upLength; i++)
 		{
+			int tmp = 0;
+
 			// addition
 			if(i < downLength)
 			{
-				d[i] = up[i] + down[i];
+				tmp += up[i] + down[i];
 			}
 			else
 			{
-				d.push_back(up[i]);
+				tmp += up[i];
 			}
 
 			// carry
-			if(d[i] > 9)
+			if(tmp > 9)
 			{
-				d[i] -= 10;
+				tmp -= 10;
+				d[i+1]++;
+				d[i] = tmp;
 
-				// last digit
 				if(i == upLength - 1)
-				{
-					d.push_back(1);
-				}
-				else
-				{
-					d[i+1]++;
-				}
+					digit++;
 			}
+
+			// cout << (char)(d[i] + '0') << ' ';
 		}
+		// cout << "d: " << digit << endl;
 
 		return *this;
 	}
-	friend BigNum operator+(const BigNum& lhs, const BigNum& rhs);
+	// friend BigNum operator+(const BigNum& lhs, const BigNum& rhs);
 
+	// Multiplication
 	BigNum& operator*=(const BigNum& rhs)
 	{
 		// This may have some performance problem
@@ -90,41 +122,48 @@ struct BigNum
 		{
 			(*this) += rhs;
 			end += step;
-			
 		}
 
 		return *this;
 	}
 
+	BigNum& operator*=(const int n)
+	{
+		BigNum tmp(n);
+
+		(*this) += tmp;
+		return *this;
+	}
+
 	void printNumber()
 	{
-		for(int i = d.size()-1; i >= 0; i--)
+		for(int i = digit-1; i >= 0; i--)
 		{
 			putchar(d[i] + '0');
 		}
 	}
 };
 
-BigNum operator+(const BigNum& lhs, const BigNum& rhs)
-{
-	BigNum tmp(0);
-	tmp += lhs;
-	tmp += rhs;
-	return tmp;
-}
+// BigNum operator+(const BigNum& lhs, const BigNum& rhs)
+// {
+// 	BigNum tmp(0);
+// 	tmp += lhs;
+// 	tmp += rhs;
+// 	return tmp;
+// }
 
 bool operator!=(const BigNum& lhs, const BigNum& rhs)
 {
-	if(lhs.d.size() == rhs.d.size())
+	if(lhs.digit == rhs.digit)
 	{
 		int tmp = 0;
-		for(int i = 0; i < lhs.d.size(); i++)
+		for(int i = 0; i < lhs.digit; i++)
 		{
 			if(lhs.d[i] == rhs.d[i])
 				tmp++;
 		}
 
-		if(tmp == lhs.d.size())
+		if(tmp == lhs.digit)
 			return false;
 		else
 			return true;
@@ -155,23 +194,53 @@ bool operator==(const BigNum& lhs, const BigNum& rhs)
 int main()
 {
 	#ifndef ONLINE_JUDGE
-	freopen("./testdata/623.in", "r", stdin);
+	// freopen("./testdata/623.in", "r", stdin);
 	// freopen("./testdata/623.out", "w", stdout);
 	#endif
-	int num;
-	BigNum sum(1);
+	BigNum a("111"), b(111);
+	BigNum c = b;
 
-	while(scanf("%d", &num) != EOF)
+	// cout << c.digit << endl;
+	// cout << "c.printNumber: "; c.printNumber(); putchar('\n');
+	// cout << a.digit << endl;
+	// cout << "a.printNumber: "; a.printNumber(); putchar('\n');
+
+	cout << endl;
+
+	c += a;
+	cout << c.digit << endl;
+	cout << "c.printNumber: "; c.printNumber(); putchar('\n');
+
+	if(a == c)
+		cout << "a = b" << endl;
+	else
 	{
-		BigNum tmp(num);
-		// tmp.printNumber();
-		// sum += tmp;
-		sum *= tmp;
-		sum.printNumber();
-		putchar('\n');
-		// printf("%d!\n", num);
-		// printf("%d\n", factorialProduct(num));
+		cout << "a != b" << endl;
 	}
+	// int num;
+	// BigNum sum(1);
+
+	// while(scanf("%d", &num) != EOF)
+	// {
+	// 	BigNum tmp(num);
+	// 	// tmp.printNumber();
+	// 	// sum += tmp;
+	// 	sum *= tmp;
+	// 	sum.printNumber();
+	// 	putchar('\n');
+	// 	// printf("%d!\n", num);
+	// 	// printf("%d\n", factorialProduct(num));
+	// }
+	// BigNum a(10), b(20), c(10);
+
+	// if(a == c)
+	// {
+	// 	printf("a === b\n");
+	// }
+	// else
+	// {
+	// 	printf("a != b\n");
+	// }
 
 	return 0;
 }
