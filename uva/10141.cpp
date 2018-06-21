@@ -1,29 +1,34 @@
 #include <iostream>
-#include <map>
-#include <string>
 
 using namespace std;
 
-struct Item
+struct provider
 {
-	Item()
+	char name[81];
+	float price;
+	int i;
+
+	provider()
 	{
 		price = 0.f;
-		good = 0;
-		next = NULL;
+		i = 0;
 	}
-	~Item()
-	{
-		delete next;
-	}
-	char name[80];
-	float price;
-	int good;
-
-	struct Item *next;
 };
 
-map<string, int> strToInt;
+void skipInput(const int times)
+{
+	char c;
+	int count = 0;
+
+	while((c = getchar()) != EOF)
+	{
+		if(c == '\n')
+			count++;
+
+		if(count == times)
+			return;
+	}
+}
 
 int main()
 {
@@ -33,27 +38,26 @@ int main()
     #endif
     int n, p;
 
-    while(scanf("%d %d", &n, &p) != EOF && n != 0 && p != 0)
+    while(scanf("%d %d ", &n, &p) != EOF && n != 0 && p != 0)
     {
-    	Item i[n];
-    	char in[81];
-    	float p;
-    	int 
+    	provider pro[p];
 
-    	for(int i = 0; i < n; i++)
+    	// Skip input
+    	skipInput(n);
+
+    	for(int i = 0; i < p; i++)
     	{
-    		scanf("%s", in);
+    		scanf("%80s", pro[i].name);
+    		scanf("%f %d ", &pro[i].price, &pro[i].i);
 
-    		strToInt[in] = i;
+    		skipInput(pro[i].i);
     	}
 
     	for(int i = 0; i < p; i++)
     	{
-    		scanf("%s", in);
-
-
+    		printf("%s %f %d\n", pro[i].name, pro[i].price, pro[i].i);
     	}
-
+    	putchar('\n');
     }
 
     return 0;
