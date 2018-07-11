@@ -1,5 +1,5 @@
 /*
- * Uva 11059 - 
+ * Uva 11059 - Maximum Product
  * author: roy4801
  * AC(C++) 0.000
  */

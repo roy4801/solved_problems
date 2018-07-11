@@ -1,5 +1,5 @@
 /*
- * Uva 11172 - 
+ * Uva 11172 - Relational Operator
  * author: roy4801
  * AC(C++) 0.000
  */
