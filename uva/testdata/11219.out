@@ -1,8192 +1,2048 @@
 Case #1: Invalid birth date
-10 5 2149
-14 10 2183
-
 Case #2: Check birth date
-28 10 3169
-14 6 2031
-
 Case #3: Check birth date
-21 11 2993
-20 3 2077
-
 Case #4: Check birth date
-14 3 3443
-19 2 2183
-
 Case #5: Check birth date
-9 12 2328
-7 11 2147
-
 Case #6: Check birth date
-25 4 3601
-29 7 2247
-
 Case #7: Check birth date
-20 3 2261
-21 4 2122
-
 Case #8: Check birth date
-6 3 3214
-30 10 2071
-
 Case #9: Check birth date
-10 8 3089
-4 6 2215
-
 Case #10: Check birth date
-14 12 2714
-1 4 2085
-
 Case #11: Check birth date
-19 4 2887
-22 7 2218
-
 Case #12: Check birth date
-16 8 2931
-6 7 2179
-
 Case #13: Check birth date
-25 8 3462
-1 6 2061
-
 Case #14: Check birth date
-2 10 2879
-7 2 2058
-
 Case #15: Check birth date
-11 12 2810
-21 9 2063
-
 Case #16: Check birth date
-6 5 2369
-13 2 2144
-
 Case #17: Check birth date
-1 10 2215
-13 6 2022
-
-Case #18: d:4559 disy:12
-18 5 2089
-23 11 2076
-
-Case #19: d:41851 disy:114
-26 8 2335
-24 1 2221
-
+Case #18: 12
+Case #19: 114
 Case #20: Check birth date
-19 10 2832
-26 5 2255
-
 Case #21: Check birth date
-30 5 3152
-4 9 2151
-
-Case #22: d:35585 disy:97
-6 9 2144
-3 4 2047
-
+Case #22: 97
 Case #23: Check birth date
-20 9 2495
-1 3 2047
-
 Case #24: Check birth date
-5 2 3113
-16 2 2069
-
 Case #25: Check birth date
-1 12 2698
-5 7 2245
-
 Case #26: Check birth date
-17 1 2710
-10 11 2161
-
 Case #27: Check birth date
-24 5 2930
-9 5 2105
-
 Case #28: Check birth date
-16 9 2839
-1 6 2160
-
 Case #29: Check birth date
-24 12 3371
-24 10 2056
-
 Case #30: Check birth date
-10 1 2372
-8 2 2219
-
 Case #31: Check birth date
-29 5 2505
-26 1 2016
-
 Case #32: Check birth date
-30 11 3069
-5 11 2114
-
 Case #33: Invalid birth date
-27 1 2025
-17 9 2030
-
 Case #34: Check birth date
-23 4 2990
-15 12 2180
-
 Case #35: Check birth date
-26 8 2571
-21 2 2033
-
 Case #36: Check birth date
-4 6 3469
-25 4 2148
-
 Case #37: Check birth date
-29 7 2788
-16 2 2068
-
 Case #38: Check birth date
-30 3 3195
-21 7 2198
-
 Case #39: Invalid birth date
-10 6 2225
-16 7 2228
-
 Case #40: Check birth date
-26 2 2476
-30 5 2071
-
 Case #41: Check birth date
-1 9 3220
-11 1 2258
-
 Case #42: Check birth date
-1 10 3283
-10 6 2177
-
 Case #43: Check birth date
-28 2 3332
-25 5 2206
-
 Case #44: Check birth date
-6 2 3374
-12 8 2189
-
 Case #45: Check birth date
-28 12 2808
-29 7 2178
-
 Case #46: Check birth date
-31 8 2683
-10 6 2247
-
 Case #47: Check birth date
-11 9 3277
-3 8 2161
-
 Case #48: Check birth date
-12 8 2440
-21 3 2014
-
 Case #49: Check birth date
-30 12 3509
-15 8 2153
-
 Case #50: Check birth date
-21 10 3334
-13 10 2045
-
 Case #51: Check birth date
-21 9 3501
-25 9 2180
-
 Case #52: Check birth date
-17 12 2305
-27 9 2012
-
 Case #53: Check birth date
-23 1 3271
-15 1 2257
-
 Case #54: Check birth date
-17 11 2861
-3 4 2031
-
 Case #55: Check birth date
-26 6 3442
-16 3 2269
-
 Case #56: Check birth date
-31 8 2732
-9 5 2096
-
 Case #57: Invalid birth date
-27 6 2146
-6 7 2199
-
 Case #58: Check birth date
-7 7 2797
-14 4 2121
-
 Case #59: Check birth date
-20 4 2380
-8 9 2148
-
 Case #60: Check birth date
-23 8 3102
-16 1 2204
-
 Case #61: Check birth date
-31 5 3418
-31 8 2044
-
 Case #62: Check birth date
-5 8 2711
-22 5 2000
-
 Case #63: Check birth date
-27 8 2499
-7 11 2220
-
 Case #64: Check birth date
-26 3 2314
-7 5 2162
-
 Case #65: Invalid birth date
-28 9 2138
-25 5 2164
-
 Case #66: Check birth date
-17 12 2552
-25 3 2126
-
 Case #67: Check birth date
-20 12 2639
-14 8 2016
-
 Case #68: Check birth date
-25 6 3171
-8 1 2018
-
 Case #69: Check birth date
-28 7 3255
-28 4 2115
-
 Case #70: Check birth date
-21 12 2926
-28 12 2082
-
 Case #71: Check birth date
-13 3 3483
-18 6 2140
-
 Case #72: Check birth date
-29 8 2907
-9 11 2159
-
 Case #73: Check birth date
-10 1 3141
-10 1 2191
-
 Case #74: Check birth date
-6 6 2661
-23 9 2065
-
 Case #75: Check birth date
-25 10 3053
-22 6 2065
-
 Case #76: Check birth date
-3 4 3403
-15 9 2075
-
 Case #77: Check birth date
-20 9 2481
-5 4 2065
-
 Case #78: Check birth date
-21 10 3422
-31 12 2259
-
 Case #79: Check birth date
-28 4 3475
-9 1 2141
-
 Case #80: Check birth date
-24 9 3437
-4 4 2112
-
 Case #81: Invalid birth date
-23 12 2130
-20 2 2164
-
-Case #82: d:39808 disy:109
-10 6 2171
-13 6 2062
-
-Case #83: d:42167 disy:115
-29 8 2354
-18 3 2239
-
+Case #82: 108
+Case #83: 115
 Case #84: Check birth date
-25 8 2668
-8 9 2153
-
 Case #85: Check birth date
-24 5 2489
-4 6 2192
-
 Case #86: Check birth date
-1 3 2696
-12 11 2023
-
 Case #87: Check birth date
-27 2 2650
-7 10 2199
-
 Case #88: Check birth date
-17 10 3345
-23 6 2102
-
 Case #89: Check birth date
-20 3 2249
-10 5 2024
-
 Case #90: Check birth date
-4 8 3039
-2 12 2235
-
 Case #91: Invalid birth date
-21 4 2208
-3 10 2221
-
 Case #92: Check birth date
-22 4 3351
-30 9 2075
-
 Case #93: Check birth date
-30 3 3301
-15 7 2180
-
 Case #94: Check birth date
-11 8 2943
-14 1 2123
-
 Case #95: Check birth date
-22 6 3075
-27 3 2077
-
 Case #96: Check birth date
-8 10 2415
-5 10 2251
-
-Case #97: d:2951 disy:8
-21 8 2067
-23 7 2059
-
+Case #97: 8
 Case #98: Check birth date
-14 6 2335
-29 6 2110
-
 Case #99: Check birth date
-24 11 2849
-19 7 2010
-
 Case #100: Check birth date
-19 4 2732
-21 3 2216
-
 Case #101: Check birth date
-15 11 2502
-28 2 2149
-
-Case #102: d:8333 disy:22
-29 10 2169
-5 1 2147
-
+Case #102: 22
 Case #103: Check birth date
-18 9 2416
-31 1 2147
-
 Case #104: Check birth date
-3 3 2648
-1 9 2132
-
 Case #105: Check birth date
-26 7 3309
-2 11 2014
-
 Case #106: Check birth date
-18 6 2900
-21 4 2269
-
 Case #107: Check birth date
-26 2 3254
-9 6 2166
-
 Case #108: Check birth date
-25 4 3402
-24 6 2152
-
-Case #109: d:21662 disy:59
-3 8 2079
-12 4 2020
-
+Case #109: 59
 Case #110: Check birth date
-15 2 3404
-18 4 2039
-
-Case #111: d:6677 disy:18
-21 3 2073
-9 12 2053
-
+Case #111: 19
 Case #112: Check birth date
-17 10 3046
-25 4 2142
-
 Case #113: Check birth date
-27 2 3175
-17 9 2258
-
-Case #114: d:22687 disy:62
-19 5 2310
-6 4 2248
-
+Case #114: 62
 Case #115: Check birth date
-24 12 3019
-2 6 2261
-
 Case #116: Check birth date
-21 4 3073
-8 7 2068
-
 Case #117: Check birth date
-22 7 2396
-29 6 2209
-
 Case #118: Check birth date
-19 11 2469
-2 12 2015
-
 Case #119: Check birth date
-9 9 3237
-2 3 2242
-
 Case #120: Check birth date
-27 6 3101
-19 2 2065
-
 Case #121: Check birth date
-1 11 3232
-19 1 2103
-
 Case #122: Check birth date
-14 4 2677
-5 10 2116
-
 Case #123: Check birth date
-29 10 3049
-1 9 2116
-
 Case #124: Check birth date
-29 4 2895
-12 1 2051
-
-Case #125: d:3114 disy:8
-20 10 2268
-11 4 2260
-
+Case #125: 8
 Case #126: Check birth date
-23 5 3153
-1 6 2218
-
 Case #127: Check birth date
-29 8 3479
-13 9 2196
-
 Case #128: Check birth date
-19 6 3188
-4 2 2243
-
 Case #129: Check birth date
-2 5 2282
-5 6 2018
-
 Case #130: Check birth date
-23 12 2291
-18 10 2040
-
 Case #131: Check birth date
-1 7 2898
-22 11 2022
-
 Case #132: Check birth date
-24 10 2780
-11 1 2129
-
 Case #133: Check birth date
-30 6 2462
-26 3 2168
-
-Case #134: d:10033 disy:27
-15 8 2206
-24 2 2179
-
+Case #134: 27
 Case #135: Check birth date
-13 7 2263
-2 2 2116
-
 Case #136: Check birth date
-28 5 3462
-19 10 2134
-
 Case #137: Check birth date
-6 9 3500
-11 1 2082
-
 Case #138: Check birth date
-26 3 3579
-27 2 2246
-
 Case #139: Check birth date
-14 1 3093
-9 5 2158
-
 Case #140: Check birth date
-5 5 3433
-11 3 2017
-
-Case #141: d:22307 disy:61
-2 9 2303
-5 8 2242
-
+Case #141: 61
 Case #142: Check birth date
-26 3 2357
-19 4 2005
-
 Case #143: Check birth date
-17 11 2784
-29 1 2131
-
 Case #144: Check birth date
-27 3 3308
-14 7 2000
-
 Case #145: Check birth date
-18 6 2334
-25 3 2169
-
 Case #146: Check birth date
-31 8 2596
-27 11 2013
-
 Case #147: Check birth date
-12 11 2887
-14 9 2202
-
 Case #148: Check birth date
-20 7 3243
-24 4 2265
-
 Case #149: Check birth date
-30 4 2594
-5 9 2149
-
 Case #150: Check birth date
-2 11 3030
-14 8 2111
-
 Case #151: Check birth date
-28 4 2413
-18 4 2027
-
 Case #152: Check birth date
-30 11 2792
-3 1 2014
-
 Case #153: Check birth date
-16 2 3461
-5 1 2088
-
 Case #154: Check birth date
-25 12 2621
-2 7 2051
-
 Case #155: Check birth date
-4 9 3381
-31 7 2173
-
 Case #156: Check birth date
-3 1 2828
-10 10 2004
-
 Case #157: Check birth date
-18 1 3303
-19 12 2243
-
 Case #158: Check birth date
-26 8 2232
-1 9 2031
-
 Case #159: Check birth date
-5 11 2879
-22 5 2077
-
 Case #160: Check birth date
-11 9 3069
-18 2 2187
-
 Case #161: Check birth date
-1 4 3022
-27 12 2190
-
 Case #162: Invalid birth date
-15 5 2069
-4 10 2084
-
 Case #163: Check birth date
-8 1 2949
-10 6 2086
-
 Case #164: Check birth date
-21 6 2392
-21 3 2123
-
 Case #165: Check birth date
-22 12 2290
-30 11 2033
-
 Case #166: Check birth date
-20 10 2848
-12 11 2077
-
 Case #167: Check birth date
-6 2 2701
-2 1 2022
-
 Case #168: Check birth date
-28 10 2856
-16 9 2080
-
 Case #169: Check birth date
-7 3 3071
-29 5 2046
-
 Case #170: Check birth date
-9 4 2812
-7 2 2117
-
 Case #171: Invalid birth date
-15 10 2181
-16 2 2254
-
 Case #172: Check birth date
-4 6 3228
-27 7 2201
-
 Case #173: Check birth date
-22 8 2663
-4 6 2224
-
-Case #174: d:38932 disy:106
-25 11 2249
-23 4 2143
-
-Case #175: d:33122 disy:90
-2 7 2104
-25 10 2013
-
+Case #174: 106
+Case #175: 90
 Case #176: Check birth date
-31 3 2486
-26 8 2246
-
 Case #177: Check birth date
-23 8 3175
-21 6 2187
-
 Case #178: Check birth date
-11 1 2877
-23 12 2039
-
 Case #179: Check birth date
-25 3 2751
-3 1 2165
-
 Case #180: Check birth date
-1 5 3493
-9 5 2249
-
 Case #181: Check birth date
-14 10 3274
-27 3 2074
-
 Case #182: Check birth date
-26 3 3107
-30 1 2236
-
 Case #183: Check birth date
-16 8 2766
-4 7 2034
-
 Case #184: Check birth date
-22 6 2335
-31 7 2171
-
 Case #185: Check birth date
-19 10 2407
-5 10 2127
-
 Case #186: Check birth date
-16 1 3356
-11 9 2232
-
 Case #187: Invalid birth date
-16 6 2169
-19 2 2243
-
 Case #188: Check birth date
-26 10 3408
-19 12 2077
-
 Case #189: Check birth date
-6 11 2511
-16 1 2202
-
 Case #190: Check birth date
-18 11 3308
-12 2 2246
-
 Case #191: Check birth date
-12 9 2183
-5 4 2026
-
 Case #192: Check birth date
-27 2 3193
-31 7 2263
-
 Case #193: Invalid birth date
-12 12 2022
-5 6 2024
-
 Case #194: Check birth date
-3 1 2696
-8 10 2254
-
-Case #195: d:15643 disy:42
-1 7 2056
-2 9 2013
-
+Case #195: 42
 Case #196: Check birth date
-16 12 2656
-28 3 2079
-
 Case #197: Check birth date
-15 6 2339
-24 6 2004
-
 Case #198: Check birth date
-25 8 3094
-15 2 2073
-
 Case #199: Check birth date
-29 2 2288
-3 12 2127
-
 Case #200: Check birth date
-15 2 2931
-8 6 2068
-
 Case #201: Check birth date
-3 10 2551
-5 3 2143
-
 Case #202: Check birth date
-9 7 2752
-19 9 2056
-
-Case #203: d:32864 disy:90
-18 10 2150
-25 10 2060
-
+Case #203: 89
 Case #204: Check birth date
-17 1 3019
-21 9 2178
-
-Case #205: d:5887 disy:16
-11 7 2207
-28 5 2191
-
-Case #206: d:24991 disy:68
-7 10 2121
-5 5 2053
-
+Case #205: 16
+Case #206: 68
 Case #207: Check birth date
-22 6 2784
-16 7 2030
-
 Case #208: Invalid birth date
-21 12 2196
-30 12 2269
-
 Case #209: Check birth date
-4 10 2790
-16 9 2166
-
 Case #210: Check birth date
-2 2 2793
-28 5 2187
-
 Case #211: Check birth date
-6 7 3432
-27 12 2148
-
 Case #212: Check birth date
-1 9 2768
-2 11 2035
-
 Case #213: Check birth date
-14 4 2447
-17 3 2199
-
 Case #214: Check birth date
-24 2 2440
-13 9 2111
-
 Case #215: Check birth date
-19 6 2513
-4 6 2244
-
 Case #216: Check birth date
-3 6 2303
-23 7 2113
-
 Case #217: Check birth date
-9 9 3567
-1 8 2259
-
 Case #218: Check birth date
-25 3 3171
-10 1 2138
-
 Case #219: Check birth date
-3 8 2985
-18 11 2249
-
 Case #220: Check birth date
-26 3 2555
-9 3 2006
-
 Case #221: Check birth date
-27 4 3116
-25 10 2040
-
 Case #222: Check birth date
-9 1 2859
-9 9 2153
-
 Case #223: Check birth date
-15 1 3252
-14 2 2075
-
 Case #224: Check birth date
-26 1 2366
-20 12 2219
-
 Case #225: Check birth date
-17 4 2876
-27 6 2029
-
 Case #226: Check birth date
-6 5 3593
-12 2 2228
-
 Case #227: Check birth date
-23 8 3495
-10 5 2184
-
 Case #228: Check birth date
-3 3 2824
-21 9 2174
-
 Case #229: Invalid birth date
-5 4 2110
-15 8 2140
-
 Case #230: Check birth date
-13 6 2472
-30 5 2079
-
-Case #231: d:34268 disy:93
-17 10 2305
-21 12 2210
-
+Case #231: 94
 Case #232: Check birth date
-12 7 3116
-15 7 2033
-
 Case #233: Check birth date
-30 5 3100
-18 7 2192
-
 Case #234: Check birth date
-9 10 2709
-9 5 2149
-
 Case #235: Check birth date
-8 6 2200
-30 1 2054
-
 Case #236: Invalid birth date
-8 4 2058
-26 1 2074
-
 Case #237: Check birth date
-22 1 2905
-2 9 2181
-
 Case #238: Check birth date
-12 10 2359
-23 8 2114
-
 Case #239: Invalid birth date
-19 1 2181
-26 8 2261
-
 Case #240: Check birth date
-26 1 2543
-8 2 2216
-
 Case #241: Check birth date
-17 7 2858
-30 1 2198
-
 Case #242: Check birth date
-11 10 2885
-7 1 2131
-
 Case #243: Check birth date
-30 7 2996
-31 7 2240
-
 Case #244: Check birth date
-26 1 3022
-7 6 2171
-
 Case #245: Invalid birth date
-13 1 2014
-15 1 2019
-
 Case #246: Check birth date
-13 12 3611
-10 4 2269
-
-Case #247: d:47172 disy:129
-17 7 2153
-22 5 2024
-
+Case #247: 129
 Case #248: Check birth date
-16 4 2719
-28 6 2203
-
 Case #249: Check birth date
-6 4 2814
-9 1 2153
-
-Case #250: d:952 disy:2
-5 8 2087
-26 12 2083
-
+Case #250: 3
 Case #251: Check birth date
-2 1 3375
-29 1 2218
-
 Case #252: Check birth date
-14 10 3189
-11 11 2064
-
 Case #253: Check birth date
-27 10 3271
-1 1 2191
-
 Case #254: Check birth date
-24 6 2331
-29 12 2038
-
 Case #255: Check birth date
-16 3 2678
-6 1 2172
-
 Case #256: Check birth date
-6 5 3291
-29 3 2257
-
 Case #257: Check birth date
-15 1 2312
-17 6 2110
-
 Case #258: Check birth date
-6 3 2425
-30 7 2194
-
 Case #259: Check birth date
-23 11 3488
-4 5 2241
-
 Case #260: Check birth date
-29 11 3259
-21 6 2233
-
 Case #261: Check birth date
-2 11 2823
-28 3 2225
-
 Case #262: Check birth date
-26 9 3049
-12 5 2245
-
 Case #263: Check birth date
-19 6 2814
-17 12 2035
-
 Case #264: Check birth date
-30 11 2487
-11 7 2161
-
 Case #265: Check birth date
-17 9 2936
-4 12 2211
-
-Case #266: d:35546 disy:97
-30 5 2104
-2 2 2007
-
+Case #266: 97
 Case #267: Check birth date
-11 11 2482
-20 11 2223
-
 Case #268: Check birth date
-22 12 3279
-13 2 2061
-
 Case #269: Check birth date
-4 10 2734
-29 11 2048
-
 Case #270: Check birth date
-4 11 2270
-13 8 2046
-
 Case #271: Check birth date
-30 9 3341
-16 1 2122
-
 Case #272: Check birth date
-22 9 3096
-1 9 2135
-
 Case #273: Check birth date
-14 9 3050
-8 5 2268
-
 Case #274: Check birth date
-20 9 3233
-6 5 2003
-
 Case #275: Check birth date
-3 10 3157
-12 1 2251
-
 Case #276: Check birth date
-18 8 3340
-15 12 2120
-
-Case #277: d:16644 disy:45
-27 2 2047
-3 8 2001
-
+Case #277: 45
 Case #278: Check birth date
-3 2 2680
-26 11 2074
-
 Case #279: Check birth date
-31 5 2422
-22 4 2257
-
 Case #280: Check birth date
-8 11 3532
-17 4 2192
-
 Case #281: Check birth date
-22 7 2583
-19 10 2089
-
 Case #282: Check birth date
-1 1 2534
-22 12 2270
-
 Case #283: Check birth date
-10 3 3558
-4 2 2161
-
-Case #284: d:46747 disy:128
-22 10 2327
-25 10 2199
-
+Case #284: 127
 Case #285: Check birth date
-12 1 2571
-8 11 2203
-
 Case #286: Check birth date
-27 12 2910
-28 7 2212
-
 Case #287: Check birth date
-20 12 3168
-28 2 2132
-
-Case #288: d:14086 disy:38
-11 7 2227
-15 12 2187
-
+Case #288: 39
 Case #289: Check birth date
-6 12 3399
-12 3 2018
-
 Case #290: Check birth date
-7 4 2703
-27 1 2219
-
 Case #291: Invalid birth date
-16 2 2150
-16 10 2176
-
 Case #292: Check birth date
-18 8 2528
-29 4 2124
-
 Case #293: Check birth date
-3 6 2828
-18 5 2197
-
 Case #294: Check birth date
-6 8 3010
-27 4 2054
-
 Case #295: Invalid birth date
-5 12 2078
-13 11 2100
-
 Case #296: Check birth date
-21 2 2996
-21 8 2250
-
 Case #297: Check birth date
-2 10 2413
-29 6 2165
-
 Case #298: Check birth date
-26 4 3013
-14 1 2263
-
 Case #299: Check birth date
-5 5 2933
-26 10 2033
-
 Case #300: Check birth date
-9 8 3284
-2 4 2006
-
 Case #301: Check birth date
-18 5 3252
-27 3 2251
-
-Case #302: d:42302 disy:115
-23 6 2329
-28 8 2213
-
+Case #302: 115
 Case #303: Check birth date
-29 10 2477
-10 5 2040
-
 Case #304: Check birth date
-19 9 2353
-30 1 2166
-
 Case #305: Check birth date
-5 10 2382
-27 5 2052
-
 Case #306: Check birth date
-12 1 3292
-1 2 2124
-
 Case #307: Check birth date
-17 2 2560
-6 4 2189
-
 Case #308: Check birth date
-20 10 2964
-20 6 2249
-
 Case #309: Check birth date
-30 5 3097
-7 6 2191
-
 Case #310: Check birth date
-28 4 3360
-14 10 2165
-
 Case #311: Check birth date
-1 8 2689
-30 6 2119
-
 Case #312: Check birth date
-28 9 3292
-10 3 2096
-
 Case #313: Check birth date
-20 10 2406
-31 5 2174
-
 Case #314: Check birth date
-10 9 3329
-31 12 2195
-
 Case #315: Check birth date
-21 1 2721
-16 3 2182
-
 Case #316: Check birth date
-21 10 2818
-24 7 2199
-
 Case #317: Check birth date
-25 6 2259
-2 11 2056
-
 Case #318: Check birth date
-23 10 3070
-12 10 2129
-
 Case #319: Check birth date
-9 3 3108
-7 7 2270
-
 Case #320: Check birth date
-1 4 2788
-6 8 2145
-
 Case #321: Check birth date
-14 5 2167
-23 7 2018
-
 Case #322: Check birth date
-22 9 3385
-10 7 2260
-
 Case #323: Check birth date
-1 4 2713
-5 6 2245
-
 Case #324: Check birth date
-4 1 3161
-11 6 2193
-
 Case #325: Check birth date
-25 1 2524
-16 5 2081
-
 Case #326: Check birth date
-12 7 2325
-5 3 2151
-
 Case #327: Check birth date
-1 11 3057
-21 4 2066
-
 Case #328: Check birth date
-30 8 3377
-27 8 2231
-
 Case #329: Check birth date
-5 3 2374
-13 10 2238
-
 Case #330: Check birth date
-20 9 2345
-3 12 2191
-
 Case #331: Check birth date
-9 9 3498
-8 4 2193
-
 Case #332: Check birth date
-3 7 3149
-25 2 2246
-
 Case #333: Check birth date
-30 4 2388
-26 2 2141
-
 Case #334: Check birth date
-21 8 2831
-5 4 2272
-
 Case #335: Check birth date
-24 5 3334
-10 8 2068
-
 Case #336: Check birth date
-14 9 2711
-4 6 2208
-
 Case #337: Check birth date
-19 12 3179
-28 1 2045
-
 Case #338: Check birth date
-23 2 2357
-13 4 2071
-
 Case #339: Check birth date
-6 4 2780
-29 10 2244
-
 Case #340: Check birth date
-2 7 2692
-30 4 2078
-
 Case #341: Check birth date
-20 12 3517
-6 8 2108
-
 Case #342: Check birth date
-1 10 3006
-31 7 2058
-
 Case #343: Check birth date
-15 11 2880
-23 8 2163
-
 Case #344: Check birth date
-16 10 2247
-8 8 2008
-
 Case #345: Check birth date
-8 1 2734
-28 3 2247
-
 Case #346: Check birth date
-10 12 3318
-6 3 2256
-
 Case #347: Check birth date
-8 11 2949
-22 2 2090
-
 Case #348: Check birth date
-25 6 2895
-20 1 2207
-
 Case #349: Check birth date
-9 7 2791
-29 5 2006
-
 Case #350: Check birth date
-16 1 3440
-11 4 2041
-
 Case #351: Check birth date
-13 9 2855
-27 5 2182
-
 Case #352: Check birth date
-6 1 3122
-23 7 2026
-
 Case #353: Check birth date
-24 9 3330
-1 9 2218
-
 Case #354: Check birth date
-17 11 3202
-15 2 2009
-
 Case #355: Check birth date
-13 10 3170
-2 6 2032
-
 Case #356: Check birth date
-28 2 3233
-14 12 2224
-
 Case #357: Check birth date
-8 8 2679
-8 6 2060
-
 Case #358: Check birth date
-24 4 3394
-29 3 2069
-
 Case #359: Check birth date
-28 9 2358
-13 2 2148
-
 Case #360: Check birth date
-12 12 3376
-14 8 2025
-
 Case #361: Invalid birth date
-12 5 2184
-23 1 2254
-
 Case #362: Check birth date
-24 10 2697
-15 8 2045
-
 Case #363: Check birth date
-7 12 3572
-28 3 2248
-
 Case #364: Check birth date
-13 12 3415
-15 10 2074
-
 Case #365: Check birth date
-9 1 2515
-23 8 2057
-
 Case #366: Check birth date
-6 10 3341
-24 3 2073
-
 Case #367: Check birth date
-8 12 2791
-16 4 2120
-
 Case #368: Check birth date
-20 12 2806
-18 2 2007
-
 Case #369: Check birth date
-28 4 3099
-20 2 2244
-
 Case #370: Check birth date
-9 3 3179
-24 1 2207
-
 Case #371: Check birth date
-19 8 2942
-14 6 2070
-
 Case #372: Check birth date
-20 10 2970
-14 6 2259
-
 Case #373: Check birth date
-21 11 2871
-21 1 2114
-
-Case #374: d:30275 disy:82
-20 3 2291
-29 4 2208
-
+Case #374: 82
 Case #375: Check birth date
-22 1 2636
-27 7 2049
-
-Case #376: d:47004 disy:128
-18 5 2360
-8 9 2231
-
-Case #377: d:42841 disy:117
-1 8 2302
-14 4 2185
-
+Case #376: 128
+Case #377: 117
 Case #378: Check birth date
-27 4 2394
-27 6 2107
-
 Case #379: Check birth date
-4 10 2310
-31 10 2045
-
 Case #380: Check birth date
-3 8 3362
-5 2 2134
-
 Case #381: Check birth date
-23 5 2549
-13 7 2206
-
 Case #382: Check birth date
-15 5 3375
-20 7 2059
-
 Case #383: Check birth date
-17 11 2978
-19 9 2068
-
 Case #384: Check birth date
-21 2 3292
-12 3 2164
-
 Case #385: Check birth date
-23 2 2794
-26 1 2042
-
 Case #386: Check birth date
-11 7 3429
-12 10 2122
-
 Case #387: Check birth date
-1 8 2779
-14 4 2128
-
 Case #388: Check birth date
-13 7 3266
-6 4 2087
-
 Case #389: Check birth date
-3 7 2596
-7 1 2210
-
 Case #390: Check birth date
-19 8 2668
-26 7 2255
-
-Case #391: d:45094 disy:123
-7 7 2172
-19 1 2049
-
+Case #391: 123
 Case #392: Check birth date
-15 1 3345
-28 8 2058
-
-Case #393: d:5298 disy:14
-8 8 2134
-5 2 2120
-
+Case #393: 14
 Case #394: Check birth date
-14 12 3014
-11 11 2207
-
 Case #395: Check birth date
-7 2 2266
-18 2 2051
-
 Case #396: Check birth date
-29 4 3528
-29 10 2145
-
 Case #397: Invalid birth date
-5 2 2124
-20 10 2185
-
 Case #398: Check birth date
-28 11 2934
-30 6 2188
-
-Case #399: d:44144 disy:120
-23 10 2274
-12 12 2152
-
+Case #399: 121
 Case #400: Check birth date
-13 11 3144
-31 8 2223
-
 Case #401: Check birth date
-24 4 3171
-1 7 2094
-
 Case #402: Check birth date
-27 12 3364
-20 7 2217
-
 Case #403: Check birth date
-8 6 3211
-16 10 2234
-
 Case #404: Check birth date
-8 10 3347
-11 7 2058
-
 Case #405: Check birth date
-22 2 3535
-13 8 2198
-
 Case #406: Check birth date
-8 6 3545
-17 5 2164
-
 Case #407: Check birth date
-31 1 2751
-22 4 2017
-
 Case #408: Check birth date
-17 3 2691
-9 3 2173
-
 Case #409: Check birth date
-10 8 2454
-6 4 2102
-
 Case #410: Check birth date
-16 3 2618
-17 12 2076
-
 Case #411: Check birth date
-23 11 2415
-19 1 2191
-
-Case #412: Check birth date
-19 10 2384
-29 11 2253
-
+Case #412: 130
 Case #413: Invalid birth date
-23 6 2163
-31 7 2171
-
 Case #414: Check birth date
-22 5 2498
-7 4 2135
-
 Case #415: Check birth date
-17 11 2308
-13 4 2167
-
 Case #416: Check birth date
-24 5 3027
-14 12 2031
-
 Case #417: Check birth date
-7 4 2951
-13 12 2070
-
 Case #418: Check birth date
-6 7 3216
-15 6 2041
-
 Case #419: Check birth date
-23 7 2938
-13 3 2008
-
 Case #420: Check birth date
-4 12 3112
-28 8 2080
-
 Case #421: Check birth date
-20 5 2188
-6 1 2027
-
 Case #422: Check birth date
-28 6 2876
-1 1 2170
-
 Case #423: Check birth date
-31 12 2993
-27 5 2146
-
 Case #424: Check birth date
-10 11 2511
-30 5 2249
-
 Case #425: Check birth date
-10 2 2926
-20 10 2133
-
 Case #426: Check birth date
-24 4 3499
-17 9 2236
-
 Case #427: Check birth date
-20 2 2742
-17 12 2221
-
 Case #428: Check birth date
-27 6 3616
-25 4 2250
-
 Case #429: Check birth date
-30 3 3385
-26 10 2262
-
 Case #430: Check birth date
-22 7 3199
-26 8 2151
-
 Case #431: Check birth date
-8 11 3033
-18 7 2003
-
 Case #432: Check birth date
-26 4 2465
-25 11 2271
-
 Case #433: Check birth date
-2 11 3509
-11 9 2259
-
 Case #434: Check birth date
-21 12 2984
-13 9 2084
-
 Case #435: Check birth date
-25 5 2825
-11 11 2265
-
 Case #436: Check birth date
-9 2 2997
-24 10 2126
-
 Case #437: Check birth date
-26 7 3027
-29 4 2147
-
 Case #438: Check birth date
-21 6 2937
-18 12 2085
-
 Case #439: Check birth date
-22 12 2538
-29 9 2140
-
 Case #440: Check birth date
-23 8 2820
-23 9 2223
-
 Case #441: Check birth date
-24 9 2754
-11 7 2102
-
 Case #442: Check birth date
-19 11 3471
-11 11 2154
-
 Case #443: Check birth date
-2 6 2641
-18 11 2112
-
-Case #444: d:20130 disy:55
-21 12 2289
-10 11 2234
-
+Case #444: 55
 Case #445: Check birth date
-27 6 3448
-12 5 2039
-
 Case #446: Check birth date
-25 5 3177
-8 9 2169
-
 Case #447: Invalid birth date
-30 6 2174
-4 12 2223
-
 Case #448: Check birth date
-28 10 2851
-30 5 2133
-
 Case #449: Check birth date
-13 3 3231
-8 1 2191
-
 Case #450: Check birth date
-20 11 3312
-2 3 2025
-
 Case #451: Check birth date
-1 7 2608
-17 9 2046
-
 Case #452: Check birth date
-6 2 2346
-20 7 2032
-
 Case #453: Check birth date
-23 7 3319
-8 7 2044
-
 Case #454: Invalid birth date
-25 10 2266
-29 9 2268
-
 Case #455: Check birth date
-27 8 3275
-17 7 2099
-
 Case #456: Check birth date
-3 3 3372
-24 10 2169
-
 Case #457: Check birth date
-5 3 2329
-26 1 2042
-
 Case #458: Check birth date
-8 5 3086
-3 4 2126
-
 Case #459: Check birth date
-29 9 3213
-3 8 2046
-
 Case #460: Check birth date
-17 12 2667
-29 4 2191
-
 Case #461: Check birth date
-28 9 2423
-20 6 2236
-
 Case #462: Invalid birth date
-30 5 2135
-10 7 2141
-
 Case #463: Check birth date
-4 5 2377
-13 3 2055
-
 Case #464: Check birth date
-29 8 2973
-8 12 2205
-
 Case #465: Check birth date
-29 5 3479
-27 7 2249
-
 Case #466: Check birth date
-15 9 2502
-7 8 2004
-
-Case #467: d:39897 disy:109
-20 3 2172
-25 12 2061
-
+Case #467: 110
 Case #468: Check birth date
-10 6 2609
-25 8 2170
-
 Case #469: Check birth date
-19 10 3477
-18 5 2213
-
 Case #470: Check birth date
-23 8 2434
-17 4 2232
-
 Case #471: Check birth date
-27 2 2486
-24 2 2097
-
 Case #472: Invalid birth date
-6 12 2195
-19 12 2248
-
 Case #473: Check birth date
-9 4 2868
-27 3 2014
-
 Case #474: Check birth date
-2 9 3189
-16 7 2235
-
 Case #475: Check birth date
-5 10 2797
-22 3 2019
-
 Case #476: Check birth date
-17 10 2289
-28 2 2155
-
 Case #477: Check birth date
-16 12 2764
-16 2 2153
-
 Case #478: Check birth date
-10 12 2484
-15 11 2234
-
 Case #479: Check birth date
-7 12 3213
-27 11 2097
-
 Case #480: Check birth date
-16 8 2869
-7 5 2187
-
 Case #481: Check birth date
-13 2 2386
-26 1 2189
-
 Case #482: Check birth date
-2 4 2520
-15 8 2005
-
 Case #483: Check birth date
-2 9 2587
-26 9 2215
-
 Case #484: Check birth date
-7 2 3142
-18 1 2253
-
 Case #485: Check birth date
-7 6 2406
-27 11 2176
-
 Case #486: Check birth date
-3 7 3091
-16 5 2179
-
 Case #487: Check birth date
-5 2 3345
-1 6 2153
-
 Case #488: Check birth date
-13 11 3271
-30 10 2082
-
 Case #489: Check birth date
-6 10 3369
-6 12 2041
-
 Case #490: Check birth date
-13 9 2510
-23 8 2159
-
 Case #491: Check birth date
-31 12 2493
-30 6 2069
-
 Case #492: Check birth date
-25 9 2971
-12 4 2082
-
 Case #493: Check birth date
-15 11 2449
-27 3 2232
-
 Case #494: Check birth date
-20 1 2496
-6 1 2148
-
 Case #495: Check birth date
-1 2 3314
-16 7 2251
-
-Case #496: d:14586 disy:39
-28 3 2271
-21 4 2231
-
+Case #496: 39
 Case #497: Check birth date
-10 4 2305
-2 1 2165
-
 Case #498: Check birth date
-21 1 3153
-8 7 2019
-
 Case #499: Check birth date
-3 10 3305
-5 6 2198
-
 Case #500: Check birth date
-14 4 2507
-20 12 2256
-
-Case #501: d:29552 disy:80
-2 2 2328
-6 3 2247
-
+Case #501: 80
 Case #502: Check birth date
-5 8 3120
-31 12 2250
-
 Case #503: Check birth date
-5 8 2834
-23 5 2239
-
 Case #504: Check birth date
-19 7 2896
-17 12 2110
-
 Case #505: Check birth date
-7 4 3575
-12 6 2206
-
 Case #506: Check birth date
-19 6 2461
-12 1 2003
-
 Case #507: Check birth date
-16 7 3469
-12 12 2077
-
 Case #508: Check birth date
-2 2 2361
-4 10 2172
-
 Case #509: Check birth date
-23 12 2910
-13 7 2173
-
 Case #510: Check birth date
-23 7 3460
-5 3 2077
-
 Case #511: Check birth date
-24 3 2452
-29 11 2133
-
 Case #512: Check birth date
-13 8 2418
-12 5 2052
-
 Case #513: Check birth date
-3 6 2234
-23 3 2065
-
 Case #514: Check birth date
-26 7 3314
-16 11 2061
-
 Case #515: Check birth date
-8 8 2929
-2 6 2273
-
-Case #516: d:26616 disy:72
-25 4 2242
-10 6 2169
-
+Case #516: 72
 Case #517: Check birth date
-25 12 2456
-6 12 2270
-
 Case #518: Check birth date
-1 1 2715
-9 4 2088
-
 Case #519: Check birth date
-3 11 3064
-17 4 2022
-
 Case #520: Check birth date
-2 2 2907
-31 7 2105
-
 Case #521: Check birth date
-25 10 2471
-24 1 2160
-
 Case #522: Check birth date
-4 4 2446
-6 6 2176
-
 Case #523: Check birth date
-15 7 2538
-8 8 2182
-
 Case #524: Check birth date
-3 7 2486
-11 4 2157
-
 Case #525: Check birth date
-27 3 2303
-16 5 2079
-
 Case #526: Check birth date
-9 9 3321
-29 11 2015
-
 Case #527: Check birth date
-27 2 2560
-10 8 2042
-
 Case #528: Check birth date
-14 7 3454
-13 2 2139
-
 Case #529: Check birth date
-23 3 2529
-10 5 2176
-
 Case #530: Check birth date
-26 3 2742
-14 11 2110
-
-Case #531: d:34132 disy:93
-9 1 2338
-28 7 2244
-
+Case #531: 93
 Case #532: Check birth date
-6 7 3334
-18 5 2022
-
 Case #533: Check birth date
-20 1 3372
-20 5 2082
-
 Case #534: Check birth date
-11 8 3126
-16 4 2229
-
 Case #535: Check birth date
-20 10 2307
-5 3 2017
-
 Case #536: Check birth date
-6 6 2813
-1 12 2086
-
 Case #537: Check birth date
-16 2 3435
-13 10 2144
-
 Case #538: Check birth date
-18 5 2273
-30 11 2037
-
-Case #539: d:18687 disy:51
-13 12 2306
-14 10 2255
-
+Case #539: 51
 Case #540: Check birth date
-18 3 3245
-19 12 2133
-
 Case #541: Check birth date
-25 11 3020
-18 8 2263
-
 Case #542: Check birth date
-18 8 2234
-8 8 2015
-
 Case #543: Check birth date
-19 8 3283
-15 6 2249
-
-Case #544: d:12700 disy:34
-3 8 2195
-25 10 2160
-
+Case #544: 34
 Case #545: Check birth date
-29 9 2786
-5 8 2075
-
 Case #546: Check birth date
-18 11 2388
-28 9 2214
-
 Case #547: Check birth date
-15 3 2458
-4 7 2050
-
 Case #548: Check birth date
-18 7 2136
-1 7 2002
-
 Case #549: Check birth date
-8 3 3376
-18 4 2207
-
 Case #550: Check birth date
-7 4 3272
-23 2 2066
-
 Case #551: Check birth date
-17 7 2261
-12 4 2084
-
-Case #552: d:3816 disy:10
-18 9 2024
-8 4 2014
-
+Case #552: 10
 Case #553: Check birth date
-16 11 2348
-10 1 2068
-
 Case #554: Check birth date
-18 12 2883
-14 4 2139
-
 Case #555: Check birth date
-31 5 3339
-4 3 2068
-
 Case #556: Check birth date
-29 8 2722
-4 12 2145
-
 Case #557: Check birth date
-26 6 2404
-5 2 2203
-
 Case #558: Check birth date
-23 1 2799
-27 8 2159
-
 Case #559: Check birth date
-15 6 3150
-30 9 2243
-
-Case #560: d:34352 disy:94
-1 4 2224
-13 3 2130
-
+Case #560: 94
 Case #561: Check birth date
-2 8 2375
-9 8 2211
-
 Case #562: Check birth date
-8 8 2951
-16 1 2025
-
 Case #563: Check birth date
-27 2 2851
-29 11 2015
-
 Case #564: Check birth date
-23 4 3108
-24 9 2059
-
-Case #565: d:22128 disy:60
-25 4 2250
-23 9 2189
-
-Case #566: d:9981 disy:27
-21 11 2147
-24 7 2120
-
+Case #565: 60
+Case #566: 27
 Case #567: Check birth date
-4 6 2491
-2 5 2226
-
 Case #568: Check birth date
-18 2 3576
-19 7 2220
-
 Case #569: Check birth date
-11 5 2645
-25 11 2235
-
 Case #570: Check birth date
-5 5 2238
-5 3 2057
-
 Case #571: Check birth date
-28 12 2730
-29 5 2131
-
 Case #572: Check birth date
-3 2 3210
-4 12 2062
-
 Case #573: Check birth date
-24 9 2484
-24 11 2233
-
 Case #574: Check birth date
-19 12 2565
-19 2 2001
-
 Case #575: Check birth date
-16 7 3249
-8 2 2273
-
 Case #576: Check birth date
-19 3 3340
-12 8 2058
-
 Case #577: Check birth date
-27 11 2239
-21 3 2018
-
 Case #578: Check birth date
-3 2 2307
-4 12 2069
-
 Case #579: Check birth date
-27 7 2774
-14 5 2272
-
 Case #580: Check birth date
-30 10 3413
-17 12 2169
-
 Case #581: Check birth date
-26 6 2430
-19 8 2044
-
-Case #582: d:10116 disy:27
-21 1 2144
-11 5 2116
-
+Case #582: 27
 Case #583: Check birth date
-24 11 3285
-12 9 2075
-
 Case #584: Check birth date
-27 1 3358
-2 4 2135
-
 Case #585: Check birth date
-15 10 2269
-18 9 2101
-
 Case #586: Check birth date
-11 10 3384
-25 7 2235
-
 Case #587: Check birth date
-8 7 3418
-3 5 2078
-
 Case #588: Check birth date
-14 2 2463
-14 10 2111
-
 Case #589: Check birth date
-7 5 3010
-20 5 2045
-
 Case #590: Check birth date
-4 3 2458
-20 7 2050
-
 Case #591: Check birth date
-31 8 3241
-6 2 2229
-
 Case #592: Check birth date
-3 5 3103
-15 1 2058
-
 Case #593: Check birth date
-17 6 2843
-13 7 2259
-
 Case #594: Check birth date
-18 5 3194
-11 9 2263
-
 Case #595: Check birth date
-16 3 2773
-26 2 2165
-
 Case #596: Check birth date
-6 4 2876
-14 11 2019
-
 Case #597: Check birth date
-5 6 3361
-27 4 2066
-
 Case #598: Check birth date
-1 2 2376
-27 11 2008
-
 Case #599: Check birth date
-12 5 3062
-30 6 2049
-
 Case #600: Check birth date
-3 3 3369
-22 11 2215
-
 Case #601: Invalid birth date
-28 12 2127
-22 6 2160
-
 Case #602: Check birth date
-14 5 3131
-5 3 2077
-
 Case #603: Invalid birth date
-1 3 2149
-27 9 2216
-
 Case #604: Invalid birth date
-19 5 2207
-17 6 2219
-
 Case #605: Check birth date
-5 10 3381
-13 7 2026
-
 Case #606: Check birth date
-26 9 2751
-5 12 2042
-
 Case #607: Check birth date
-12 12 3020
-3 12 2119
-
 Case #608: Check birth date
-16 8 3172
-14 1 2096
-
 Case #609: Check birth date
-11 10 3461
-5 3 2132
-
 Case #610: Check birth date
-30 1 2781
-27 6 2246
-
 Case #611: Check birth date
-30 12 2353
-6 9 2027
-
 Case #612: Check birth date
-30 7 3132
-5 10 2112
-
 Case #613: Check birth date
-11 4 2981
-19 12 2267
-
 Case #614: Check birth date
-29 8 2867
-23 9 2232
-
 Case #615: Check birth date
-5 11 2317
-10 6 2046
-
 Case #616: Check birth date
-9 7 3600
-22 9 2266
-
 Case #617: Check birth date
-11 12 3292
-28 4 2218
-
 Case #618: Check birth date
-12 9 2700
-20 5 2169
-
 Case #619: Check birth date
-18 10 3064
-25 12 2018
-
 Case #620: Check birth date
-11 1 2420
-5 11 2074
-
 Case #621: Check birth date
-13 5 3531
-30 12 2270
-
 Case #622: 0
-12 2 2061
-4 3 2060
-
 Case #623: Check birth date
-3 1 2785
-7 2 2048
-
 Case #624: Check birth date
-9 7 3162
-28 7 2010
-
 Case #625: Check birth date
-26 6 2730
-22 3 2022
-
 Case #626: Check birth date
-15 6 2894
-15 5 2267
-
-Case #627: d:13759 disy:37
-17 7 2203
-13 11 2165
-
+Case #627: 37
 Case #628: Check birth date
-27 12 2501
-4 2 2119
-
 Case #629: Check birth date
-11 7 2984
-17 11 2237
-
 Case #630: Check birth date
-9 5 2613
-6 6 2036
-
 Case #631: Check birth date
-6 6 2358
-9 10 2068
-
 Case #632: Check birth date
-25 7 2821
-29 10 2054
-
 Case #633: Check birth date
-14 9 3377
-2 9 2263
-
-Case #634: d:5995 disy:16
-12 1 2227
-14 8 2210
-
+Case #634: 16
 Case #635: Check birth date
-19 5 3146
-18 11 2148
-
-Case #636: d:43578 disy:119
-22 12 2389
-30 8 2270
-
+Case #636: 119
 Case #637: Check birth date
-7 6 2236
-2 6 2084
-
 Case #638: Check birth date
-22 12 3447
-15 4 2125
-
 Case #639: Check birth date
-8 7 2565
-20 7 2015
-
 Case #640: Check birth date
-5 7 3211
-14 9 2200
-
 Case #641: Check birth date
-11 5 2908
-2 10 2239
-
 Case #642: Check birth date
-6 12 2366
-25 3 2084
-
 Case #643: Check birth date
-20 9 3233
-21 8 2115
-
 Case #644: Check birth date
-26 5 3143
-14 2 2054
-
 Case #645: Check birth date
-19 2 2997
-8 12 2253
-
 Case #646: Check birth date
-8 12 2336
-11 3 2073
-
 Case #647: Check birth date
-20 2 3439
-2 2 2118
-
 Case #648: Check birth date
-11 1 2714
-11 2 2007
-
 Case #649: Check birth date
-16 11 2364
-5 5 2148
-
 Case #650: Check birth date
-5 11 2652
-31 1 2191
-
 Case #651: Check birth date
-13 3 2449
-11 3 2180
-
 Case #652: Check birth date
-6 3 2403
-19 4 2159
-
 Case #653: Check birth date
-2 5 2522
-17 11 2047
-
 Case #654: Check birth date
-13 12 3465
-19 6 2264
-
 Case #655: Check birth date
-13 7 2791
-26 7 2208
-
 Case #656: Check birth date
-1 5 3429
-21 6 2100
-
 Case #657: Check birth date
-11 2 2769
-19 11 2062
-
 Case #658: Check birth date
-13 7 2519
-1 6 2144
-
 Case #659: Check birth date
-10 10 2845
-11 6 2129
-
 Case #660: Check birth date
-25 6 2654
-4 3 2039
-
 Case #661: Check birth date
-18 3 2786
-10 9 2057
-
 Case #662: Check birth date
-2 7 2990
-11 5 2149
-
 Case #663: Check birth date
-21 9 2661
-5 6 2227
-
 Case #664: Check birth date
-6 7 2534
-25 4 2009
-
 Case #665: Check birth date
-10 7 2814
-7 2 2263
-
 Case #666: Check birth date
-8 9 3033
-28 8 2095
-
 Case #667: Check birth date
-18 3 3156
-3 5 2158
-
 Case #668: Check birth date
-6 4 2371
-23 9 2086
-
 Case #669: Check birth date
-9 6 2533
-19 1 2213
-
 Case #670: Check birth date
-8 9 3303
-1 11 2078
-
 Case #671: Check birth date
-17 8 2767
-30 8 2236
-
 Case #672: Check birth date
-23 3 2370
-2 4 2218
-
-Case #673: d:43825 disy:120
-8 5 2131
-12 5 2011
-
+Case #673: 119
 Case #674: Check birth date
-11 6 3166
-11 9 2018
-
 Case #675: Check birth date
-14 4 3418
-9 10 2067
-
 Case #676: Check birth date
-17 8 2398
-5 2 2150
-
 Case #677: Check birth date
-3 3 2432
-27 6 2039
-
 Case #678: Check birth date
-6 3 3210
-22 9 2073
-
 Case #679: Check birth date
-24 6 2583
-21 8 2264
-
 Case #680: Check birth date
-17 3 2909
-13 11 2272
-
 Case #681: Check birth date
-18 12 2666
-8 11 2247
-
 Case #682: Check birth date
-15 2 2450
-30 5 2039
-
-Case #683: d:3530 disy:9
-24 2 2046
-26 6 2036
-
+Case #683: 9
 Case #684: Check birth date
-6 2 3123
-23 2 2063
-
 Case #685: Check birth date
-4 2 2843
-11 12 2056
-
 Case #686: Check birth date
-11 9 3082
-19 5 2154
-
 Case #687: Check birth date
-14 12 3085
-9 12 2266
-
 Case #688: Check birth date
-11 7 2647
-4 11 2191
-
 Case #689: Check birth date
-13 9 2547
-20 11 2205
-
 Case #690: Check birth date
-26 2 3039
-4 5 2065
-
 Case #691: Check birth date
-27 12 3341
-23 7 2235
-
-Case #692: d:22465 disy:61
-11 3 2328
-7 9 2266
-
+Case #692: 61
 Case #693: Check birth date
-5 10 2420
-4 2 2054
-
 Case #694: Check birth date
-24 12 2838
-28 12 2065
-
-Case #695: d:28210 disy:77
-25 3 2289
-30 12 2210
-
+Case #695: 78
 Case #696: Check birth date
-17 8 3069
-1 8 2225
-
 Case #697: Check birth date
-2 9 2795
-16 8 2182
-
 Case #698: Check birth date
-12 2 2518
-12 9 2015
-
 Case #699: Check birth date
-8 3 2366
-22 10 2071
-
 Case #700: Check birth date
-14 8 2418
-14 1 2176
-
 Case #701: Check birth date
-22 5 3154
-25 1 2097
-
 Case #702: Check birth date
-14 6 3138
-20 7 2020
-
 Case #703: Check birth date
-21 12 2906
-17 1 2078
-
 Case #704: Check birth date
-20 3 2723
-16 7 2231
-
 Case #705: Check birth date
-26 5 2371
-27 7 2138
-
 Case #706: Check birth date
-13 11 3531
-19 6 2219
-
 Case #707: Check birth date
-22 1 3312
-3 9 2015
-
 Case #708: Check birth date
-30 7 3037
-15 12 2041
-
 Case #709: Check birth date
-12 4 3516
-25 12 2211
-
 Case #710: Check birth date
-6 10 2693
-3 10 2249
-
 Case #711: Check birth date
-10 3 2739
-14 11 2046
-
 Case #712: Check birth date
-16 6 3427
-22 3 2099
-
 Case #713: Check birth date
-21 1 2921
-4 7 2200
-
 Case #714: Check birth date
-28 9 2264
-28 2 2085
-
 Case #715: Check birth date
-16 6 2400
-12 1 2244
-
 Case #716: Check birth date
-19 12 2961
-24 8 2057
-
 Case #717: Check birth date
-13 7 3177
-21 11 2158
-
 Case #718: Check birth date
-9 12 3415
-21 9 2162
-
 Case #719: Check birth date
-25 2 2957
-13 12 2038
-
 Case #720: Check birth date
-4 7 3324
-23 5 2041
-
 Case #721: Check birth date
-15 5 3034
-3 4 2149
-
 Case #722: Check birth date
-14 3 2772
-8 5 2187
-
 Case #723: Check birth date
-19 11 3240
-1 8 2067
-
 Case #724: Check birth date
-19 10 2521
-16 8 2261
-
 Case #725: Check birth date
-6 3 2717
-1 9 2269
-
 Case #726: Check birth date
-12 10 2417
-16 8 2003
-
 Case #727: Check birth date
-1 1 3304
-31 3 2023
-
 Case #728: Check birth date
-5 2 2451
-16 1 2052
-
 Case #729: Check birth date
-29 6 3239
-1 2 2074
-
 Case #730: Check birth date
-5 2 2647
-2 3 2011
-
 Case #731: Check birth date
-26 3 3403
-18 10 2263
-
 Case #732: Check birth date
-30 5 3070
-3 12 2194
-
 Case #733: Check birth date
-11 6 2741
-19 1 2183
-
 Case #734: Check birth date
-9 11 2246
-17 7 2032
-
 Case #735: Check birth date
-19 10 2922
-6 12 2025
-
 Case #736: Check birth date
-3 9 2643
-20 5 2263
-
-Case #737: d:14152 disy:38
-13 5 2084
-14 8 2045
-
+Case #737: 38
 Case #738: Check birth date
-14 11 2749
-6 2 2016
-
 Case #739: Check birth date
-6 1 2723
-1 5 2122
-
 Case #740: Check birth date
-19 8 2360
-29 3 2013
-
 Case #741: Check birth date
-25 11 2289
-9 6 2112
-
 Case #742: Check birth date
-22 12 2892
-18 4 2126
-
 Case #743: Check birth date
-21 3 2631
-9 10 2178
-
 Case #744: Check birth date
-30 8 2790
-25 6 2065
-
 Case #745: Check birth date
-19 9 2260
-5 8 2068
-
 Case #746: Check birth date
-30 6 2459
-20 8 2069
-
 Case #747: Check birth date
-29 7 3487
-28 1 2089
-
 Case #748: Check birth date
-2 2 2831
-2 10 2090
-
 Case #749: Check birth date
-24 12 2377
-7 11 2117
-
 Case #750: Check birth date
-26 3 2397
-9 3 2046
-
 Case #751: Check birth date
-25 7 2657
-20 9 2089
-
 Case #752: Check birth date
-4 5 3356
-10 3 2095
-
 Case #753: Check birth date
-9 12 2810
-25 4 2205
-
 Case #754: Check birth date
-17 3 2667
-3 1 2231
-
 Case #755: Check birth date
-31 7 2575
-18 1 2220
-
-Case #756: d:16301 disy:44
-7 5 2227
-18 9 2182
-
+Case #756: 44
 Case #757: Check birth date
-7 4 3030
-9 8 2124
-
 Case #758: Check birth date
-2 3 2578
-12 7 2136
-
 Case #759: Check birth date
-20 3 2567
-7 4 2037
-
 Case #760: Check birth date
-1 12 2282
-8 3 2106
-
-Case #761: d:47660 disy:130
-14 11 2230
-19 5 2100
-
-Case #762: d:29715 disy:81
-18 9 2354
-10 5 2273
-
+Case #761: 130
+Case #762: 81
 Case #763: Check birth date
-11 3 2446
-10 10 2148
-
 Case #764: Check birth date
-5 4 2488
-7 2 2119
-
 Case #765: Check birth date
-13 12 2979
-6 1 2140
-
-Case #766: d:33580 disy:92
-19 7 2353
-10 8 2261
-
+Case #766: 91
 Case #767: Check birth date
-26 9 3009
-18 5 2043
-
 Case #768: Check birth date
-9 10 3254
-11 8 2053
-
-Case #769: d:39544 disy:108
-23 10 2116
-17 7 2008
-
+Case #769: 108
 Case #770: Check birth date
-25 12 3020
-12 11 2097
-
 Case #771: Check birth date
-22 7 2709
-20 10 2247
-
 Case #772: Check birth date
-12 12 2655
-6 11 2095
-
 Case #773: Check birth date
-11 8 2844
-22 6 2026
-
 Case #774: Check birth date
-1 5 2312
-29 8 2130
-
 Case #775: Check birth date
-21 7 3087
-30 10 2048
-
 Case #776: Check birth date
-12 8 3028
-26 9 2173
-
 Case #777: Check birth date
-15 4 2879
-31 7 2025
-
 Case #778: Check birth date
-22 1 3169
-18 11 2226
-
 Case #779: Check birth date
-21 7 2980
-11 9 2136
-
 Case #780: Check birth date
-29 2 3024
-1 6 2219
-
 Case #781: Check birth date
-4 11 2823
-20 2 2142
-
 Case #782: Check birth date
-7 9 2830
-19 7 2200
-
 Case #783: Check birth date
-18 11 3298
-25 5 2140
-
 Case #784: Check birth date
-21 10 2264
-30 5 2054
-
-Case #785: d:4787 disy:13
-23 11 2099
-15 10 2086
-
+Case #785: 13
 Case #786: Check birth date
-15 8 2689
-18 12 2073
-
 Case #787: Check birth date
-28 7 3414
-3 1 2062
-
 Case #788: Invalid birth date
-25 12 2223
-2 5 2226
-
 Case #789: Check birth date
-23 10 2533
-27 11 2025
-
 Case #790: Check birth date
-15 12 2911
-9 5 2213
-
 Case #791: Check birth date
-6 11 3369
-26 9 2034
-
 Case #792: Check birth date
-8 5 2307
-2 9 2115
-
 Case #793: Check birth date
-14 8 3346
-1 2 2109
-
 Case #794: Check birth date
-20 8 2539
-1 12 2103
-
 Case #795: Check birth date
-8 5 2958
-15 2 2236
-
 Case #796: Check birth date
-13 3 2416
-30 7 2051
-
-Case #797: d:18258 disy:50
-28 4 2273
-3 5 2223
-
+Case #797: 49
 Case #798: Check birth date
-25 4 2725
-18 12 2104
-
 Case #799: Check birth date
-10 8 3043
-11 8 2103
-
 Case #800: Check birth date
-29 5 2939
-3 1 2248
-
-Case #801: d:17705 disy:48
-28 4 2112
-6 11 2063
-
-Case #802: d:2047 disy:5
-17 2 2207
-11 7 2201
-
-Case #803: d:40702 disy:111
-19 5 2304
-9 12 2191
-
+Case #801: 48
+Case #802: 5
+Case #803: 112
 Case #804: Check birth date
-10 6 3417
-25 4 2156
-
 Case #805: Check birth date
-5 9 2880
-1 1 2213
-
 Case #806: Check birth date
-12 4 3186
-30 9 2047
-
-Case #807: d:24172 disy:66
-13 2 2091
-9 12 2023
-
+Case #807: 67
 Case #808: Check birth date
-27 11 2482
-17 11 2074
-
 Case #809: Check birth date
-5 10 2344
-7 8 2070
-
 Case #810: Check birth date
-1 10 2612
-9 11 2270
-
 Case #811: Check birth date
-29 10 3303
-10 3 2253
-
 Case #812: Check birth date
-19 10 3026
-10 6 2218
-
 Case #813: Check birth date
-2 2 3430
-6 5 2059
-
 Case #814: Check birth date
-22 6 3023
-30 10 2043
-
 Case #815: Check birth date
-11 3 3455
-5 11 2074
-
-Case #816: d:15388 disy:42
-27 6 2043
-10 5 2001
-
+Case #816: 42
 Case #817: Check birth date
-14 11 3058
-5 8 2148
-
-Case #818: d:22591 disy:61
-21 1 2089
-17 3 2027
-
+Case #818: 61
 Case #819: Check birth date
-9 12 2551
-27 11 2172
-
 Case #820: Check birth date
-22 10 3366
-25 3 2018
-
 Case #821: Check birth date
-4 8 2397
-2 1 2090
-
 Case #822: Check birth date
-13 3 2845
-4 4 2253
-
-Case #823: d:6085 disy:16
-7 9 2032
-10 1 2016
-
+Case #823: 16
 Case #824: Check birth date
-20 7 2451
-24 9 2232
-
 Case #825: Check birth date
-11 12 2559
-3 5 2138
-
 Case #826: Check birth date
-3 11 3353
-2 4 2135
-
 Case #827: Check birth date
-2 6 2478
-24 12 2143
-
 Case #828: Check birth date
-23 4 3124
-19 1 2052
-
 Case #829: Invalid birth date
-27 8 2129
-18 10 2185
-
 Case #830: Check birth date
-19 11 3182
-17 2 2211
-
 Case #831: Check birth date
-3 11 3414
-14 12 2007
-
 Case #832: Check birth date
-9 2 2399
-2 11 2068
-
 Case #833: Check birth date
-31 5 2910
-18 10 2000
-
 Case #834: Check birth date
-30 3 2716
-16 8 2134
-
 Case #835: Check birth date
-13 2 3257
-21 11 2142
-
 Case #836: Check birth date
-2 7 3343
-15 5 2020
-
 Case #837: Check birth date
-15 4 2571
-16 1 2061
-
 Case #838: Check birth date
-16 9 2950
-16 3 2166
-
 Case #839: Invalid birth date
-6 7 2208
-30 5 2249
-
-Case #840: d:28100 disy:76
-16 11 2290
-10 12 2212
-
+Case #840: 77
 Case #841: Check birth date
-25 7 3511
-7 12 2128
-
 Case #842: Check birth date
-30 7 2960
-23 12 2070
-
 Case #843: Check birth date
-13 11 3014
-29 10 2143
-
 Case #844: Check birth date
-14 2 2737
-19 8 2048
-
 Case #845: Check birth date
-30 11 3063
-3 3 2145
-
-Case #846: d:18439 disy:50
-22 4 2150
-27 10 2099
-
+Case #846: 50
 Case #847: Check birth date
-24 3 3619
-14 3 2262
-
 Case #848: Check birth date
-13 5 3606
-22 6 2244
-
 Case #849: Check birth date
-14 1 2995
-10 12 2270
-
 Case #850: Check birth date
-27 7 2962
-14 8 2188
-
 Case #851: Check birth date
-9 8 2539
-24 12 2175
-
 Case #852: Check birth date
-19 2 2636
-24 3 2169
-
 Case #853: Check birth date
-18 3 3219
-5 2 2117
-
 Case #854: Check birth date
-18 8 3335
-10 12 2086
-
 Case #855: Check birth date
-3 6 2770
-26 1 2062
-
 Case #856: Check birth date
-7 5 2944
-2 3 2199
-
 Case #857: Check birth date
-4 2 2739
-21 12 2107
-
 Case #858: Check birth date
-19 4 3578
-11 4 2196
-
 Case #859: Check birth date
-5 4 2552
-28 5 2176
-
 Case #860: Check birth date
-15 2 3416
-18 10 2055
-
 Case #861: Check birth date
-17 11 2978
-7 10 2163
-
 Case #862: Check birth date
-17 2 3364
-1 11 2050
-
 Case #863: Check birth date
-18 10 2709
-19 7 2196
-
 Case #864: Check birth date
-18 8 3299
-31 10 2187
-
 Case #865: Check birth date
-19 3 3425
-6 11 2230
-
 Case #866: Invalid birth date
-4 2 2197
-17 3 2254
-
 Case #867: Check birth date
-4 8 3446
-16 6 2127
-
 Case #868: Check birth date
-3 2 3481
-18 4 2138
-
 Case #869: Check birth date
-12 3 2890
-28 12 2252
-
 Case #870: Check birth date
-15 10 2711
-2 7 2186
-
 Case #871: Check birth date
-14 10 3475
-9 2 2253
-
 Case #872: Check birth date
-27 6 2872
-7 8 2121
-
 Case #873: Check birth date
-20 2 3350
-28 9 2155
-
 Case #874: Check birth date
-11 9 2473
-30 5 2039
-
-Case #875: d:23083 disy:63
-4 4 2281
-22 1 2218
-
+Case #875: 63
 Case #876: Check birth date
-7 1 3075
-22 12 2155
-
 Case #877: Check birth date
-23 5 3395
-15 4 2019
-
 Case #878: Check birth date
-13 11 2932
-3 5 2024
-
 Case #879: Check birth date
-29 12 2225
-10 10 2037
-
 Case #880: Check birth date
-18 8 2323
-5 1 2176
-
 Case #881: Check birth date
-14 5 2369
-24 5 2170
-
 Case #882: Check birth date
-18 6 3376
-4 5 2128
-
 Case #883: Check birth date
-21 7 3528
-8 1 2235
-
 Case #884: Check birth date
-18 6 2693
-30 1 2194
-
 Case #885: Check birth date
-17 4 2869
-8 12 2091
-
 Case #886: Check birth date
-5 12 2426
-5 4 2133
-
-Case #887: d:17128 disy:46
-17 3 2070
-25 4 2023
-
+Case #887: 46
 Case #888: Check birth date
-12 8 2502
-29 3 2076
-
 Case #889: Check birth date
-23 3 2809
-11 2 2150
-
 Case #890: Check birth date
-23 7 3316
-24 10 2174
-
 Case #891: Check birth date
-10 4 3457
-16 3 2059
-
 Case #892: Check birth date
-16 8 3540
-26 6 2256
-
 Case #893: Check birth date
-20 1 3414
-8 11 2007
-
 Case #894: Check birth date
-20 6 3149
-12 9 2091
-
 Case #895: Check birth date
-8 6 3424
-2 12 2051
-
 Case #896: Check birth date
-21 5 2713
-11 2 2164
-
 Case #897: Check birth date
-25 1 2531
-27 6 2196
-
 Case #898: Check birth date
-24 7 3041
-12 7 2151
-
-Case #899: d:19478 disy:53
-20 6 2222
-19 2 2169
-
+Case #899: 53
 Case #900: Check birth date
-3 11 3564
-24 2 2272
-
 Case #901: Check birth date
-18 2 3128
-5 2 2180
-
 Case #902: Check birth date
-11 7 3125
-25 5 2089
-
 Case #903: Check birth date
-13 5 2344
-22 12 2133
-
 Case #904: Check birth date
-1 2 3036
-20 2 2030
-
 Case #905: Check birth date
-28 12 2935
-24 2 2077
-
-Case #906: d:6081 disy:16
-27 6 2285
-2 11 2268
-
+Case #906: 16
 Case #907: Check birth date
-19 2 2476
-12 9 2010
-
 Case #908: Check birth date
-5 1 2983
-9 3 2239
-
 Case #909: Check birth date
-11 10 2304
-24 7 2088
-
 Case #910: Check birth date
-26 2 3223
-2 10 2053
-
 Case #911: Check birth date
-28 6 3018
-20 2 2190
-
 Case #912: Check birth date
-3 9 3203
-25 7 2256
-
 Case #913: Check birth date
-31 8 3001
-18 8 2219
-
 Case #914: Check birth date
-27 9 2846
-11 9 2247
-
 Case #915: Check birth date
-27 9 3165
-21 1 2224
-
 Case #916: Check birth date
-18 1 2736
-5 2 2182
-
 Case #917: Check birth date
-7 8 2413
-16 3 2118
-
 Case #918: Check birth date
-4 6 2511
-6 11 2056
-
 Case #919: Check birth date
-16 12 2899
-31 8 2062
-
 Case #920: Check birth date
-18 7 3425
-9 3 2029
-
 Case #921: Check birth date
-12 1 2340
-31 10 2124
-
 Case #922: Check birth date
-27 6 2600
-22 3 2257
-
 Case #923: Check birth date
-1 8 2350
-15 9 2042
-
 Case #924: Check birth date
-23 7 2324
-25 10 2017
-
-Case #925: d:26568 disy:72
-15 8 2159
-17 11 2086
-
-Case #926: d:8160 disy:22
-29 5 2215
-23 1 2193
-
+Case #925: 72
+Case #926: 22
 Case #927: Check birth date
-22 8 3185
-5 11 2020
-
 Case #928: Check birth date
-18 1 2927
-20 11 2134
-
-Case #929: d:20103 disy:55
-21 4 2277
-7 4 2222
-
+Case #929: 55
 Case #930: Invalid birth date
-8 11 2173
-14 8 2195
-
 Case #931: Check birth date
-28 7 3074
-14 9 2033
-
 Case #932: Check birth date
-22 1 2585
-10 9 2132
-
 Case #933: Check birth date
-11 9 2392
-26 9 2038
-
-Case #934: d:9674 disy:26
-5 6 2065
-10 12 2037
-
+Case #934: 27
 Case #935: Check birth date
-12 10 3025
-22 1 2143
-
 Case #936: Check birth date
-9 9 2620
-12 2 2111
-
-Case #937: d:33797 disy:92
-13 6 2261
-30 11 2168
-
+Case #937: 92
 Case #938: Check birth date
-17 2 2533
-14 3 2160
-
 Case #939: Check birth date
-19 3 2622
-23 1 2223
-
-Case #940: d:8212 disy:22
-11 8 2095
-15 2 2073
-
+Case #940: 22
 Case #941: Check birth date
-15 3 2682
-11 10 2248
-
 Case #942: Check birth date
-5 3 2449
-11 7 2249
-
 Case #943: Check birth date
-11 2 2944
-17 7 2225
-
-Case #944: d:25832 disy:70
-27 9 2132
-5 1 2062
-
+Case #944: 70
 Case #945: Check birth date
-12 11 2435
-22 3 2125
-
 Case #946: Check birth date
-22 11 2396
-26 10 2034
-
 Case #947: Check birth date
-24 12 2389
-5 4 2252
-
 Case #948: Check birth date
-4 1 3201
-29 11 2066
-
 Case #949: Check birth date
-23 7 2802
-25 6 2082
-
 Case #950: Check birth date
-21 7 3114
-14 8 2230
-
 Case #951: Check birth date
-12 1 3414
-23 8 2100
-
 Case #952: Check birth date
-12 6 2638
-19 2 2189
-
 Case #953: Check birth date
-26 11 2693
-4 10 2150
-
 Case #954: Check birth date
-25 5 2591
-25 3 2125
-
 Case #955: Check birth date
-11 11 2375
-26 11 2146
-
 Case #956: Invalid birth date
-14 10 2149
-11 3 2184
-
 Case #957: Check birth date
-1 10 2873
-18 3 2151
-
 Case #958: Check birth date
-11 11 2546
-9 10 2169
-
 Case #959: Check birth date
-17 9 2766
-23 2 2184
-
 Case #960: Check birth date
-18 4 2726
-14 9 2234
-
 Case #961: Check birth date
-12 9 2560
-30 6 2036
-
 Case #962: Check birth date
-4 7 2653
-30 7 2099
-
 Case #963: Check birth date
-11 8 3526
-11 1 2255
-
 Case #964: Check birth date
-13 1 2570
-30 10 2213
-
 Case #965: Check birth date
-11 5 3127
-1 1 2151
-
 Case #966: Check birth date
-23 5 2352
-25 9 2108
-
-Case #967: d:24327 disy:66
-26 5 2119
-16 10 2052
-
+Case #967: 66
 Case #968: Check birth date
-19 11 2444
-16 11 2115
-
 Case #969: Check birth date
-14 10 2639
-27 1 2215
-
 Case #970: Check birth date
-5 11 3077
-9 8 2202
-
-Case #971: d:13276 disy:36
-3 4 2094
-27 11 2057
-
-Case #972: d:10476 disy:28
-16 4 2130
-10 8 2101
-
+Case #971: 36
+Case #972: 28
 Case #973: Check birth date
-9 4 3110
-1 5 2089
-
 Case #974: Check birth date
-27 7 2258
-5 10 2108
-
 Case #975: Check birth date
-19 12 3204
-7 5 2089
-
 Case #976: Check birth date
-12 2 2506
-24 11 2132
-
 Case #977: Check birth date
-2 2 2265
-10 10 2020
-
 Case #978: Check birth date
-23 5 3391
-28 10 2031
-
 Case #979: Check birth date
-8 12 3302
-1 9 2174
-
 Case #980: Check birth date
-9 8 2374
-30 9 2006
-
 Case #981: Check birth date
-24 6 2631
-14 10 2270
-
 Case #982: Check birth date
-16 11 2944
-11 9 2230
-
 Case #983: 0
-6 6 2104
-1 9 2103
-
 Case #984: Check birth date
-6 5 3332
-20 12 2229
-
-Case #985: d:24057 disy:65
-10 7 2195
-28 8 2129
-
+Case #985: 65
 Case #986: Check birth date
-1 2 2341
-10 1 2122
-
 Case #987: Invalid birth date
-27 7 2187
-6 1 2245
-
 Case #988: Check birth date
-21 8 2397
-13 7 2263
-
 Case #989: Check birth date
-15 1 2670
-16 1 2025
-
 Case #990: Check birth date
-3 2 3464
-11 9 2101
-
 Case #991: Check birth date
-27 3 2470
-12 8 2259
-
 Case #992: Check birth date
-6 8 3268
-28 7 2171
-
 Case #993: Check birth date
-28 3 2512
-3 10 2134
-
 Case #994: Check birth date
-26 3 3515
-10 6 2101
-
 Case #995: Invalid birth date
-20 11 2208
-9 4 2252
-
 Case #996: Check birth date
-13 9 2993
-28 4 2191
-
 Case #997: Check birth date
-21 4 2357
-17 8 2004
-
-Case #998: d:18065 disy:49
-24 2 2309
-9 9 2259
-
+Case #998: 49
 Case #999: Check birth date
-26 7 2593
-3 6 2214
-
-Case #1000: d:28809 disy:78
-9 3 2141
-23 4 2062
-
+Case #1000: 78
 Case #1001: Check birth date
-7 10 3341
-9 11 2019
-
 Case #1002: Check birth date
-5 3 2447
-18 7 2020
-
-Case #1003: d:28964 disy:79
-20 4 2159
-31 12 2078
-
+Case #1003: 80
 Case #1004: Invalid birth date
-25 8 2211
-2 6 2272
-
 Case #1005: Check birth date
-31 8 2358
-29 9 2022
-
-Case #1006: d:44696 disy:122
-27 3 2205
-10 11 2082
-
+Case #1006: 122
 Case #1007: Check birth date
-5 8 2915
-5 3 2217
-
 Case #1008: Check birth date
-25 10 2642
-28 4 2270
-
 Case #1009: Check birth date
-28 12 3298
-2 9 2232
-
 Case #1010: Check birth date
-25 7 2369
-26 7 2004
-
 Case #1011: Check birth date
-9 12 3339
-3 11 2270
-
 Case #1012: Check birth date
-30 5 3254
-4 1 2234
-
 Case #1013: Check birth date
-27 1 3378
-28 10 2139
-
 Case #1014: Check birth date
-26 1 2543
-26 7 2198
-
-Case #1015: d:20775 disy:56
-6 3 2149
-18 4 2092
-
+Case #1015: 56
 Case #1016: Check birth date
-29 11 2609
-17 12 2022
-
 Case #1017: Check birth date
-21 1 3045
-18 10 2007
-
 Case #1018: Check birth date
-30 10 3271
-1 8 2220
-
 Case #1019: Check birth date
-29 6 3181
-10 9 2202
-
 Case #1020: Check birth date
-23 7 2515
-28 3 2003
-
 Case #1021: Check birth date
-22 3 2698
-17 7 2200
-
-Case #1022: d:22563 disy:61
-18 9 2329
-9 12 2266
-
+Case #1022: 62
 Case #1023: Check birth date
-9 3 3396
-17 4 2187
-
 Case #1024: Check birth date
-29 10 3120
-9 1 2193
-
 Case #1025: Check birth date
-10 3 3463
-7 11 2057
-
 Case #1026: Check birth date
-17 4 3199
-21 2 2037
-
-Case #1027: d:45236 disy:123
-30 10 2139
-23 12 2014
-
+Case #1027: 124
 Case #1028: Check birth date
-6 9 2252
-15 11 2027
-
 Case #1029: Check birth date
-27 8 2806
-1 3 2087
-
 Case #1030: Check birth date
-14 3 3236
-20 7 2030
-
-Case #1031: d:28349 disy:77
-14 5 2169
-1 10 2091
-
+Case #1031: 77
 Case #1032: Check birth date
-29 4 3364
-8 1 2255
-
 Case #1033: Check birth date
-10 6 2823
-12 10 2269
-
 Case #1034: Check birth date
-29 1 2550
-22 11 2248
-
 Case #1035: Check birth date
-29 9 3142
-1 11 2231
-
 Case #1036: Check birth date
-28 5 3030
-2 6 2240
-
-Case #1037: d:39684 disy:108
-13 12 2204
-18 4 2096
-
+Case #1037: 108
 Case #1038: Check birth date
-5 5 2461
-20 8 2124
-
 Case #1039: Check birth date
-31 12 3376
-23 10 2252
-
 Case #1040: Check birth date
-15 10 2799
-24 2 2077
-
 Case #1041: Check birth date
-10 2 3321
-9 10 2209
-
-Case #1042: d:4933 disy:13
-7 9 2051
-6 3 2038
-
+Case #1042: 13
 Case #1043: Check birth date
-3 11 2973
-31 1 2143
-
-Case #1044: d:34787 disy:95
-10 2 2297
-14 11 2201
-
+Case #1044: 95
 Case #1045: Check birth date
-10 12 2441
-9 3 2175
-
-Case #1046: d:12976 disy:35
-14 8 2154
-3 2 2119
-
+Case #1046: 35
 Case #1047: Check birth date
-13 12 2251
-5 11 2039
-
 Case #1048: Check birth date
-7 7 3300
-21 12 2015
-
 Case #1049: Check birth date
-10 11 2372
-11 1 2008
-
 Case #1050: Check birth date
-31 5 2992
-10 12 2066
-
 Case #1051: Check birth date
-8 9 2420
-8 3 2146
-
 Case #1052: Check birth date
-4 1 2537
-19 12 2117
-
 Case #1053: Check birth date
-17 3 2778
-8 4 2121
-
 Case #1054: Check birth date
-7 9 3046
-14 9 2173
-
 Case #1055: Check birth date
-24 12 2668
-11 2 2231
-
 Case #1056: Check birth date
-8 9 2975
-8 4 2263
-
 Case #1057: Check birth date
-26 1 2644
-8 3 2151
-
 Case #1058: Check birth date
-4 1 2656
-14 11 2060
-
 Case #1059: Check birth date
-8 8 2720
-10 3 2091
-
 Case #1060: Check birth date
-27 1 2439
-10 8 2075
-
 Case #1061: Check birth date
-27 7 2477
-10 10 2025
-
 Case #1062: Check birth date
-11 6 3188
-4 4 2258
-
 Case #1063: Check birth date
-30 12 2895
-15 10 2094
-
 Case #1064: Check birth date
-23 9 3126
-28 5 2139
-
 Case #1065: Check birth date
-26 1 3542
-3 1 2215
-
 Case #1066: Check birth date
-12 9 2718
-28 11 2058
-
 Case #1067: Check birth date
-8 12 3530
-16 10 2143
-
 Case #1068: Check birth date
-14 8 2682
-18 9 2015
-
 Case #1069: Check birth date
-14 5 2336
-6 12 2040
-
 Case #1070: Check birth date
-3 6 2908
-9 1 2257
-
 Case #1071: Check birth date
-22 9 2841
-11 4 2090
-
 Case #1072: Check birth date
-19 7 3212
-29 8 2029
-
 Case #1073: Check birth date
-22 10 2395
-16 10 2005
-
 Case #1074: Check birth date
-22 9 3040
-8 2 2152
-
-Case #1075: d:13572 disy:37
-2 5 2161
-5 3 2124
-
+Case #1075: 37
 Case #1076: Check birth date
-9 8 3278
-15 9 2252
-
 Case #1077: Check birth date
-25 2 2423
-7 4 2119
-
 Case #1078: Check birth date
-28 9 3338
-19 8 2098
-
 Case #1079: Check birth date
-15 5 3361
-12 12 2059
-
 Case #1080: Check birth date
-19 6 3552
-12 3 2244
-
 Case #1081: Invalid birth date
-1 12 2181
-14 10 2270
-
-Case #1082: d:15694 disy:42
-16 11 2179
-27 11 2136
-
+Case #1082: 42
 Case #1083: Check birth date
-5 5 2816
-10 3 2012
-
 Case #1084: Check birth date
-19 10 2331
-11 3 2016
-
 Case #1085: Check birth date
-3 5 3193
-12 7 2199
-
 Case #1086: Check birth date
-29 10 2660
-24 3 2235
-
 Case #1087: Check birth date
-10 9 2971
-2 6 2146
-
 Case #1088: Check birth date
-9 11 3085
-2 5 2224
-
 Case #1089: Check birth date
-24 9 3431
-2 2 2038
-
 Case #1090: Check birth date
-8 5 2833
-19 9 2037
-
 Case #1091: Check birth date
-29 9 3405
-13 12 2002
-
 Case #1092: Check birth date
-24 7 2281
-11 11 2076
-
-Case #1093: d:27655 disy:75
-22 7 2156
-2 11 2080
-
+Case #1093: 75
 Case #1094: Check birth date
-24 1 2798
-14 5 2224
-
 Case #1095: Check birth date
-12 10 2834
-11 4 2173
-
 Case #1096: Check birth date
-3 4 3539
-9 3 2141
-
 Case #1097: Check birth date
-17 1 2948
-12 10 2261
-
 Case #1098: Check birth date
-10 12 3231
-24 4 2047
-
 Case #1099: Check birth date
-26 5 2757
-10 7 2248
-
 Case #1100: Check birth date
-16 12 2609
-9 10 2092
-
 Case #1101: Check birth date
-20 10 2972
-29 11 2265
-
 Case #1102: Invalid birth date
-20 4 2224
-24 4 2260
-
 Case #1103: Check birth date
-26 4 3363
-29 9 2264
-
 Case #1104: Check birth date
-20 12 3044
-4 12 2123
-
 Case #1105: Check birth date
-18 7 3173
-17 10 2139
-
 Case #1106: Check birth date
-25 3 3239
-22 4 2191
-
 Case #1107: Check birth date
-12 1 3271
-1 7 2210
-
 Case #1108: Check birth date
-1 2 2983
-23 2 2256
-
 Case #1109: Check birth date
-4 1 3139
-30 3 2041
-
 Case #1110: Check birth date
-9 4 2508
-25 12 2203
-
 Case #1111: Check birth date
-2 10 3208
-27 10 2198
-
 Case #1112: Check birth date
-17 2 3391
-30 5 2225
-
 Case #1113: Check birth date
-9 8 3153
-16 9 2085
-
 Case #1114: Check birth date
-30 9 3071
-8 3 2266
-
-Case #1115: d:28971 disy:79
-11 10 2317
-16 6 2238
-
+Case #1115: 79
 Case #1116: Check birth date
-21 9 3376
-15 5 2174
-
 Case #1117: Invalid birth date
-15 7 2158
-9 8 2195
-
 Case #1118: Check birth date
-30 3 3176
-24 2 2056
-
 Case #1119: Check birth date
-19 7 3269
-3 6 2033
-
 Case #1120: Check birth date
-3 8 2854
-5 9 2207
-
 Case #1121: Check birth date
-26 10 2716
-13 5 2210
-
 Case #1122: Check birth date
-11 1 3556
-22 5 2238
-
 Case #1123: Check birth date
-28 5 2397
-21 8 2081
-
 Case #1124: Check birth date
-16 10 3412
-9 6 2172
-
 Case #1125: Check birth date
-25 9 3097
-7 12 2215
-
-Case #1126: d:11517 disy:31
-7 11 2177
-27 4 2146
-
+Case #1126: 31
 Case #1127: Check birth date
-11 7 2834
-22 6 2227
-
 Case #1128: Check birth date
-1 7 2725
-25 1 2004
-
 Case #1129: Check birth date
-5 5 3405
-1 5 2179
-
-Case #1130: d:18218 disy:49
-15 6 2128
-29 7 2078
-
+Case #1130: 49
 Case #1131: Check birth date
-24 9 3023
-14 11 2044
-
 Case #1132: Check birth date
-22 8 3164
-31 1 2229
-
 Case #1133: Check birth date
-3 4 2513
-25 2 2108
-
 Case #1134: Check birth date
-22 11 3521
-29 10 2159
-
 Case #1135: Check birth date
-18 9 3437
-8 5 2188
-
 Case #1136: Check birth date
-12 2 2965
-13 12 2066
-
 Case #1137: Check birth date
-13 9 3400
-5 3 2107
-
-Case #1138: d:28794 disy:78
-6 4 2293
-6 6 2214
-
+Case #1138: 78
 Case #1139: Check birth date
-30 12 3153
-23 3 2135
-
 Case #1140: Check birth date
-11 10 3105
-28 2 2037
-
 Case #1141: Check birth date
-21 11 2351
-19 1 2179
-
 Case #1142: Check birth date
-22 4 3038
-28 12 2002
-
 Case #1143: Check birth date
-10 3 2235
-21 9 2007
-
 Case #1144: Check birth date
-26 4 2689
-27 6 2075
-
 Case #1145: Check birth date
-6 1 2962
-18 5 2122
-
 Case #1146: Check birth date
-25 7 2546
-11 3 2194
-
 Case #1147: Check birth date
-29 3 2901
-5 9 2062
-
-Case #1148: d:40785 disy:111
-15 6 2179
-15 10 2067
-
+Case #1148: 111
 Case #1149: Check birth date
-19 6 3244
-8 7 2166
-
 Case #1150: Check birth date
-22 5 3450
-20 3 2131
-
 Case #1151: Check birth date
-5 11 2574
-29 6 2189
-
 Case #1152: Check birth date
-28 2 2562
-14 8 2214
-
 Case #1153: Check birth date
-12 4 2662
-8 10 2168
-
 Case #1154: Check birth date
-3 10 3358
-11 11 2174
-
 Case #1155: Check birth date
-4 6 3248
-24 12 2139
-
 Case #1156: Check birth date
-17 10 2340
-14 10 2058
-
 Case #1157: Check birth date
-4 4 3493
-23 11 2084
-
 Case #1158: Check birth date
-19 3 2650
-4 5 2147
-
 Case #1159: Check birth date
-17 9 2991
-20 5 2018
-
 Case #1160: Check birth date
-10 4 2761
-10 12 2239
-
 Case #1161: Check birth date
-15 6 3176
-27 9 2050
-
 Case #1162: Check birth date
-29 6 2877
-16 6 2200
-
 Case #1163: Check birth date
-9 6 2553
-16 2 2173
-
 Case #1164: Check birth date
-8 3 2492
-28 3 2257
-
 Case #1165: Check birth date
-5 6 2698
-11 6 2027
-
 Case #1166: Check birth date
-26 1 2904
-15 12 2123
-
 Case #1167: Check birth date
-9 8 3466
-17 12 2256
-
 Case #1168: Check birth date
-6 1 3043
-10 6 2256
-
 Case #1169: Invalid birth date
-16 5 2121
-26 2 2142
-
-Case #1170: d:9311 disy:25
-17 8 2291
-18 2 2266
-
+Case #1170: 25
 Case #1171: Check birth date
-8 11 2568
-16 2 2124
-
 Case #1172: Check birth date
-22 8 2620
-6 6 2258
-
 Case #1173: Check birth date
-17 6 2815
-8 4 2057
-
 Case #1174: Check birth date
-21 1 3505
-11 9 2113
-
 Case #1175: Check birth date
-24 6 3546
-18 9 2227
-
-Case #1176: d:24420 disy:66
-10 12 2230
-30 1 2164
-
+Case #1176: 66
 Case #1177: Check birth date
-13 2 2634
-17 1 2124
-
 Case #1178: Check birth date
-16 4 3361
-10 5 2021
-
 Case #1179: Check birth date
-3 7 2683
-12 9 2043
-
-Case #1180: d:46087 disy:126
-30 1 2161
-25 11 2034
-
-Case #1181: d:14635 disy:40
-30 4 2291
-5 4 2251
-
-Case #1182: d:14271 disy:39
-25 6 2264
-30 5 2225
-
-Case #1183: d:4134 disy:11
-22 10 2192
-28 6 2181
-
+Case #1180: 126
+Case #1181: 40
+Case #1182: 39
+Case #1183: 11
 Case #1184: Check birth date
-28 7 2354
-25 2 2094
-
-Case #1185: d:12430 disy:34
-12 3 2118
-28 2 2084
-
+Case #1185: 34
 Case #1186: Check birth date
-23 6 2556
-16 2 2112
-
 Case #1187: Check birth date
-10 8 2532
-9 4 2091
-
 Case #1188: Check birth date
-6 7 2502
-12 12 2262
-
 Case #1189: Check birth date
-25 9 2996
-12 11 2111
-
 Case #1190: Check birth date
-7 8 3340
-24 5 2027
-
 Case #1191: Invalid birth date
-3 6 2245
-15 7 2258
-
 Case #1192: Check birth date
-15 11 3206
-29 6 2052
-
 Case #1193: Check birth date
-25 9 3473
-28 7 2239
-
 Case #1194: Check birth date
-15 1 2711
-27 12 2035
-
 Case #1195: Check birth date
-15 12 3430
-18 9 2186
-
 Case #1196: Check birth date
-20 2 2569
-27 2 2107
-
 Case #1197: Check birth date
-25 7 3339
-23 12 2016
-
 Case #1198: Check birth date
-21 7 3074
-26 4 2197
-
 Case #1199: Check birth date
-30 7 2830
-19 7 2070
-
 Case #1200: Check birth date
-2 11 3459
-28 8 2101
-
 Case #1201: Check birth date
-22 4 2527
-24 7 2242
-
 Case #1202: Check birth date
-1 11 2454
-3 2 2037
-
 Case #1203: Check birth date
-2 7 2429
-18 12 2230
-
 Case #1204: Check birth date
-25 6 3026
-26 5 2183
-
 Case #1205: Check birth date
-18 1 2464
-1 4 2085
-
 Case #1206: Check birth date
-7 2 3427
-1 3 2165
-
 Case #1207: Check birth date
-19 11 2521
-7 7 2135
-
 Case #1208: Check birth date
-10 6 2521
-13 2 2210
-
 Case #1209: Check birth date
-20 5 2967
-9 9 2174
-
 Case #1210: Check birth date
-16 4 2876
-27 3 2104
-
 Case #1211: Check birth date
-22 4 3166
-17 8 2147
-
 Case #1212: Check birth date
-16 10 2634
-18 5 2042
-
 Case #1213: Check birth date
-21 11 2919
-22 4 2238
-
 Case #1214: Check birth date
-16 5 2893
-24 12 2015
-
 Case #1215: Check birth date
-10 11 2509
-18 9 2245
-
 Case #1216: Check birth date
-25 7 3366
-30 9 2225
-
 Case #1217: Check birth date
-5 6 3037
-25 12 2247
-
 Case #1218: Check birth date
-10 5 3470
-14 10 2259
-
 Case #1219: Check birth date
-17 8 3117
-11 5 2046
-
 Case #1220: Check birth date
-16 11 2664
-14 2 2168
-
 Case #1221: Check birth date
-11 1 2746
-3 7 2151
-
 Case #1222: Check birth date
-28 12 3226
-11 12 2007
-
 Case #1223: Check birth date
-5 10 3297
-27 5 2216
-
 Case #1224: Check birth date
-12 10 3393
-1 11 2223
-
 Case #1225: Check birth date
-13 3 2194
-23 3 2029
-
 Case #1226: Check birth date
-19 5 2739
-21 8 2231
-
 Case #1227: Check birth date
-5 4 3293
-9 4 2220
-
 Case #1228: Check birth date
-29 11 2590
-2 3 2027
-
 Case #1229: Check birth date
-19 4 2757
-24 11 2009
-
 Case #1230: Check birth date
-19 6 2677
-14 3 2164
-
 Case #1231: Check birth date
-1 11 2398
-21 8 2136
-
 Case #1232: Check birth date
-12 10 3485
-2 10 2137
-
-Case #1233: d:30570 disy:83
-18 7 2305
-5 11 2221
-
+Case #1233: 83
 Case #1234: Check birth date
-2 2 2352
-1 8 2173
-
 Case #1235: Check birth date
-7 6 3479
-8 9 2259
-
-Case #1236: d:17594 disy:48
-15 7 2247
-13 5 2199
-
+Case #1236: 48
 Case #1237: Check birth date
-27 12 3148
-10 9 2155
-
 Case #1238: Check birth date
-4 2 3063
-1 10 2092
-
 Case #1239: Check birth date
-20 4 2779
-13 5 2159
-
 Case #1240: Check birth date
-16 7 3334
-14 4 2033
-
 Case #1241: Check birth date
-14 5 2450
-22 9 2202
-
 Case #1242: Invalid birth date
-8 11 2051
-14 1 2056
-
 Case #1243: Check birth date
-2 12 2851
-14 8 2234
-
 Case #1244: Check birth date
-24 3 3453
-8 2 2141
-
 Case #1245: Check birth date
-7 2 2824
-19 10 2151
-
 Case #1246: Check birth date
-15 1 3212
-1 11 2210
-
 Case #1247: Check birth date
-22 8 3610
-31 12 2256
-
 Case #1248: Check birth date
-31 8 3436
-27 4 2229
-
 Case #1249: Check birth date
-28 11 3581
-13 3 2265
-
 Case #1250: Check birth date
-28 1 2364
-23 2 2117
-
 Case #1251: Check birth date
-15 9 3307
-13 2 2034
-
 Case #1252: Check birth date
-30 6 2302
-8 12 2030
-
 Case #1253: Check birth date
-17 7 3255
-17 12 2047
-
 Case #1254: Check birth date
-30 12 3159
-15 7 2176
-
 Case #1255: Check birth date
-30 1 2323
-13 12 2002
-
 Case #1256: Check birth date
-15 2 3099
-10 8 2030
-
 Case #1257: Check birth date
-10 1 3144
-22 6 2240
-
 Case #1258: Check birth date
-25 7 2502
-12 10 2072
-
 Case #1259: Check birth date
-21 3 2884
-20 12 2106
-
 Case #1260: Check birth date
-16 10 3086
-30 8 2006
-
 Case #1261: Check birth date
-21 11 2742
-1 8 2130
-
 Case #1262: Check birth date
-15 3 2250
-28 2 2056
-
 Case #1263: Check birth date
-9 9 3034
-8 7 2174
-
 Case #1264: Check birth date
-5 4 2323
-5 12 2070
-
 Case #1265: Check birth date
-22 9 2450
-20 7 2040
-
 Case #1266: Check birth date
-28 3 3489
-4 6 2240
-
 Case #1267: Check birth date
-3 12 2629
-5 6 2064
-
 Case #1268: Check birth date
-16 5 2365
-4 2 2006
-
 Case #1269: Check birth date
-22 6 2515
-25 8 2022
-
 Case #1270: Check birth date
-21 5 2901
-13 11 2242
-
 Case #1271: Check birth date
-9 4 3439
-31 10 2104
-
 Case #1272: Check birth date
-13 9 2263
-26 2 2015
-
-Case #1273: d:6380 disy:17
-14 8 2212
-24 2 2195
-
+Case #1273: 17
 Case #1274: Check birth date
-17 7 2327
-21 11 2027
-
 Case #1275: Check birth date
-15 6 2412
-23 6 2003
-
 Case #1276: Check birth date
-29 8 3127
-22 4 2011
-
 Case #1277: Check birth date
-24 12 2803
-20 7 2106
-
 Case #1278: Check birth date
-23 4 2616
-14 4 2179
-
 Case #1279: Check birth date
-25 3 3255
-16 9 2202
-
 Case #1280: Check birth date
-5 7 3262
-20 2 2257
-
 Case #1281: Check birth date
-4 11 3020
-12 11 2176
-
 Case #1282: Check birth date
-30 11 2416
-13 6 2187
-
 Case #1283: Check birth date
-23 12 3386
-8 7 2245
-
 Case #1284: Check birth date
-18 4 2751
-27 11 2128
-
 Case #1285: Check birth date
-14 7 2623
-21 11 2162
-
 Case #1286: Check birth date
-22 6 2731
-17 3 2045
-
 Case #1287: Check birth date
-7 2 2520
-27 6 2035
-
-Case #1288: d:19872 disy:54
-11 6 2257
-14 1 2203
-
+Case #1288: 54
 Case #1289: Check birth date
-22 3 2732
-25 5 2045
-
 Case #1290: Check birth date
-23 6 3164
-15 8 2140
-
 Case #1291: Check birth date
-1 2 2286
-15 4 2007
-
 Case #1292: Check birth date
-21 12 2462
-15 12 2269
-
 Case #1293: Check birth date
-24 12 2598
-7 11 2180
-
 Case #1294: Check birth date
-2 5 2897
-10 9 2093
-
 Case #1295: Check birth date
-4 9 2902
-29 11 2094
-
-Case #1296: d:32307 disy:88
-2 7 2330
-17 1 2242
-
+Case #1296: 88
 Case #1297: Check birth date
-8 12 3529
-21 1 2162
-
 Case #1298: Check birth date
-5 1 2407
-1 5 2174
-
 Case #1299: Check birth date
-27 2 3184
-23 12 2269
-
 Case #1300: Check birth date
-18 3 3221
-12 8 2247
-
 Case #1301: Check birth date
-21 2 2509
-17 1 2137
-
 Case #1302: Check birth date
-17 4 2490
-12 6 2119
-
 Case #1303: Check birth date
-19 12 3344
-10 5 2245
-
 Case #1304: Check birth date
-17 4 2876
-2 3 2168
-
 Case #1305: Check birth date
-28 1 3147
-27 10 2054
-
 Case #1306: Check birth date
-24 6 3244
-26 3 2029
-
 Case #1307: Check birth date
-5 7 3241
-8 8 2194
-
 Case #1308: Check birth date
-7 2 2440
-15 9 2241
-
 Case #1309: Check birth date
-29 9 2942
-12 8 2113
-
 Case #1310: Check birth date
-13 5 2240
-19 10 2095
-
 Case #1311: Check birth date
-12 8 2976
-25 4 2202
-
 Case #1312: Check birth date
-6 2 2538
-9 9 2158
-
 Case #1313: Check birth date
-1 3 2896
-31 1 2056
-
 Case #1314: Check birth date
-7 7 2420
-9 12 2111
-
 Case #1315: Check birth date
-20 1 3127
-12 10 2236
-
 Case #1316: Check birth date
-8 3 2616
-22 5 2027
-
 Case #1317: Check birth date
-11 11 2391
-16 9 2059
-
 Case #1318: Check birth date
-28 9 2876
-1 4 2120
-
 Case #1319: Check birth date
-5 5 2672
-28 11 2147
-
 Case #1320: Check birth date
-6 4 2992
-3 2 2254
-
 Case #1321: Check birth date
-21 10 2439
-1 1 2106
-
 Case #1322: Check birth date
-30 10 3214
-1 3 2212
-
 Case #1323: Invalid birth date
-4 7 2220
-4 6 2264
-
 Case #1324: Check birth date
-20 2 3016
-28 11 2193
-
 Case #1325: Check birth date
-11 4 2632
-4 9 2175
-
 Case #1326: Invalid birth date
-19 5 2033
-28 5 2040
-
 Case #1327: Check birth date
-3 10 3249
-18 2 2187
-
 Case #1328: Check birth date
-27 7 3301
-29 10 2173
-
 Case #1329: Check birth date
-2 2 3404
-25 6 2173
-
 Case #1330: Check birth date
-28 10 2565
-23 6 2014
-
 Case #1331: Check birth date
-20 4 3233
-11 12 2032
-
 Case #1332: Check birth date
-10 7 2917
-25 12 2141
-
 Case #1333: Check birth date
-16 9 3095
-20 8 2254
-
 Case #1334: Check birth date
-9 1 2624
-14 10 2026
-
 Case #1335: Check birth date
-23 10 2892
-31 3 2265
-
 Case #1336: Check birth date
-15 2 2837
-14 11 2231
-
 Case #1337: Check birth date
-23 3 3024
-11 9 2191
-
 Case #1338: Check birth date
-28 11 3140
-22 5 2168
-
 Case #1339: Check birth date
-21 4 3015
-9 8 2271
-
 Case #1340: Check birth date
-26 9 2296
-12 6 2001
-
 Case #1341: Check birth date
-9 11 2570
-10 12 2094
-
 Case #1342: Check birth date
-23 2 3282
-15 9 2177
-
 Case #1343: Check birth date
-25 9 3399
-22 11 2018
-
 Case #1344: Check birth date
-27 5 3273
-26 1 2046
-
 Case #1345: Check birth date
-8 7 2938
-11 5 2101
-
 Case #1346: Check birth date
-1 7 3057
-9 1 2185
-
 Case #1347: Check birth date
-18 3 3378
-19 6 2266
-
 Case #1348: Check birth date
-27 2 3496
-1 9 2093
-
 Case #1349: Check birth date
-17 9 2737
-26 12 2076
-
 Case #1350: Check birth date
-16 8 3432
-22 7 2155
-
 Case #1351: Check birth date
-15 5 3459
-20 11 2182
-
 Case #1352: Check birth date
-19 1 2901
-31 10 2191
-
 Case #1353: Check birth date
-16 11 2382
-27 3 2173
-
 Case #1354: Check birth date
-23 5 2496
-15 12 2190
-
 Case #1355: Check birth date
-24 7 3199
-10 1 2111
-
 Case #1356: Check birth date
-1 7 2830
-8 4 2109
-
 Case #1357: Check birth date
-27 10 3513
-17 3 2195
-
-Case #1358: d:34389 disy:94
-22 11 2141
-27 9 2047
-
-Case #1359: d:42675 disy:116
-19 8 2327
-16 10 2210
-
+Case #1358: 94
+Case #1359: 116
 Case #1360: Check birth date
-9 6 2570
-11 8 2005
-
 Case #1361: Check birth date
-2 3 2904
-8 1 2267
-
-Case #1362: d:43411 disy:118
-7 9 2320
-30 10 2201
-
+Case #1362: 118
 Case #1363: Check birth date
-23 11 3405
-28 7 2256
-
 Case #1364: Check birth date
-3 4 2595
-4 5 2130
-
 Case #1365: Check birth date
-10 4 2759
-7 3 2074
-
 Case #1366: Check birth date
-11 8 3188
-11 10 2200
-
-Case #1367: d:45103 disy:123
-5 9 2147
-10 3 2024
-
+Case #1367: 123
 Case #1368: Check birth date
-10 1 2930
-10 11 2189
-
-Case #1369: d:5565 disy:15
-19 4 2238
-23 1 2223
-
+Case #1369: 15
 Case #1370: Check birth date
-12 8 2959
-13 5 2143
-
 Case #1371: Check birth date
-15 9 3087
-24 1 2182
-
 Case #1372: Check birth date
-1 9 2648
-31 5 2140
-
 Case #1373: Check birth date
-19 10 2809
-7 7 2165
-
 Case #1374: Check birth date
-30 8 2924
-6 1 2125
-
 Case #1375: Check birth date
-19 8 3183
-11 7 2133
-
 Case #1376: Check birth date
-29 8 2743
-12 1 2125
-
 Case #1377: Check birth date
-8 4 3200
-13 9 2108
-
 Case #1378: Check birth date
-24 12 2831
-23 11 2243
-
 Case #1379: Check birth date
-17 12 2712
-10 3 2150
-
 Case #1380: Check birth date
-27 8 2664
-26 10 2239
-
 Case #1381: Check birth date
-18 12 3312
-9 1 2158
-
 Case #1382: Check birth date
-23 11 3177
-30 6 2048
-
 Case #1383: Check birth date
-25 12 2639
-10 7 2090
-
 Case #1384: Check birth date
-14 11 2931
-5 8 2053
-
 Case #1385: Check birth date
-27 9 2859
-17 11 2138
-
 Case #1386: Check birth date
-4 6 3235
-7 12 2236
-
 Case #1387: Check birth date
-5 4 2605
-12 5 2253
-
 Case #1388: Check birth date
-25 4 2516
-16 9 2132
-
 Case #1389: Check birth date
-31 1 3056
-26 2 2070
-
 Case #1390: Check birth date
-2 10 3058
-16 9 2265
-
 Case #1391: Check birth date
-31 10 2464
-28 1 2127
-
 Case #1392: Check birth date
-13 9 2490
-4 1 2110
-
 Case #1393: Check birth date
-2 8 2853
-23 8 2160
-
 Case #1394: Check birth date
-15 7 3193
-30 5 2075
-
 Case #1395: Check birth date
-5 7 3221
-2 6 2109
-
 Case #1396: Check birth date
-3 6 2399
-12 10 2102
-
 Case #1397: Check birth date
-22 7 3513
-18 8 2271
-
 Case #1398: Check birth date
-18 11 3513
-12 6 2226
-
 Case #1399: Check birth date
-21 11 2954
-19 3 2102
-
 Case #1400: Check birth date
-10 7 3311
-7 11 2062
-
 Case #1401: Check birth date
-29 12 2983
-24 4 2106
-
 Case #1402: Check birth date
-19 5 2618
-26 2 2224
-
 Case #1403: Check birth date
-23 3 3109
-22 5 2196
-
 Case #1404: Check birth date
-9 9 2685
-7 1 2237
-
-Case #1405: d:2538 disy:6
-27 6 2127
-15 7 2120
-
+Case #1405: 6
 Case #1406: Check birth date
-16 10 3252
-2 6 2072
-
 Case #1407: Check birth date
-8 4 2912
-3 4 2161
-
-Case #1408: d:26357 disy:72
-29 9 2225
-31 7 2153
-
+Case #1408: 72
 Case #1409: Check birth date
-19 1 2618
-8 9 2206
-
 Case #1410: Check birth date
-21 4 2197
-13 3 2044
-
 Case #1411: Check birth date
-14 6 2468
-23 9 2165
-
 Case #1412: Check birth date
-6 9 3030
-21 11 2116
-
 Case #1413: Check birth date
-22 2 3221
-13 2 2141
-
 Case #1414: Check birth date
-16 12 3365
-3 4 2273
-
 Case #1415: Check birth date
-20 9 2406
-19 12 2239
-
 Case #1416: Check birth date
-28 3 2770
-14 2 2256
-
 Case #1417: Check birth date
-5 7 2474
-7 12 2054
-
 Case #1418: Check birth date
-19 3 2614
-8 11 2060
-
 Case #1419: Check birth date
-31 1 3359
-4 8 2063
-
 Case #1420: Check birth date
-27 6 3162
-24 3 2168
-
 Case #1421: Check birth date
-15 5 2962
-2 11 2086
-
 Case #1422: Check birth date
-19 9 3345
-2 4 2017
-
 Case #1423: Check birth date
-24 11 3385
-1 5 2005
-
 Case #1424: Check birth date
-13 2 2408
-11 1 2101
-
 Case #1425: Check birth date
-11 12 3466
-22 3 2040
-
 Case #1426: Check birth date
-2 10 2890
-22 12 2014
-
-Case #1427: d:31431 disy:86
-15 4 2351
-25 3 2265
-
+Case #1427: 86
 Case #1428: Check birth date
-9 4 2500
-5 6 2251
-
 Case #1429: Check birth date
-25 7 2273
-14 4 2129
-
 Case #1430: Check birth date
-4 9 2519
-27 3 2240
-
 Case #1431: Check birth date
-16 5 2873
-15 6 2167
-
 Case #1432: Check birth date
-12 3 2602
-15 12 2155
-
 Case #1433: Check birth date
-30 4 2821
-11 2 2063
-
 Case #1434: Check birth date
-28 1 2781
-24 6 2009
-
-Case #1435: d:41571 disy:113
-1 10 2283
-6 12 2168
-
+Case #1435: 114
 Case #1436: Check birth date
-29 3 3273
-25 4 2238
-
 Case #1437: Check birth date
-18 6 3414
-28 9 2107
-
 Case #1438: Check birth date
-26 12 3417
-17 1 2094
-
-Case #1439: d:38177 disy:104
-11 11 2206
-3 5 2102
-
+Case #1439: 104
 Case #1440: Check birth date
-12 1 2551
-4 2 2108
-
 Case #1441: Check birth date
-1 9 2734
-31 7 2127
-
 Case #1442: Check birth date
-19 3 2642
-4 9 2076
-
 Case #1443: Check birth date
-7 1 2879
-5 3 2093
-
 Case #1444: Check birth date
-21 7 2366
-13 7 2131
-
 Case #1445: Check birth date
-22 12 3268
-15 2 2011
-
 Case #1446: Check birth date
-16 9 3151
-8 2 2101
-
 Case #1447: Check birth date
-7 3 2735
-8 4 2046
-
 Case #1448: Check birth date
-17 4 2938
-30 7 2048
-
 Case #1449: Check birth date
-30 10 2335
-18 8 2042
-
 Case #1450: Check birth date
-5 2 2521
-30 6 2120
-
 Case #1451: Check birth date
-19 12 3244
-15 11 2001
-
 Case #1452: Check birth date
-14 5 2906
-30 3 2155
-
 Case #1453: Check birth date
-14 10 3084
-9 1 2189
-
 Case #1454: Check birth date
-7 10 3363
-10 11 2054
-
 Case #1455: Check birth date
-15 7 2262
-23 2 2067
-
 Case #1456: Check birth date
-23 6 2420
-5 5 2006
-
 Case #1457: Check birth date
-18 10 2428
-18 11 2202
-
 Case #1458: Check birth date
-15 5 3157
-20 4 2248
-
 Case #1459: Check birth date
-26 6 3184
-12 4 2166
-
 Case #1460: Check birth date
-19 10 3067
-14 7 2015
-
 Case #1461: Check birth date
-11 10 2394
-22 8 2016
-
 Case #1462: Check birth date
-12 6 3424
-4 9 2028
-
 Case #1463: Check birth date
-23 7 2898
-9 12 2270
-
 Case #1464: Check birth date
-24 9 2878
-18 8 2042
-
 Case #1465: Check birth date
-16 8 2358
-21 5 2028
-
 Case #1466: Check birth date
-10 1 3426
-2 7 2095
-
 Case #1467: Check birth date
-25 9 3529
-2 9 2200
-
 Case #1468: Check birth date
-17 1 2409
-31 10 2139
-
 Case #1469: Check birth date
-11 4 2333
-17 9 2077
-
 Case #1470: Check birth date
-18 4 2377
-6 5 2014
-
 Case #1471: Check birth date
-14 9 2514
-16 12 2157
-
 Case #1472: Check birth date
-19 10 2751
-6 6 2073
-
 Case #1473: Check birth date
-14 3 3272
-5 4 2145
-
 Case #1474: Check birth date
-9 12 3470
-25 5 2195
-
 Case #1475: Check birth date
-7 8 3232
-27 6 2059
-
 Case #1476: Check birth date
-5 4 3387
-7 7 2025
-
 Case #1477: Check birth date
-31 8 2785
-27 11 2068
-
 Case #1478: Check birth date
-7 8 3245
-1 8 2169
-
 Case #1479: Check birth date
-2 3 3452
-16 12 2123
-
 Case #1480: Check birth date
-31 1 2475
-16 8 2185
-
 Case #1481: Check birth date
-18 8 3206
-25 3 2186
-
 Case #1482: Check birth date
-23 6 2729
-22 7 2046
-
-Case #1483: d:11482 disy:31
-6 5 2098
-28 11 2066
-
+Case #1483: 31
 Case #1484: Check birth date
-9 8 3489
-3 2 2151
-
 Case #1485: Check birth date
-13 6 2925
-12 3 2139
-
 Case #1486: Check birth date
-13 9 2547
-18 9 2011
-
 Case #1487: Check birth date
-7 6 2453
-24 2 2250
-
 Case #1488: Check birth date
-6 11 2247
-7 4 2064
-
 Case #1489: Check birth date
-10 3 2835
-10 7 2125
-
 Case #1490: Check birth date
-23 8 3384
-22 5 2162
-
 Case #1491: Check birth date
-7 1 2409
-20 12 2256
-
 Case #1492: Check birth date
-16 3 2939
-25 10 2003
-
 Case #1493: Check birth date
-10 10 3214
-4 3 2012
-
 Case #1494: Check birth date
-12 1 3236
-19 12 2242
-
-Case #1495: d:1344 disy:3
-13 4 2093
-8 8 2089
-
+Case #1495: 3
 Case #1496: Check birth date
-24 5 2829
-21 7 2151
-
 Case #1497: Check birth date
-5 8 3226
-8 4 2197
-
 Case #1498: Check birth date
-18 6 2689
-13 2 2028
-
 Case #1499: Check birth date
-11 4 3177
-16 2 2185
-
 Case #1500: Check birth date
-16 3 3061
-19 4 2136
-
 Case #1501: Check birth date
-11 2 3161
-9 6 2089
-
 Case #1502: Check birth date
-24 5 2576
-19 10 2242
-
 Case #1503: Check birth date
-18 8 3235
-16 11 2014
-
 Case #1504: Invalid birth date
-18 8 2265
-16 3 2271
-
 Case #1505: Check birth date
-8 8 2482
-12 12 2037
-
 Case #1506: Invalid birth date
-12 12 2172
-12 8 2239
-
 Case #1507: Check birth date
-18 8 2555
-23 11 2130
-
 Case #1508: Check birth date
-7 10 3542
-25 2 2169
-
 Case #1509: Check birth date
-26 3 3504
-19 10 2166
-
 Case #1510: Check birth date
-5 11 2810
-19 8 2217
-
 Case #1511: Check birth date
-7 12 2334
-18 4 2095
-
-Case #1512: d:29819 disy:81
-8 4 2098
-17 8 2016
-
+Case #1512: 81
 Case #1513: Check birth date
-13 6 3320
-26 11 2118
-
 Case #1514: Check birth date
-20 6 2234
-8 7 2059
-
 Case #1515: Check birth date
-31 5 3129
-8 3 2188
-
-Case #1516: d:33500 disy:91
-11 12 2250
-23 3 2159
-
+Case #1516: 91
 Case #1517: Check birth date
-6 8 2478
-9 5 2018
-
 Case #1518: Check birth date
-11 5 2469
-17 4 2093
-
 Case #1519: Check birth date
-30 6 2735
-25 9 2273
-
 Case #1520: Check birth date
-21 2 3134
-12 2 2119
-
 Case #1521: Check birth date
-4 10 2569
-10 9 2196
-
 Case #1522: Check birth date
-29 8 2532
-16 5 2092
-
 Case #1523: Check birth date
-8 4 2892
-13 9 2158
-
 Case #1524: Check birth date
-16 7 3215
-11 2 2128
-
 Case #1525: Check birth date
-22 11 2876
-21 8 2152
-
 Case #1526: Check birth date
-27 4 3361
-24 8 2215
-
 Case #1527: Check birth date
-29 12 2886
-6 2 2051
-
 Case #1528: Check birth date
-15 11 2269
-24 7 2035
-
 Case #1529: Check birth date
-22 5 2721
-25 11 2250
-
 Case #1530: Check birth date
-25 6 2982
-16 3 2227
-
 Case #1531: Check birth date
-30 5 2567
-21 3 2224
-
 Case #1532: Invalid birth date
-2 9 2168
-9 8 2240
-
 Case #1533: Check birth date
-26 3 3120
-27 7 2068
-
 Case #1534: Check birth date
-18 2 2908
-15 7 2246
-
 Case #1535: Check birth date
-1 3 3062
-26 12 2264
-
 Case #1536: Check birth date
-2 3 3419
-6 11 2008
-
 Case #1537: Check birth date
-11 2 3158
-9 4 2217
-
 Case #1538: Check birth date
-29 7 2968
-11 2 2039
-
 Case #1539: Check birth date
-13 10 3505
-27 11 2270
-
 Case #1540: Check birth date
-19 10 3533
-5 6 2165
-
 Case #1541: Check birth date
-13 1 2964
-16 8 2092
-
 Case #1542: Invalid birth date
-1 9 2160
-28 8 2237
-
 Case #1543: Check birth date
-25 11 3459
-29 2 2220
-
 Case #1544: Check birth date
-6 11 2613
-27 10 2265
-
-Case #1545: d:7562 disy:20
-28 5 2191
-13 9 2170
-
+Case #1545: 20
 Case #1546: Check birth date
-22 2 3455
-24 5 2181
-
 Case #1547: Check birth date
-12 8 2788
-30 12 2158
-
 Case #1548: Check birth date
-30 7 3382
-5 4 2168
-
 Case #1549: Check birth date
-22 9 2768
-16 10 2033
-
 Case #1550: Check birth date
-13 2 3189
-18 7 2091
-
 Case #1551: Check birth date
-21 5 2846
-1 9 2116
-
 Case #1552: Check birth date
-5 9 2829
-4 10 2132
-
 Case #1553: Check birth date
-6 3 2949
-25 7 2176
-
 Case #1554: Check birth date
-4 7 2825
-10 7 2192
-
 Case #1555: Check birth date
-23 1 2646
-14 3 2266
-
 Case #1556: Check birth date
-30 9 3265
-25 11 2153
-
 Case #1557: Check birth date
-19 10 2404
-12 1 2172
-
 Case #1558: Check birth date
-21 10 2689
-29 7 2170
-
-Case #1559: d:21663 disy:59
-24 11 2278
-3 8 2219
-
+Case #1559: 59
 Case #1560: Check birth date
-9 10 3095
-30 9 2174
-
 Case #1561: Check birth date
-28 2 2835
-12 8 2155
-
 Case #1562: Check birth date
-22 6 3216
-28 10 2005
-
 Case #1563: Check birth date
-13 10 2806
-30 8 2029
-
 Case #1564: Check birth date
-20 7 2946
-8 7 2146
-
-Case #1565: d:955 disy:2
-29 1 2151
-18 6 2148
-
+Case #1565: 2
 Case #1566: Check birth date
-14 11 3512
-5 4 2157
-
 Case #1567: Check birth date
-19 9 2559
-18 4 2166
-
 Case #1568: Check birth date
-22 10 3213
-13 6 2097
-
 Case #1569: Check birth date
-4 5 2540
-25 1 2266
-
-Case #1570: d:17396 disy:47
-18 8 2060
-1 1 2013
-
-Case #1571: d:31027 disy:85
-12 2 2198
-3 3 2113
-
-Case #1572: d:30918 disy:84
-8 5 2136
-13 9 2051
-
+Case #1570: 47
+Case #1571: 84
+Case #1572: 84
 Case #1573: Check birth date
-11 8 2275
-15 9 2075
-
 Case #1574: Check birth date
-31 3 2340
-14 9 2199
-
 Case #1575: Check birth date
-4 8 3270
-7 9 2156
-
 Case #1576: Check birth date
-25 7 2603
-18 6 2195
-
 Case #1577: Check birth date
-19 4 3089
-20 6 2052
-
 Case #1578: Check birth date
-29 8 3172
-22 4 2111
-
-Case #1579: d:1462 disy:4
-27 8 2191
-26 8 2187
-
+Case #1579: 4
 Case #1580: Check birth date
-21 9 2702
-21 5 2011
-
 Case #1581: Check birth date
-11 4 2907
-13 6 2179
-
 Case #1582: Check birth date
-11 12 3407
-30 10 2205
-
-Case #1583: d:908 disy:2
-5 10 2233
-11 4 2231
-
-Case #1584: d:4694 disy:12
-7 2 2197
-2 4 2184
-
+Case #1583: 2
+Case #1584: 12
 Case #1585: Check birth date
-29 4 3497
-9 2 2158
-
 Case #1586: Check birth date
-3 10 3367
-11 11 2205
-
 Case #1587: Check birth date
-20 11 3497
-9 10 2182
-
 Case #1588: Check birth date
-12 2 2665
-19 6 2022
-
 Case #1589: Check birth date
-25 1 2405
-6 1 2002
-
 Case #1590: Check birth date
-31 7 2944
-23 9 2010
-
 Case #1591: Check birth date
-23 10 2953
-10 10 2183
-
 Case #1592: Check birth date
-18 8 2700
-24 1 2204
-
-Case #1593: d:24432 disy:66
-10 5 2152
-18 6 2085
-
+Case #1593: 66
 Case #1594: Check birth date
-8 5 2838
-28 9 2191
-
 Case #1595: Check birth date
-15 6 2270
-29 8 2083
-
 Case #1596: Check birth date
-9 12 2547
-2 3 2168
-
 Case #1597: Check birth date
-18 10 2976
-30 3 2272
-
 Case #1598: Check birth date
-5 2 2698
-23 1 2080
-
 Case #1599: Check birth date
-30 11 3151
-14 9 2030
-
 Case #1600: Check birth date
-3 1 3001
-13 3 2105
-
 Case #1601: Check birth date
-8 12 2640
-21 9 2157
-
 Case #1602: Check birth date
-15 8 2842
-16 8 2166
-
-Case #1603: d:40495 disy:110
-25 11 2214
-11 1 2104
-
+Case #1603: 110
 Case #1604: Check birth date
-2 8 3394
-15 12 2144
-
 Case #1605: Check birth date
-11 4 2703
-31 10 2013
-
 Case #1606: Check birth date
-18 8 3624
-1 11 2268
-
 Case #1607: Check birth date
-12 6 2920
-17 8 2179
-
 Case #1608: Check birth date
-27 11 2418
-13 2 2149
-
 Case #1609: Check birth date
-7 8 2400
-11 6 2051
-
 Case #1610: Check birth date
-16 9 3137
-30 9 2146
-
 Case #1611: Check birth date
-20 4 2663
-6 11 2021
-
 Case #1612: Check birth date
-29 1 2921
-22 3 2121
-
 Case #1613: Check birth date
-10 8 2296
-25 5 2056
-
 Case #1614: Check birth date
-22 10 2624
-25 12 2069
-
 Case #1615: Check birth date
-13 5 2371
-14 10 2215
-
 Case #1616: Check birth date
-20 10 2483
-28 8 2229
-
 Case #1617: Check birth date
-16 9 2964
-22 2 2121
-
 Case #1618: Check birth date
-18 1 2327
-26 9 2133
-
 Case #1619: Check birth date
-1 12 2429
-13 3 2223
-
 Case #1620: Check birth date
-7 1 2444
-18 6 2160
-
 Case #1621: Check birth date
-17 9 3342
-25 4 2273
-
 Case #1622: Check birth date
-8 5 3587
-9 12 2265
-
 Case #1623: Check birth date
-11 4 2390
-27 2 2080
-
 Case #1624: Invalid birth date
-29 11 2134
-22 4 2138
-
-Case #1625: d:12711 disy:34
-23 4 2074
-5 7 2039
-
+Case #1625: 34
 Case #1626: Check birth date
-26 11 2513
-26 8 2029
-
 Case #1627: Check birth date
-18 1 2380
-31 8 2044
-
 Case #1628: Check birth date
-7 1 3287
-30 4 2220
-
 Case #1629: Check birth date
-19 5 2501
-20 11 2094
-
-Case #1630: d:7519 disy:20
-1 10 2063
-1 3 2043
-
+Case #1630: 20
 Case #1631: Check birth date
-17 6 2356
-22 4 2111
-
 Case #1632: Check birth date
-2 9 3008
-6 8 2132
-
 Case #1633: Check birth date
-4 11 2437
-20 9 2078
-
 Case #1634: Check birth date
-31 8 2996
-31 8 2241
-
 Case #1635: Check birth date
-23 7 2382
-25 10 2217
-
 Case #1636: Check birth date
-8 7 3110
-26 6 2235
-
 Case #1637: Check birth date
-14 12 2877
-19 5 2171
-
 Case #1638: Check birth date
-23 2 3211
-11 7 2090
-
 Case #1639: Check birth date
-18 6 2804
-5 9 2260
-
 Case #1640: Check birth date
-26 5 2644
-29 10 2133
-
 Case #1641: Invalid birth date
-27 3 2048
-4 11 2050
-
 Case #1642: Check birth date
-3 12 3001
-13 9 2037
-
 Case #1643: Check birth date
-19 7 2299
-28 10 2127
-
 Case #1644: Check birth date
-13 9 3030
-29 10 2141
-
 Case #1645: Check birth date
-8 3 2333
-6 6 2135
-
 Case #1646: Check birth date
-18 3 2353
-21 5 2126
-
 Case #1647: Invalid birth date
-10 2 2123
-28 5 2147
-
 Case #1648: Check birth date
-11 5 3252
-6 3 2208
-
 Case #1649: Check birth date
-7 10 2918
-19 7 2267
-
 Case #1650: Check birth date
-20 11 2570
-9 10 2142
-
 Case #1651: Check birth date
-26 6 2464
-16 12 2168
-
 Case #1652: Check birth date
-15 11 3062
-11 1 2191
-
 Case #1653: Check birth date
-7 4 3078
-13 5 2167
-
 Case #1654: Check birth date
-11 7 2944
-5 5 2197
-
 Case #1655: Check birth date
-24 3 2452
-21 10 2064
-
 Case #1656: Check birth date
-27 4 2797
-4 2 2101
-
 Case #1657: Check birth date
-4 8 2956
-29 1 2156
-
-Case #1658: d:2235 disy:6
-19 3 2227
-3 2 2221
-
+Case #1658: 6
 Case #1659: Check birth date
-14 10 2642
-22 1 2016
-
 Case #1660: Check birth date
-13 10 3610
-31 12 2271
-
 Case #1661: Check birth date
-16 5 2907
-15 4 2264
-
 Case #1662: Check birth date
-13 2 2725
-4 12 2078
-
 Case #1663: Check birth date
-27 8 3332
-22 3 2174
-
-Case #1664: d:37518 disy:102
-10 5 2127
-19 8 2024
-
+Case #1664: 102
 Case #1665: Check birth date
-23 9 2864
-15 7 2139
-
 Case #1666: Check birth date
-5 11 2482
-3 1 2215
-
 Case #1667: Check birth date
-26 7 3086
-25 6 2223
-
 Case #1668: Check birth date
-28 6 3352
-24 3 2271
-
 Case #1669: Check birth date
-18 12 3261
-6 3 2164
-
 Case #1670: Check birth date
-6 2 2368
-24 11 2140
-
 Case #1671: Check birth date
-19 4 3243
-28 12 2246
-
 Case #1672: Check birth date
-2 8 3120
-11 12 2059
-
-Case #1673: d:14635 disy:40
-1 7 2258
-6 6 2218
-
+Case #1673: 40
 Case #1674: Check birth date
-13 12 3331
-3 7 2226
-
-Case #1675: d:11754 disy:32
-20 9 2210
-15 7 2178
-
+Case #1675: 32
 Case #1676: Check birth date
-18 2 2566
-14 1 2050
-
 Case #1677: Check birth date
-7 6 2793
-11 12 2068
-
 Case #1678: Check birth date
-10 4 2773
-15 1 2256
-
 Case #1679: Check birth date
-12 6 2349
-17 9 2207
-
 Case #1680: Check birth date
-9 1 2627
-10 2 2086
-
-Case #1681: d:29124 disy:79
-10 4 2337
-14 7 2257
-
+Case #1681: 79
 Case #1682: Check birth date
-11 9 2301
-14 1 2016
-
 Case #1683: Check birth date
-4 9 3220
-15 4 2233
-
 Case #1684: Check birth date
-7 9 3384
-10 3 2074
-
 Case #1685: Check birth date
-18 1 2324
-10 9 2053
-
 Case #1686: Check birth date
-8 7 2553
-12 3 2135
-
 Case #1687: Invalid birth date
-21 6 2139
-28 7 2207
-
-Case #1688: d:42998 disy:117
-19 5 2263
-27 8 2145
-
+Case #1688: 117
 Case #1689: Check birth date
-28 4 3199
-13 7 2172
-
 Case #1690: Check birth date
-11 6 3063
-27 11 2119
-
 Case #1691: Invalid birth date
-7 3 2162
-25 12 2231
-
 Case #1692: Check birth date
-3 10 2363
-20 8 2114
-
 Case #1693: Check birth date
-10 8 3200
-3 1 2178
-
 Case #1694: Check birth date
-22 5 2573
-30 11 2128
-
 Case #1695: Check birth date
-28 9 3516
-28 9 2238
-
 Case #1696: Check birth date
-23 4 3308
-3 2 2029
-
 Case #1697: Check birth date
-20 1 2578
-24 2 2072
-
 Case #1698: Check birth date
-3 10 2376
-15 6 2015
-
 Case #1699: Check birth date
-9 8 3373
-20 7 2106
-
 Case #1700: Check birth date
-27 1 3351
-15 9 2134
-
 Case #1701: Check birth date
-5 7 2391
-23 12 2048
-
 Case #1702: Check birth date
-21 10 3007
-23 9 2086
-
 Case #1703: Invalid birth date
-24 2 2165
-9 2 2241
-
 Case #1704: Check birth date
-1 10 3412
-13 9 2045
-
 Case #1705: Check birth date
-14 5 3024
-23 11 2158
-
 Case #1706: Check birth date
-1 9 2287
-13 8 2126
-
 Case #1707: Check birth date
-27 11 2912
-14 5 2173
-
 Case #1708: Check birth date
-4 5 2726
-18 12 2052
-
-Case #1709: d:31535 disy:86
-14 6 2131
-9 2 2045
-
+Case #1709: 86
 Case #1710: Check birth date
-20 8 2725
-29 1 2258
-
 Case #1711: Check birth date
-13 6 2909
-14 10 2173
-
 Case #1712: Check birth date
-24 11 2993
-11 12 2051
-
 Case #1713: Check birth date
-15 8 3186
-11 10 2136
-
 Case #1714: Check birth date
-21 8 2304
-6 3 2058
-
-Case #1715: d:6381 disy:17
-23 3 2104
-2 10 2086
-
+Case #1715: 17
 Case #1716: Check birth date
-22 9 2960
-3 5 2205
-
 Case #1717: Check birth date
-30 10 3515
-17 10 2191
-
 Case #1718: Check birth date
-17 7 2577
-8 9 2232
-
 Case #1719: Check birth date
-11 5 2443
-12 5 2094
-
 Case #1720: Check birth date
-17 7 2743
-5 4 2014
-
 Case #1721: Check birth date
-19 7 2540
-12 8 2212
-
 Case #1722: Check birth date
-30 10 2768
-19 8 2253
-
 Case #1723: Check birth date
-8 11 2596
-8 3 2201
-
 Case #1724: Check birth date
-24 7 3576
-28 4 2258
-
 Case #1725: Check birth date
-27 9 2591
-11 2 2182
-
 Case #1726: Check birth date
-25 10 2597
-6 1 2261
-
 Case #1727: Check birth date
-23 2 2903
-18 9 2178
-
 Case #1728: Check birth date
-3 2 2725
-30 5 2181
-
 Case #1729: Check birth date
-7 12 3425
-17 11 2086
-
-Case #1730: d:17697 disy:48
-5 4 2093
-22 10 2044
-
-Case #1731: d:42988 disy:117
-14 7 2275
-1 11 2157
-
+Case #1730: 48
+Case #1731: 117
 Case #1732: Check birth date
-15 12 3345
-10 1 2029
-
 Case #1733: Check birth date
-16 9 3444
-23 7 2173
-
 Case #1734: Check birth date
-10 4 3313
-15 7 2012
-
 Case #1735: Check birth date
-3 8 3020
-20 6 2043
-
 Case #1736: Check birth date
-12 12 2867
-24 10 2146
-
-Case #1737: d:42167 disy:115
-24 4 2242
-11 11 2126
-
+Case #1737: 115
 Case #1738: Check birth date
-16 11 2548
-9 12 2148
-
 Case #1739: Check birth date
-18 3 2594
-28 3 2248
-
 Case #1740: Check birth date
-19 9 2761
-25 6 2219
-
-Case #1741: d:33932 disy:92
-9 3 2194
-14 4 2101
-
+Case #1741: 92
 Case #1742: Check birth date
-6 7 2286
-19 1 2065
-
 Case #1743: Check birth date
-21 5 2258
-6 11 2055
-
 Case #1744: Check birth date
-24 7 3059
-31 3 2245
-
 Case #1745: Check birth date
-1 12 3070
-12 7 2055
-
 Case #1746: Check birth date
-18 10 3415
-24 11 2179
-
 Case #1747: Check birth date
-6 9 2471
-14 5 2264
-
 Case #1748: Check birth date
-29 1 3138
-14 10 2167
-
 Case #1749: Check birth date
-8 12 2683
-11 6 2064
-
 Case #1750: Check birth date
-4 11 2404
-22 8 2004
-
 Case #1751: Check birth date
-10 4 2729
-19 7 2223
-
-Case #1752: d:4322 disy:11
-19 8 2160
-19 10 2148
-
-Case #1753: d:1650 disy:4
-7 1 2226
-2 7 2221
-
+Case #1752: 11
+Case #1753: 4
 Case #1754: Check birth date
-17 9 2970
-20 3 2196
-
 Case #1755: Check birth date
-24 1 2349
-21 5 2149
-
 Case #1756: Check birth date
-7 7 3076
-11 6 2095
-
 Case #1757: Check birth date
-13 11 3313
-15 1 2271
-
 Case #1758: Check birth date
-16 7 3303
-12 2 2020
-
 Case #1759: Check birth date
-9 6 2687
-9 12 2072
-
 Case #1760: Check birth date
-25 3 2901
-26 10 2021
-
 Case #1761: Check birth date
-25 3 2352
-5 2 2145
-
 Case #1762: Check birth date
-16 6 3454
-31 3 2133
-
 Case #1763: Check birth date
-7 5 3214
-20 12 2095
-
 Case #1764: Check birth date
-23 8 2754
-3 8 2026
-
 Case #1765: Check birth date
-15 2 2640
-7 12 2029
-
 Case #1766: Check birth date
-11 11 3265
-16 5 2257
-
 Case #1767: Check birth date
-17 3 2999
-18 3 2120
-
 Case #1768: Check birth date
-11 10 2534
-9 8 2169
-
 Case #1769: Check birth date
-30 12 3499
-18 4 2091
-
 Case #1770: Check birth date
-15 2 3005
-24 11 2057
-
 Case #1771: Check birth date
-22 3 2511
-6 12 2176
-
 Case #1772: Check birth date
-13 11 2507
-17 7 2087
-
 Case #1773: Check birth date
-27 4 2467
-3 8 2242
-
 Case #1774: Check birth date
-15 9 2733
-10 8 2239
-
 Case #1775: Check birth date
-18 9 2666
-13 9 2069
-
 Case #1776: Check birth date
-29 7 2592
-12 9 2109
-
 Case #1777: Check birth date
-16 3 3355
-21 1 2144
-
 Case #1778: Check birth date
-2 8 2409
-11 3 2045
-
 Case #1779: Check birth date
-22 5 3397
-12 6 2047
-
 Case #1780: Check birth date
-7 7 3082
-9 1 2189
-
 Case #1781: Check birth date
-23 5 3453
-28 4 2199
-
 Case #1782: Check birth date
-7 5 2779
-14 5 2132
-
 Case #1783: Check birth date
-28 6 3382
-27 11 2108
-
 Case #1784: Check birth date
-3 8 2441
-21 5 2008
-
 Case #1785: Check birth date
-21 3 2364
-7 7 2220
-
 Case #1786: Check birth date
-21 5 2452
-4 7 2248
-
 Case #1787: Check birth date
-12 3 3313
-11 9 2033
-
 Case #1788: Check birth date
-11 3 2316
-3 7 2001
-
 Case #1789: Check birth date
-22 2 3150
-2 11 2241
-
 Case #1790: Check birth date
-29 2 3040
-11 1 2157
-
 Case #1791: Check birth date
-9 2 2986
-23 8 2159
-
-Case #1792: d:22024 disy:60
-23 9 2108
-5 6 2048
-
+Case #1792: 60
 Case #1793: Check birth date
-17 7 2648
-24 9 2091
-
 Case #1794: Check birth date
-24 12 2476
-9 7 2040
-
 Case #1795: Check birth date
-1 2 3373
-1 3 2062
-
 Case #1796: Check birth date
-21 9 3479
-30 9 2101
-
 Case #1797: Check birth date
-3 6 2403
-17 7 2165
-
 Case #1798: Check birth date
-15 9 2375
-19 7 2208
-
 Case #1799: Check birth date
-21 2 2665
-28 10 2253
-
 Case #1800: Check birth date
-30 10 2603
-2 11 2235
-
 Case #1801: Check birth date
-13 7 2574
-23 11 2020
-
 Case #1802: Check birth date
-23 3 2644
-7 12 2046
-
 Case #1803: Check birth date
-2 8 2368
-15 11 2085
-
-Case #1804: d:5637 disy:15
-11 11 2019
-5 6 2004
-
+Case #1804: 15
 Case #1805: Check birth date
-27 6 3263
-4 7 2009
-
 Case #1806: Check birth date
-23 5 3202
-11 7 2095
-
 Case #1807: Check birth date
-11 11 2561
-7 11 2105
-
 Case #1808: Check birth date
-3 3 2361
-18 5 2031
-
 Case #1809: Check birth date
-9 6 3543
-20 7 2150
-
 Case #1810: Invalid birth date
-4 4 2065
-26 11 2066
-
 Case #1811: Check birth date
-8 10 3239
-8 1 2014
-
 Case #1812: Check birth date
-14 6 2614
-31 5 2170
-
 Case #1813: Check birth date
-18 4 3337
-25 9 2234
-
 Case #1814: Check birth date
-22 5 2435
-9 2 2241
-
 Case #1815: Check birth date
-23 7 2472
-23 6 2233
-
 Case #1816: Check birth date
-20 8 2519
-24 10 2042
-
 Case #1817: Check birth date
-15 6 2341
-9 11 2001
-
-Case #1818: d:29990 disy:82
-15 4 2341
-6 3 2259
-
+Case #1818: 82
 Case #1819: Check birth date
-25 3 2718
-22 6 2014
-
 Case #1820: Check birth date
-27 1 3310
-28 3 2268
-
 Case #1821: Check birth date
-29 10 3135
-7 10 2119
-
 Case #1822: Check birth date
-18 1 3078
-5 7 2158
-
-Case #1823: d:28133 disy:77
-22 7 2088
-14 7 2011
-
+Case #1823: 77
 Case #1824: Check birth date
-6 5 2656
-30 6 2168
-
 Case #1825: Invalid birth date
-5 7 2180
-12 7 2222
-
 Case #1826: Check birth date
-21 10 2673
-5 1 2247
-
 Case #1827: Check birth date
-28 4 3519
-25 9 2151
-
 Case #1828: Check birth date
-18 4 2790
-24 1 2063
-
 Case #1829: Check birth date
-17 5 2993
-7 5 2028
-
 Case #1830: Check birth date
-2 9 2547
-17 12 2076
-
-Case #1831: d:18959 disy:51
-9 8 2193
-12 9 2141
-
-Case #1832: d:33522 disy:91
-15 3 2309
-3 6 2217
-
-Case #1833: d:6983 disy:19
-25 5 2236
-12 4 2217
-
+Case #1831: 51
+Case #1832: 91
+Case #1833: 19
 Case #1834: Check birth date
-19 5 2614
-25 10 2175
-
 Case #1835: Check birth date
-7 5 2423
-15 12 2265
-
-Case #1836: d:44259 disy:121
-7 5 2262
-3 3 2141
-
+Case #1836: 121
 Case #1837: Check birth date
-23 4 2697
-8 2 2237
-
 Case #1838: Check birth date
-10 7 2719
-12 11 2068
-
 Case #1839: Check birth date
-7 4 2693
-14 5 2141
-
-Case #1840: d:14567 disy:39
-17 1 2240
-28 2 2200
-
+Case #1840: 39
 Case #1841: Check birth date
-21 7 2136
-27 10 2000
-
 Case #1842: Check birth date
-8 11 2370
-3 7 2076
-
 Case #1843: Check birth date
-18 4 3369
-22 4 2112
-
 Case #1844: Check birth date
-11 8 2791
-2 9 2123
-
 Case #1845: Check birth date
-4 3 2787
-7 12 2086
-
 Case #1846: Check birth date
-14 11 2782
-28 1 2085
-
 Case #1847: Check birth date
-5 2 3340
-20 7 2220
-
-Case #1848: d:40067 disy:109
-24 1 2332
-13 5 2222
-
+Case #1848: 109
 Case #1849: Check birth date
-26 4 2189
-24 11 2000
-
 Case #1850: Invalid birth date
-12 12 2140
-4 12 2185
-
 Case #1851: Check birth date
-19 7 3378
-24 8 2220
-
-Case #1852: d:17584 disy:48
-6 12 2204
-14 10 2156
-
+Case #1852: 48
 Case #1853: Check birth date
-21 7 3460
-5 3 2131
-
 Case #1854: Check birth date
-21 10 2929
-26 3 2061
-
 Case #1855: Check birth date
-26 8 2727
-3 4 2091
-
 Case #1856: Check birth date
-24 7 2790
-3 10 2020
-
 Case #1857: Check birth date
-25 7 3370
-7 11 2244
-
 Case #1858: Check birth date
-15 3 3291
-6 10 2200
-
 Case #1859: Check birth date
-8 10 2532
-28 4 2151
-
 Case #1860: Check birth date
-11 5 2997
-19 5 2049
-
 Case #1861: Check birth date
-18 4 3047
-13 12 2002
-
 Case #1862: Check birth date
-4 9 2820
-9 12 2226
-
-Case #1863: d:41165 disy:112
-7 8 2293
-22 11 2180
-
+Case #1863: 112
 Case #1864: Check birth date
-24 9 2912
-15 10 2047
-
 Case #1865: Check birth date
-31 7 3071
-23 11 2067
-
 Case #1866: Check birth date
-2 2 2857
-24 9 2092
-
 Case #1867: Check birth date
-17 2 3259
-3 7 2048
-
 Case #1868: Check birth date
-17 6 3211
-21 6 2047
-
 Case #1869: Check birth date
-4 10 3238
-16 1 2233
-
 Case #1870: Invalid birth date
-30 6 2102
-21 12 2151
-
 Case #1871: Check birth date
-22 7 2939
-23 11 2072
-
 Case #1872: Check birth date
-18 3 2929
-22 8 2047
-
 Case #1873: Check birth date
-26 9 2926
-14 9 2030
-
 Case #1874: Check birth date
-23 8 2659
-2 12 2126
-
 Case #1875: Check birth date
-16 10 2238
-11 7 2068
-
 Case #1876: Check birth date
-21 5 2563
-9 7 2025
-
 Case #1877: Check birth date
-3 1 3051
-6 1 2164
-
 Case #1878: Check birth date
-23 5 3106
-24 2 2097
-
 Case #1879: Check birth date
-30 4 2770
-20 11 2236
-
 Case #1880: Check birth date
-28 6 2721
-17 3 2131
-
 Case #1881: Check birth date
-13 10 2847
-17 11 2068
-
 Case #1882: Check birth date
-31 5 3134
-7 7 2161
-
 Case #1883: Check birth date
-25 2 3261
-25 4 2143
-
 Case #1884: Invalid birth date
-5 4 2150
-6 11 2172
-
 Case #1885: Check birth date
-7 5 2649
-23 7 2048
-
 Case #1886: Check birth date
-20 5 2384
-6 12 2115
-
 Case #1887: Check birth date
-4 3 2822
-19 3 2028
-
 Case #1888: Check birth date
-2 10 3107
-24 6 2124
-
 Case #1889: Check birth date
-5 11 2373
-23 6 2169
-
 Case #1890: Check birth date
-27 8 3297
-20 10 2133
-
 Case #1891: Check birth date
-26 10 2442
-9 6 2237
-
 Case #1892: Check birth date
-30 7 2988
-23 7 2092
-
 Case #1893: Check birth date
-17 5 2288
-19 10 2053
-
 Case #1894: Check birth date
-20 1 2661
-4 9 2201
-
 Case #1895: Check birth date
-14 6 2783
-7 3 2031
-
 Case #1896: Check birth date
-1 3 3313
-24 11 2257
-
 Case #1897: Check birth date
-11 5 2674
-5 1 2218
-
 Case #1898: Check birth date
-13 10 2447
-9 9 2024
-
 Case #1899: Check birth date
-28 7 2930
-25 10 2151
-
 Case #1900: Check birth date
-12 3 2708
-14 1 2137
-
 Case #1901: Check birth date
-18 1 2536
-23 10 2107
-
 Case #1902: Invalid birth date
-19 7 2131
-14 11 2194
-
 Case #1903: Check birth date
-14 6 2816
-30 3 2187
-
 Case #1904: Check birth date
-19 4 2960
-16 11 2094
-
 Case #1905: Check birth date
-14 6 3473
-6 7 2175
-
 Case #1906: Check birth date
-3 9 2505
-26 4 2078
-
 Case #1907: Check birth date
-9 3 3293
-18 6 2061
-
 Case #1908: Check birth date
-19 5 2858
-14 8 2146
-
 Case #1909: Check birth date
-5 3 3275
-25 11 2268
-
 Case #1910: Check birth date
-23 7 2634
-20 8 2083
-
 Case #1911: Check birth date
-6 8 2499
-10 7 2050
-
 Case #1912: Check birth date
-19 4 3115
-13 12 2212
-
 Case #1913: Check birth date
-29 1 3514
-16 12 2272
-
 Case #1914: Check birth date
-14 4 2296
-20 10 2070
-
 Case #1915: Check birth date
-1 3 3207
-26 1 2090
-
 Case #1916: Check birth date
-16 12 2435
-21 7 2095
-
 Case #1917: Check birth date
-2 9 3550
-23 9 2208
-
 Case #1918: Invalid birth date
-4 4 2123
-12 7 2160
-
 Case #1919: Check birth date
-15 4 3454
-5 1 2084
-
 Case #1920: Check birth date
-5 3 2652
-9 3 2238
-
 Case #1921: Check birth date
-10 7 2725
-27 11 2021
-
 Case #1922: Check birth date
-28 11 3448
-28 9 2246
-
 Case #1923: Check birth date
-16 10 3029
-19 10 2004
-
 Case #1924: Check birth date
-9 4 3456
-7 4 2047
-
 Case #1925: Check birth date
-18 12 3275
-24 3 2264
-
 Case #1926: Check birth date
-8 10 3136
-30 6 2089
-
 Case #1927: Check birth date
-8 5 3452
-13 4 2029
-
 Case #1928: Check birth date
-21 1 2927
-4 1 2100
-
 Case #1929: Check birth date
-9 1 2935
-22 10 2182
-
 Case #1930: Check birth date
-28 9 2252
-4 8 2056
-
 Case #1931: Check birth date
-7 1 3479
-16 12 2100
-
 Case #1932: Check birth date
-9 10 3264
-29 6 2118
-
 Case #1933: Check birth date
-10 10 3304
-26 3 2112
-
 Case #1934: Check birth date
-13 8 3196
-3 12 2016
-
 Case #1935: Check birth date
-10 3 3390
-1 2 2124
-
 Case #1936: Check birth date
-20 12 3327
-10 2 2140
-
 Case #1937: Check birth date
-10 2 2648
-1 8 2096
-
 Case #1938: Check birth date
-29 1 2973
-10 12 2133
-
 Case #1939: Check birth date
-5 2 2928
-14 9 2001
-
 Case #1940: Check birth date
-17 8 3016
-27 1 2054
-
 Case #1941: Check birth date
-16 2 2515
-22 2 2005
-
 Case #1942: Check birth date
-26 7 2680
-20 5 2256
-
 Case #1943: Check birth date
-18 9 2863
-24 11 2032
-
 Case #1944: Check birth date
-29 6 3527
-25 7 2132
-
 Case #1945: Check birth date
-29 2 2780
-5 11 2149
-
-Case #1946: d:10970 disy:30
-21 6 2153
-9 6 2123
-
+Case #1946: 30
 Case #1947: Check birth date
-14 4 3402
-13 3 2068
-
 Case #1948: Check birth date
-7 7 2938
-10 1 2257
-
 Case #1949: Check birth date
-16 1 2767
-31 10 2195
-
 Case #1950: Check birth date
-1 3 3236
-16 12 2212
-
 Case #1951: Check birth date
-31 8 3401
-6 12 2250
-
 Case #1952: Check birth date
-26 11 3343
-10 3 2269
-
 Case #1953: Check birth date
-7 11 3183
-5 5 2189
-
 Case #1954: Check birth date
-6 1 3389
-24 9 2091
-
 Case #1955: Invalid birth date
-16 1 2144
-17 11 2207
-
 Case #1956: Check birth date
-5 9 2444
-19 12 2002
-
 Case #1957: Check birth date
-4 3 2801
-13 9 2147
-
 Case #1958: Check birth date
-6 3 2476
-10 3 2130
-
 Case #1959: Check birth date
-23 3 3021
-1 8 2095
-
 Case #1960: Check birth date
-21 7 3243
-7 11 2244
-
 Case #1961: Check birth date
-20 10 2520
-12 6 2124
-
 Case #1962: Check birth date
-15 8 2729
-25 10 2273
-
 Case #1963: Check birth date
-30 9 2871
-18 2 2107
-
 Case #1964: Check birth date
-11 3 3400
-9 12 2020
-
 Case #1965: Check birth date
-17 6 3403
-25 11 2018
-
 Case #1966: Check birth date
-25 9 3218
-6 10 2213
-
 Case #1967: Check birth date
-16 12 3057
-5 4 2155
-
 Case #1968: Invalid birth date
-11 12 2191
-19 12 2272
-
 Case #1969: Check birth date
-1 11 2863
-17 7 2048
-
 Case #1970: Check birth date
-29 1 3390
-7 2 2096
-
-Case #1971: d:24784 disy:67
-31 8 2208
-22 10 2140
-
+Case #1971: 67
 Case #1972: Check birth date
-22 8 2261
-13 10 2106
-
 Case #1973: Check birth date
-27 8 2884
-22 2 2065
-
 Case #1974: Check birth date
-23 10 2529
-10 9 2218
-
 Case #1975: Check birth date
-17 4 2558
-20 2 2257
-
 Case #1976: Check birth date
-16 4 2414
-8 3 2025
-
-Case #1977: d:36185 disy:99
-22 12 2118
-26 11 2019
-
+Case #1977: 99
 Case #1978: Check birth date
-3 4 3159
-19 5 2052
-
-Case #1979: d:45438 disy:124
-8 12 2260
-13 7 2136
-
+Case #1979: 124
 Case #1980: Check birth date
-6 8 3162
-15 12 2142
-
 Case #1981: Check birth date
-16 7 2301
-20 9 2112
-
-Case #1982: d:21160 disy:57
-1 6 2175
-25 6 2117
-
+Case #1982: 57
 Case #1983: Check birth date
-23 1 3215
-26 7 2154
-
 Case #1984: Check birth date
-14 6 2886
-20 4 2026
-
 Case #1985: Check birth date
-18 9 2790
-14 10 2228
-
 Case #1986: Check birth date
-17 1 2662
-20 10 2224
-
 Case #1987: Check birth date
-17 4 2989
-12 6 2167
-
-Case #1988: d:38545 disy:105
-30 9 2284
-20 3 2179
-
+Case #1988: 105
 Case #1989: Check birth date
-30 11 3189
-18 11 2183
-
 Case #1990: Check birth date
-4 11 2310
-28 11 2173
-
 Case #1991: Check birth date
-17 5 2826
-18 9 2036
-
-Case #1992: d:21588 disy:59
-4 7 2169
-27 5 2110
-
+Case #1992: 59
 Case #1993: Check birth date
-2 10 3250
-15 8 2264
-
 Case #1994: Check birth date
-31 7 2846
-19 12 2173
-
 Case #1995: Check birth date
-9 2 2838
-23 12 2024
-
 Case #1996: Check birth date
-20 12 3120
-23 1 2113
-
 Case #1997: Check birth date
-23 11 3102
-22 7 2066
-
 Case #1998: Check birth date
-15 3 2172
-20 1 2030
-
 Case #1999: Check birth date
-24 12 3277
-18 3 2022
-
 Case #2000: Check birth date
-8 3 3453
-17 7 2240
-
-Case #2001: d:15726 disy:43
-10 9 2241
-20 8 2198
-
+Case #2001: 43
 Case #2002: Check birth date
-29 10 3452
-17 1 2259
-
 Case #2003: Check birth date
-16 1 2313
-1 7 2054
-
 Case #2004: Check birth date
-12 8 3157
-24 5 2028
-
-Case #2005: d:34051 disy:93
-17 5 2136
-23 2 2043
-
+Case #2005: 93
 Case #2006: Check birth date
-6 8 2455
-31 5 2148
-
 Case #2007: Check birth date
-1 10 2919
-8 8 2134
-
 Case #2008: Check birth date
-4 1 3112
-8 4 2109
-
 Case #2009: Check birth date
-12 10 2715
-12 4 2008
-
 Case #2010: Check birth date
-4 8 3391
-29 12 2084
-
-Case #2011: d:24595 disy:67
-6 1 2262
-4 9 2194
-
+Case #2011: 67
 Case #2012: Check birth date
-15 5 2567
-25 7 2050
-
 Case #2013: Check birth date
-9 11 2602
-30 7 2032
-
 Case #2014: Check birth date
-19 5 3238
-16 2 2108
-
 Case #2015: Invalid birth date
-9 11 2086
-23 7 2121
-
 Case #2016: Check birth date
-27 11 3367
-26 1 2037
-
 Case #2017: Check birth date
-21 5 3041
-31 8 2211
-
 Case #2018: Check birth date
-15 9 2898
-25 12 2193
-
 Case #2019: Check birth date
-3 7 3411
-4 12 2121
-
 Case #2020: Check birth date
-15 11 2540
-17 1 2041
-
 Case #2021: Check birth date
-4 6 3297
-20 10 2157
-
 Case #2022: Check birth date
-1 9 2964
-28 3 2084
-
 Case #2023: Check birth date
-8 9 2487
-30 12 2115
-
 Case #2024: Check birth date
-5 10 2325
-19 6 2119
-
 Case #2025: Check birth date
-19 8 3347
-3 9 2190
-
 Case #2026: Check birth date
-20 5 2663
-2 12 2150
-
 Case #2027: Check birth date
-2 4 2487
-14 2 2231
-
 Case #2028: Check birth date
-17 5 2703
-11 2 2117
-
 Case #2029: Check birth date
-16 12 2321
-5 9 2098
-
-Case #2030: d:33731 disy:92
-22 10 2288
-15 6 2196
-
+Case #2030: 92
 Case #2031: Check birth date
-11 1 3296
-25 2 2128
-
 Case #2032: Check birth date
-6 10 2457
-23 12 2178
-
 Case #2033: Check birth date
-17 5 3010
-26 12 2142
-
 Case #2034: Check birth date
-7 3 3131
-29 8 2068
-
 Case #2035: Check birth date
-13 11 2732
-7 8 2157
-
 Case #2036: Check birth date
-23 10 2904
-27 3 2173
-
 Case #2037: Invalid birth date
-5 3 2186
-20 5 2216
-
-Case #2038: d:45586 disy:124
-17 1 2213
-26 3 2088
-
+Case #2038: 124
 Case #2039: Check birth date
-29 4 3392
-11 11 2106
-
 Case #2040: Check birth date
-5 7 2859
-9 9 2205
-
 Case #2041: Check birth date
-28 10 3337
-30 1 2198
-
 Case #2042: Check birth date
-13 3 2692
-17 11 2182
-
-Case #2043: d:5973 disy:16
-1 10 2048
-25 5 2032
-
+Case #2043: 16
 Case #2044: Check birth date
-5 1 2632
-22 12 2189
-
 Case #2045: Check birth date
-2 1 3053
-31 7 2247
-
 Case #2046: Check birth date
-8 11 2401
-30 11 2164
-
 Case #2047: Check birth date
-9 4 2711
-13 12 2260
-
 Case #2048: Check birth date
-21 9 3108
-21 12 2225
-

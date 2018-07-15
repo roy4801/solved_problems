@@ -1,81 +1,11 @@
 /*
  * Uva 11219 - How old are you?
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
 #include <iostream>
 
 using namespace std;
-
-bool isLeapYear(const int y)
-{
-    if((y % 4 == 0 && y % 100 != 0) || y % 400 == 0)
-        return true;
-    else
-        return false;
-}
-
-int getDayOfMonth(const int y, const int m)
-{
-    switch(m)
-    {
-        case 1:
-        case 3:
-        case 5:
-        case 7:
-        case 8:
-        case 10:
-        case 12:
-            return 31;
-        case 2:
-            if(isLeapYear(y))
-                return 29;
-            else
-                return 28;
-        case 4:
-        case 6:
-        case 9:
-        case 11:
-            return 30;
-    }
-}
-
-int getDistance(int now_y, int now_m, int now_d, int bir_y, int bir_m, int bir_d)
-{
-    int day = 0;
-
-    // whole year
-    for(int i = bir_y+1; i < now_y; i++)
-    {
-        if(isLeapYear(i))
-            day += 366;
-        else
-            day += 365;
-    }
-
-    // birthday
-    day += getDayOfMonth(bir_y, bir_m) - bir_d;
-    bir_m++;
-
-    if(bir_m > 12)
-    {
-        bir_y++;
-        bir_m = 1;
-    }
-    else
-        for(int i = bir_m; i <= 12; i++)
-            day += getDayOfMonth(bir_y, i);
-    
-    // now
-    day += now_d;
-
-    for(int i = 1; i < now_m; i++)
-        day += getDayOfMonth(now_y, i);
-
-    
-
-    return day;
-}
 
 int main()
 {
@@ -95,9 +25,41 @@ int main()
         printf("Case #%d: ", t++);
         if(ny >= by)
         {
-            if(ny - by > 130)
+            if(ny > by)
             {
-                printf("Check birth date\n");
+                if(ny - by > 130)
+                {
+                    if(ny - by == 131 && nm <= bm && nd < bd)
+                    {
+                        printf("%d\n", ny - by - 1);
+                    }
+                    else
+                        printf("Check birth date\n");
+                }
+                // ny - by <= 130
+                else
+                {
+                    if(nm < bm)
+                    {
+                        printf("%d\n", ny - by - 1);
+                    }
+                    else if(nm == bm)
+                    {
+                        if(nd < bd)
+                        {
+                            printf("%d\n", ny - by - 1);
+                        }
+                        else if(nd >= bd)
+                        {
+                            printf("%d\n", ny - by);
+                        }
+                    }
+                    // nm > bm
+                    else
+                    {
+                        printf("%d\n", ny - by);
+                    }
+                }
             }
             else if(ny == by)
             {
@@ -115,17 +77,17 @@ int main()
                     {
                         printf("0\n");
                     }
+                    // nd > bd
+                    else
+                    {
+                        printf("%d\n", ny - by);
+                    }
                 }
-            }
-            else
-            {
-                int dis;
-                if((dis = getDistance(ny, nm, nd, by, bm, bd)) >= 365)
-                {
-                    printf("d:%d disy:%d\n", dis, dis / 365);
-                }
+                // nm > bm
                 else
+                {
                     printf("0\n");
+                }
             }
         }
         else
@@ -133,7 +95,7 @@ int main()
             printf("Invalid birth date\n");
         }
 
-        printf("%d %d %d\n%d %d %d\n\n", nd, nm, ny, bd, bm, by);
+        // printf("%d %d %d\n%d %d %d\n\n", nd, nm, ny, bd, bm, by);
     }
 
     return 0;
