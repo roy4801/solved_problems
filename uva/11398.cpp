@@ -1,9 +1,10 @@
 /*
  * Uva 11398 - The Base-1 Number System
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
@@ -16,24 +17,30 @@ int main()
     char in[40];
     char binary[31];
     int now = 0;
+    bool exit = false;
 
-    while(scanf("%s", in) && strcmp("~", in) != 0)
+    while(true)
     {
         bool flag;
         int len;
 
-        while(scanf("%s", in) && strcmp("#", in) != 0 && (len = strlen(in)))
+        while(scanf("%s", in) && (strcmp("#", in) != 0 && (len = strlen(in))))
         {
+            if(strcmp("~", in) == 0)
+            {
+                exit = true;
+                break;
+            }
             // flag
             if(len < 3)
             {
                 if(strcmp("0", in) == 0)
                 {
-                    flag = false;
+                    flag = true;
                 }
                 else if(strcmp("00", in) == 0)
                 {
-                    flag = true;
+                    flag = false;
                 }
             }
             // number
@@ -44,10 +51,19 @@ int main()
             }
         }
 
-        binary[now] = '\0';
-        
-        int ans;
-        sscanf(binary, "%d", &ans);
+        if(!exit)
+        {
+            binary[now] = '\0';
+            
+            int ans;
+            ans = strtol(binary, NULL, 2);
+
+            printf("%d\n", ans);
+
+            now = 0;
+        }
+        else
+            break;
     }
     return 0;
 }
