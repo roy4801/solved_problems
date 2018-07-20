@@ -1,5 +1,5 @@
 /*
- * Uva 11942 - 
+ * Uva 11942 - Lumberjack Sequencing
  * author: roy4801
  * AC(C++) 0.000
  */
