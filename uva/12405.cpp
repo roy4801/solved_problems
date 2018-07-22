@@ -1,7 +1,7 @@
 /*
  * Uva 12405 - Scarecrow
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
 #include <iostream>
 
@@ -21,33 +21,46 @@ int main()
     {
         bool fertile[width];
         char c;
-        int fsoil = 0, scarecrow = 0;
+        int scarecrow = 0;
 
         printf("Case %d: ", i++);
 
-        for(int i = 0; i < width && scanf("%c", &c) != EOF; i++)
+        for(int i = 0; i < width; i++)
         {
-            // printf("Now: %c\n", c);
-            if(c == '.')
-            {
-                fsoil++;
-                fertile[i] = true;
-            }
-            else
-                fertile[i] = false;
+            c = getchar(); // this is AC
+            // scanf(" %c", &c);  // this is WA
+            
+            fertile[i] = (c == '.' ? true : false);
         }
-
-        // printf("\nfsoil: %d\n", fsoil);
 
         for(int i = 0; i < width; i++)
         {
-            
+            if(fertile[i])
+            {
+                fertile[i] = fertile[i + 1] = fertile[i + 2] = false;
+                scarecrow++;
+            }
         }
 
-        // printf("fsoil: %d\n", fsoil);
-        scarecrow += fsoil > 0 ? 1 : 0;
-
         printf("%d\n", scarecrow);
+
+        /* AC */
+        // char c;
+        // int scarecrow = 0;
+
+        // printf("Case %d: ", i++);
+
+        // while((c = getchar()) != '\n' && c != EOF)
+        // {
+        //     if(c == '.')
+        //     {
+        //         scarecrow++;
+        //         getchar();
+        //         getchar();
+        //     }
+        // }
+
+        // printf("%d\n", scarecrow);
     }
 
     return 0;
