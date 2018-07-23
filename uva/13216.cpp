@@ -1,7 +1,7 @@
 /*
  * Uva 13216 - Problem with a ridiculously long name but with a ridiculously short description
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
 #include <iostream>
 #include <cstring>
@@ -44,7 +44,7 @@ int main()
             else if(num[0] >= '7' && num[0] <= '9')
                 printf("%d\n", remainder[(num[0] - '0') % 7 + 2]);
         }
-        else
+        else // 10 ~ 
             printf("%d\n", remainder[(num[len-1] - '0' + 3) % 5 + 2]);
     }
 
