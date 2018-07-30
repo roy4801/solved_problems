@@ -8,4 +8,5 @@ if [ "$?" == "0" ]; then
 	./a.out
 	echo End
 	popd > /dev/null
+	./edit.sh ${1}
 fi
