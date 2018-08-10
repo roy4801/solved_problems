@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-g++ uva/${1}.cpp -o uva/a.out
+g++ -std=c++11 -Wall uva/${1}.cpp -o uva/a.out
 if [ "$?" == "0" ]; then
 	pushd uva/ > /dev/null
 	echo Running
