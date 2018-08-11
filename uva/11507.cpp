@@ -26,9 +26,10 @@ enum DIR
 };
 
 // It's like permutations
+// We mapped all movements in a two-dimensional array
 void initMovement(int m[4][6])
 {
-    // init +y
+    // init +y movements
     m[MOVE_PY][D_PX] = D_PY;
     m[MOVE_PY][D_NX] = D_NY;
     m[MOVE_PY][D_PY] = D_NX;
@@ -36,7 +37,7 @@ void initMovement(int m[4][6])
     m[MOVE_PY][D_PZ] = D_PZ;
     m[MOVE_PY][D_NZ] = D_NZ;
 
-    // init -y
+    // init -y movements
     m[MOVE_NY][D_PX] = D_NY;
     m[MOVE_NY][D_NX] = D_PY;
     m[MOVE_NY][D_PY] = D_PX;
@@ -44,7 +45,7 @@ void initMovement(int m[4][6])
     m[MOVE_NY][D_PZ] = D_PZ;
     m[MOVE_NY][D_NZ] = D_NZ;
 
-    // init +z
+    // init +z movements
     m[MOVE_PZ][D_PX] = D_PZ;
     m[MOVE_PZ][D_NX] = D_NZ;
     m[MOVE_PZ][D_PY] = D_PY;
@@ -52,7 +53,7 @@ void initMovement(int m[4][6])
     m[MOVE_PZ][D_PZ] = D_NX;
     m[MOVE_PZ][D_NZ] = D_PX;
 
-    // init -z
+    // init -z movements
     m[MOVE_NZ][D_PX] = D_NZ;
     m[MOVE_NZ][D_NX] = D_PZ;
     m[MOVE_NZ][D_PY] = D_PY;
