@@ -71,9 +71,11 @@ int main()
 			doll[i].h = tmpH;
 		}
 
+		// Sorting in the descending width
+		// if the width is the same, sorting in the ascending height
 		std::sort(doll, doll + d, Doll::cmp);
 
-		int gIdx = 1;
+		int gIdx = 1; // group number
 		for(int i = 0; i < d; i++)
 		{
 			int target = i + 1, now = i;
@@ -98,10 +100,10 @@ int main()
 			}
 		}
 
-		// for(int i = 0; i < d; i++)
-		// {
-		// 	printf("%d %d %d\n", doll[i].w, doll[i].h, doll[i].group);
-		// }
+		for(int i = 0; i < d; i++)
+		{
+			printf("%d %d %d\n", doll[i].w, doll[i].h, doll[i].group);
+		}
 		// Count the group number
 		int n = 1;
 
