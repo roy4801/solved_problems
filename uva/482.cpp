@@ -1,7 +1,7 @@
 /*
  * Uva 482 - Permutation Arrays
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
 #include <iostream>
 #include <vector>
@@ -25,7 +25,7 @@ int main()
 
     while(cases--)
     {
-        std::vector<std::pair<int, float> > permu;
+        std::vector<std::pair<int, std::string> > permu;
         std::string in;
 
         getline(cin, in);
@@ -34,12 +34,12 @@ int main()
         int tmp;
 
         while(ss >> tmp)
-            permu.push_back(std::pair<int, float>(tmp, 0.f));
+            permu.push_back(std::pair<int, std::string>(tmp, ""));
 
         for(int i = 0; i < permu.size() && cin >> permu[i].second; i++);
 
         std::sort(permu.begin(), permu.end(), 
-            [&](std::pair<int, float> lhs, std::pair<int, float> lhs)
+            [&](std::pair<int, std::string> lhs, std::pair<int, std::string> rhs)
             {
                 return lhs.first < rhs.first;
             });
@@ -48,6 +48,10 @@ int main()
         {
             std::cout << permu[i].second << std::endl;
         }
+
+        if(cases > 0)
+        	cout << '\n';
+        cin.ignore(2);
     }
 
     return 0;
