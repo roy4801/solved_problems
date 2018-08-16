@@ -1,7 +1,7 @@
 /*
  * Uva 893 - Y3K Problem
  * author: roy4801
- * (C++)
+ * AC(C++) 0.030
  */
 #include <iostream>
 #include <cstdint>
@@ -58,23 +58,23 @@ int main()
         year = day = 0;
         month = 1;
 
-        int target = 0; // from year 0
+        // int target = 0; // from year 0
         
         while(now > 0)
         {
             bool whole = false;
 
-            if(isLeapYear(target++) && now > 366)
+            if(isLeapYear(year) && now > 366)
             {
                 now -= 366;
-                year++;
                 whole = true;
+                year++;
             }
-            else if(now > 365)
+            else if(!isLeapYear(year) && now > 365)
             {
                 now -= 365;
-                year++;
                 whole = true;
+                year++;
             }
             
             // Not the whole year
