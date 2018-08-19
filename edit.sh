@@ -7,3 +7,4 @@ if [[ "${platform}"=="Linux" ]]; then
 elif [[ "${platform}"=="Darwin" ]]; then
 	open -a 'Sublime Text' uva/${1}.cpp uva/testdata/${1}.in uva/testdata/${1}.out
 fi
+
