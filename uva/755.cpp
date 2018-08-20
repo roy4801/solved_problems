@@ -1,7 +1,7 @@
 /*
  * Uva 755 - 487--3279
  * author: roy4801
- * (C++) 
+ * AC(C++) 0.540
  */
 #include <iostream>
 #include <cctype>
@@ -40,12 +40,10 @@ int main()
 
 	while(cases-- && scanf("%d ", &phone) != EOF)
 	{
-		// map<string, int> strIdx;
-		// vector<string> str;
-		vector<int> times(1);
+		map<string, int> strIdx;
+		int now = 1;
 
 		vector<pair<string, int> > str;
-		int now = 1;
 
 		for(int i = 0; i < phone; i++)
 		{
@@ -53,7 +51,6 @@ int main()
 
 			while((c = getchar()) != EOF && c != '\n')
 			{
-
 				if(isalnum(c))
 				{
 					*p++ = isalpha(c) ? letterToNum[c] : c;
@@ -61,35 +58,41 @@ int main()
 			}
 			*p = '\0';
 
+			// Add a phone number if it's first time
 			if(!strIdx[number])
-				str.push_back(number);
-
-			// add new to map and update number of str
-			// addToMap(strIdx, times, number, now);
-
-			// sort
-			sort(str.begin(), str.end(), [&](const string lhs, const string rhs) -> bool
 			{
-				return stoi(lhs) < stoi(rhs);
-			});
+				strIdx[number] = now++;
+				str.push_back(pair<string, int>(number, 1));
+			}
+			// increment
+			else
+				str[strIdx[number]-1].second++;
+
+			#if 0
+			for(int i = 0; i < str.size() && (~printf("%d %s %d\n", i+1, str[i].first.c_str(), str[i].second)); i++);
+			putchar('\n');
+			#endif
 		}
+		
+		// sort
+		sort(str.begin(), str.end(), [&](const pair<string, int> lhs, const pair<string, int> rhs) -> bool
+		{
+			return stoi(lhs.first) < stoi(rhs.first);
+		});
 
-		// for(int i = 1; i < times.size() && (~printf("%d\n", times[i])); i++);
-
+		// print phone number list with '-'
 		bool print = false;
 		for(int i = 0; i < str.size(); i++)
 		{
-			int idx = strIdx[str[i]];
-
-			if(times[idx] > 1)
+			if(str[i].second > 1)
 			{
-				str[i].insert(3, 1,'-');
+				str[i].first.insert(3, 1,'-');
 
-				printf("%s ", str[i].c_str());
+				printf("%s ", str[i].first.c_str());
 
-				str[i].erase(3, 1);
+				str[i].first.erase(3, 1);
 
-				printf("%d\n", times[idx]);
+				printf("%d\n", str[i].second);
 				print = true;
 			}
 		}
@@ -99,7 +102,6 @@ int main()
 
 		if(cases > 0)
 			putchar('\n');
-
 	}
 
 	return 0;
