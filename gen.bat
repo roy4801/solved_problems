@@ -5,9 +5,9 @@ if -%1-==-- (
     goto :end
 )
 
-echo.>uva\%1.cpp
-echo.>uva\testdata\%1.in
-echo.>uva\testdata\%1.out
+echo.>%1\%2.cpp
+echo.>%1\testdata\%2.in
+echo.>%1\testdata\%2.out
 echo Created
 goto :end
 
