@@ -1,3 +1,3 @@
 @echo off
 
-gen.bat %1 && edit.bat %1
+gen.bat uva %1 && edit.bat %1
