@@ -3,7 +3,7 @@
  * author: roy4801
  * (C++)
  */
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
