@@ -1,10 +1,12 @@
 #!/bin/bash
 
 platform=$(uname)
+editor=
 
 if [[ "${platform}"=="Linux" ]]; then
-	subl uva/${1}.cpp uva/testdata/${1}.in uva/testdata/${1}.out
+	editor=subl
 elif [[ "${platform}"=="Darwin" ]]; then
-	open -a 'Sublime Text' uva/${1}.cpp uva/testdata/${1}.in uva/testdata/${1}.out
+	editpr=open -a 'Sublime Text'
 fi
 
+$editor ${1}/${2}.cpp ${1}/testdata/${2}.in ${1}/testdata/${2}.out

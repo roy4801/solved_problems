@@ -1,5 +1,7 @@
 #!/bin/bash
 
-git add uva/${1}.cpp uva/testdata/${1}.in uva/testdata/${1}.out
-git commit -m "${1}"
+# usage: ./addcommit.sh <type> <problem>
+
+git add ${1}/${2}.cpp ${1}/testdata/${2}.in ${1}/testdata/${2}.out
+git commit -m "${1}/${2}"
 git push origin master
