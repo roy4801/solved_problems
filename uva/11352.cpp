@@ -17,21 +17,39 @@ int sp[2], ep[2];
 int mm[105][105];
 queue<pair<int, int> > que;
 
-#define GG(x, y) que.push(make_pair((x), (y)))
 
-bool notBarr(char c)
+
+inline bool notBarr(char c)
 {
 	return c != 'Z' && c != 'x' && c != 'A';
 }
 
-bool go()
+inline bool canPlace(char c)
 {
-	int i = que.front().first, j = que.front().second;
-	// if touch end
-	if(i == ep[0] && j == ep[1])
-		return true;
+	return c == '.';
+}
+
+int nowStep = 0;
+bool touchEnd = false;
+
+void GG(int x, int y)
+{
+	que.push(make_pair(x, y));
+
+	if(isdigit(mm[x][y]))
+	{
+		if(mm[x][y] - '0' > nowStep)
+			mm[x][y] = '0' + nowStep;
+	}
 	else
-		mm[i][j] = 'A';
+		mm[x][y] = '0' + nowStep;
+}
+
+void go()
+{
+	nowStep++;
+
+	int i = que.front().first, j = que.front().second;
 
 	// Left
 	if(j > 0)
@@ -39,9 +57,15 @@ bool go()
 		// Left
 		if(notBarr(mm[i][j-1]))
 			GG(i, j-1);
+		// Left up
+		if(i > 0 && notBarr(mm[i-1][j-1]))
+			GG(i-1, j-1);
+		// Left down
+		if(i < m-1 && notBarr(mm[i+1][j-1]))
+			GG(i+1, j-1);
 	}
 	// Right
-	if(j < n)
+	if(j < n-1)
 	{
 		// Right
 		if(notBarr(mm[i][j+1]))
@@ -51,34 +75,36 @@ bool go()
 		if(i > 0 && notBarr(mm[i-1][j+1]))
 			GG(i-1, j+1);
 		// Right Down
-		if(i < m && notBarr(mm[i+1][j+1]))
+		if(i < m-1 && notBarr(mm[i+1][j+1]))
 			GG(i+1, j+1);
 	}
 	// Up
 	if(i > 0 && notBarr(mm[i-1][j]))
 		GG(i-1, j);
 	// Down
-	if(i < m && notBarr(mm[i+1][j]))
+	if(i < m-1 && notBarr(mm[i+1][j]))
 		GG(i+1, j);
-
-	return false;
 }
 
 int bfs(int m, int n)
 {
 	int step = 0;
-	bool found;
 	que.push(make_pair(sp[0], sp[1]));
 
 	while(!que.empty())
 	{
-		step++;
-
-		found = go();
+		go();
 		que.pop();
 	}
 
-	return found ? step : 0;
+	if(mm[ep[0]][ep[1]] != 'B')
+		step = mm[ep[0]][ep[1]] - '0';
+
+	// clear
+	nowStep = 0;
+	touchEnd = false;
+
+	return step;
 }
 
 int main()
@@ -113,23 +139,45 @@ int main()
 			{
 				if(mm[i][j] == 'Z')
 				{
-					if(i > 2)
+					// Up
+					if(i >= 2)
 					{
-						// left up
-						if(j > 2 && mm[i-2][j-2] != 'Z')
-							mm[i-2][j-2] = 'x';
-						// right up
-						if(j < n -2 && mm[i-2][j+2] != 'Z')
-							mm[i-2][j+2] = 'x';
+						// up left
+						if(j >= 1 && canPlace(mm[i-2][j-1]))
+							mm[i-2][j-1] = 'x';
+						// up right
+						if(j <= n-2  && canPlace(mm[i-2][j+1]))
+							mm[i-2][j+1] = 'x';
 					}
-					if(i < n-2)
+					// Down
+					if(i <= n-3)
 					{
-						// left down
-						if(j > 2 && mm[i+2][j-2] != 'Z')
-							mm[i+2][j-2] = 'x';
-						// right down
-						if(j < n - 2 && mm[i+2][j+2]  != 'Z')
-							mm[i+2][j+2] = 'x';
+						// down left
+						if(j >= 1 && canPlace(mm[i+2][j-1]))
+							mm[i+2][j-1] = 'x';
+						// down right
+						if(j <= n-2 && canPlace(mm[i+2][j+1]))
+							mm[i+2][j+1] = 'x';
+					}
+					// Left
+					if(j >= 2)
+					{
+						// Left up
+						if(i >= 1 && canPlace(mm[i-1][j-2]))
+							mm[i-1][j-2] = 'x';
+						// Left down
+						if(i <= n-2 && canPlace(mm[i+1][j-2]))
+							mm[i+1][j-2] = 'x';
+					}
+					// Right
+					if(j <= n-3)
+					{
+						// Right up
+						if(i >= 1 && canPlace(mm[i-1][j+2]))
+							mm[i-1][j+2] = 'x';
+						// Right down
+						if(i <= n-2 && canPlace(mm[i+1][j+2]))
+							mm[i+1][j+2] = 'x';
 					}
 				}
 				else if(mm[i][j] == 'A')
@@ -144,7 +192,7 @@ int main()
 				}
 			}
 
-		#if 0
+		#if 1
 		printf("%d %d | %d %d\n", sp[0], sp[1], ep[0], ep[1]);
 		for(int i = 0; i < m; i++)
 		{
@@ -157,12 +205,12 @@ int main()
 		#endif
 
 		// King walk
-		int step = bfs(m, n);
+		// int step = bfs(m, n);
 
-		if(!step)
-			printf("King Peter, you can't go now!\n");
-		else
-			printf("Minimal possible length of a trip is %d\n", step);
+		// if(!step)
+		// 	printf("King Peter, you can't go now!\n");
+		// else
+		// 	printf("Minimal possible length of a trip is %d\n", step);
 		//
 		//
 		#if 0

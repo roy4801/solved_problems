@@ -1,4 +1,21 @@
-Minimal possible length of a trip is 104
-Minimal possible length of a trip is 15
-Minimal possible length of a trip is 297
-King Peter, you can't go now!
+4 0 | 0 4
+xZ.xB
+x.Zx.
+Z.xxZ
+.Zxx.
+Ax.x.
+2 0 | 0 1
+ZB
+.Z
+AZ
+5 0 | 0 4
+....B
+.x.x.
+x...x
+..Z.x
+xx..x
+A..Z.
+2 0 | 2 1
+ZZ.
+..x
+ABx
