@@ -1,7 +1,7 @@
 /*
  * HOJ 5 - 漢米頓的麻煩
  * author: roy4801
- * (C++)
+ * AC(C++) 0.138
  */
 #include <bits/stdc++.h>
 
