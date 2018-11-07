@@ -1,7 +1,8 @@
 /*
  * UVA 11997 - K Smallest Sums
  * author: roy4801
- * (C++)
+ * ref: SunTalk
+ * AC(C++) 0.180
  */
 #include <bits/stdc++.h>
 
@@ -12,19 +13,11 @@ using namespace std;
 
 #define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
 
-struct Term
-{
-	int val, idx;
-	Term(int val, int idx)
-	{
-		this->val = val;
-		this->idx = idx;
-	}
-	friend bool operator>(const Term &lhs, const Term &rhs)
-	{
-		return lhs.val > rhs.val;
-	}
-};
+#define N 750
+
+#define F first
+#define S second
+typedef pair<int, int> P;
 
 int main()
 {
@@ -33,17 +26,39 @@ int main()
 	freopen("./testdata/" PROB ".out", "w", stdout);
 	#endif
 	int n, in;
-	bool first = true;
-
-	while(scanf("%d", &n) != EOF)
-	{
-		priority_queue<Term, vector<Term>, greater<Term> > pq;
-		int fir[n], sec[n];
-
-		for(int i = 0; i < n && sacnf("%d", &fir[i]) != EOF; i++);
-		for(int i = 0; i < n && scanf("%d", &sec[i]) != EOF; i++);
-
-	}
+    int one[N], two[N];
+    P tmp;
+    
+    while(cin >> n)
+    {
+        for(int i = 0; i < n && cin >> in; i++)
+            one[i] = in;
+        sort(one, one + n);
+        
+        for(int i = 1; i < n; i++)
+        {
+            for(int j = 0; j < n && cin >> in; j++)
+                two[j] = in;
+            sort(two, two + n);
+            
+            priority_queue<P, vector<P>, greater<P> > pq; // (sum, idx)
+            
+            for(int j = 0; j < n; j++)
+                pq.emplace(one[j] + two[0], 0);
+            
+            for(int j = 0; j < n; j++)
+            {
+                tmp = pq.top();
+                pq.pop();
+                one[j] = tmp.F;
+                
+                pq.emplace(tmp.F - two[tmp.S] + two[tmp.S+1], tmp.S+1);
+            }
+        }
+        
+        for(int i = 0; i < n; i++)
+            printf(i != n-1 ? "%d " : "%d\n", one[i]);
+    }
 
 	return 0;
 }
