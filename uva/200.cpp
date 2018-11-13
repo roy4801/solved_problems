@@ -1,15 +1,9 @@
 /*
  * UVA 200 - Rare Order
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
-// #include <bits/stdc++.h>
-#include <iostream>
-#include <map>
-#include <vector>
-#include <queue>
-#include <string>
-#include <utility>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -33,7 +27,7 @@ char iToc[V];
 int now;
 string up, down;
 
-int n, m; // vertex, edge
+int n; // vertex
 
 void addEdge(char a, char b)
 {
@@ -48,12 +42,18 @@ void addEdge(char a, char b)
 		iToc[mp[b]] = b;
 	}
 
+	// cout << "addEdge " << a << " = " << mp[a] << ' ' << b << " = " << mp[b] << '\n';
+
 	e[mp[a]].push_back(mp[b]);
 }
 
 string topo_sort()
 {
+	n = now;
 	string res;
+
+	for(int i = 0; i < n; i++)
+		conn[i] = 0;
 
 	for(int i = 0; i < n; i++)
 		for(int j : e[i])
@@ -61,11 +61,7 @@ string topo_sort()
 			conn[j]++;
 		}
 
-	for(int i = 0; i < n; i++)
-		cout << conn[i] << ' ';
-
 	queue<int> q;
-
 	for(int i = 0; i < n; i++)
 		if(!conn[i])
 			q.push(i);
@@ -77,15 +73,16 @@ string topo_sort()
 
 		int f = q.front(); q.pop();
 
+		// cout << "Pick " << f << '\n';
+
 		conn[f] = -1;
 		res += iToc[f];
-		cout << iToc[f];
 
 		for(int j : e[f])
 		{
 			conn[j]--;
 			if(!conn[j])
-				q.push(i);
+				q.push(j);
 		}
 	}
 
@@ -99,35 +96,43 @@ int main()
 	freopen("./testdata/" PROB ".out", "w", stdout);
 	#endif
 	string in;
-	int i = 0, j = 0;
 
-	cin >> up;
-	while(up != "#")
-	{
-		if(cin >> down && down != "#")
+Read:
+	if(cin >> up)
+		while(up != "#")
 		{
-			while(i < up.size() || j < down.size())
+			int i = 0, j = 0;
+			if(cin >> down && down != "#")
 			{
-				if(up[i] != down[j])
+				while(i < up.size() && j < down.size())
 				{
-					addEdge(up[i], down[j]);
-					cout << "Add: " << up[i] << ' ' << down[i] << '\n';
-					break;
+					if(up[i] != down[j])
+					{
+						addEdge(up[i], down[j]);
+						// cout << up[i] << ' ' << down[j] << '\n';
+						break;
+					}
+					if(i < up.size())
+						i++;
+					if(j < down.size())
+						j++;
 				}
-
-				if(i < up.size())
-					i++;
-				if(j < down.size())
-					j++;
 			}
+			if(down == "#")
+			{
+				auto res = topo_sort();
+				cout << res << '\n';
+
+				for(int i = 0; i < V; i++)
+					e[i].clear();
+				mp.clear();
+				now = 0;
+				for(int i = 0; i < V; i++)
+					iToc[i] = 0;
+
+				goto Read;
+			}
+			up = down;
 		}
-
-		up = down;
-	}
-
-	auto res = topo_sort();
-
-	cout << res << '\n';
-
 	return 0;
 }
