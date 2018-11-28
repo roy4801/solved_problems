@@ -1,7 +1,7 @@
 /*
  * UVA 147 - Dollars
  * author: roy4801
- * (C++)
+ * AC(C++) 0.010
  */
 #include <bits/stdc++.h>
 
