@@ -3,3 +3,5 @@
 * [ ] 403 - Postscript
 * [ ] 1610 - Party Games
 * [x] 147 - Dollars
+* [ ] 1234 - RACING
+* [ ] 1619 - Feel Good
