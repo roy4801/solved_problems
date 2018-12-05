@@ -3,6 +3,6 @@
 * [ ] 403 - Postscript
 * [ ] 1610 - Party Games
 * [x] 147 - Dollars
-* [ ] 1234 - RACING
+* [x] 1234 - RACING
 	* maxmium spanning tree
 * [ ] 1619 - Feel Good
