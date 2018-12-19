@@ -1,3 +1,8 @@
+/*
+ * Uva 10591 - Happy Number
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 
 int digitSquareSum(int num)

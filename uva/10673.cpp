@@ -1,5 +1,5 @@
 /*
- * Uva 10673 -
+ * Uva 10673 - Play with Floor and Ceil
  * author: roy4801
  * AC(C++) 0.160
  */

@@ -1,3 +1,8 @@
+/*
+ * Uva 10633 - Rare Easy Problem
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 
 using namespace std;

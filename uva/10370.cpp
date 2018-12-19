@@ -1,5 +1,5 @@
 /*
- * Uva 10370 - 	Above Average
+ * Uva 10370 - Above Average
  * author: roy4801
  * AC(C++) 0.000
  */

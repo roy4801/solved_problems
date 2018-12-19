@@ -1,3 +1,8 @@
+/*
+ * 100 - The 3n + 1 problem
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,8 @@
+/*
+ * Uva 10300 - Ecological Premium
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 
 using namespace std;
@@ -5,7 +10,6 @@ using namespace std;
 int main()
 {
 	#ifndef ONLINE_JUDGE
-	// for auto test
 	freopen("10300.in", "r", stdin);
 	freopen("10300.out", "w", stdout);	
 	#endif
