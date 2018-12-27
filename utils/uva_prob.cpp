@@ -90,7 +90,7 @@ int main()
     string prob_str;
     auto list = listDir("../uva/");
     //
-    oFile.open("README.md");
+    oFile.open("../uva/README.md", ios::out | ios::trunc);
     //
     int min_num = INT_MIN;
     int ac_num = 0, total_prob = 0;
