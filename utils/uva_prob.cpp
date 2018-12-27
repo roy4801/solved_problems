@@ -3,19 +3,58 @@ using namespace std;
 
 #define MAX_CAT 200
 
-#define USE_FILE 0
-
-#if USE_FILE
-    #define IN fstm
-#else
-    #define IN cin
-#endif
-
-
 fstream fstm;
 vector<int> ll[MAX_CAT];
 
 ofstream oFile;
+
+#ifdef __APPLE__
+#include <dirent.h>
+
+vector<string> listDir(const string dir)
+{
+    static const char* donwant[] = {".DS_Store", "a.out", "README.md", "_ref"};
+    vector<string> list;
+    struct dirent *dirEnt;
+    DIR *pDir;
+    // Open dir
+    if(!(pDir = opendir(dir.c_str())))
+    {
+        cout << "Cannot open dir " + dir << '\n';
+        return list;
+    }
+    // Read dir
+    while(dirEnt = readdir(pDir))
+    {
+        if(dirEnt->d_type != DT_DIR)
+        {
+            // Find donwant pattern
+            bool found = false;
+            for(int i = 0; i < sizeof(donwant)/sizeof(const char*); i++)
+            {
+                if(strstr(dirEnt->d_name, donwant[i]))
+                {
+                    found = true;
+                    break;
+                }
+            }
+
+            if(!found)
+            {
+                // Strip .cpp
+                istringstream iss(dirEnt->d_name);
+                string s;
+                getline(iss, s, '.');
+                // add
+                list.push_back(s);
+            }
+        }
+    }
+
+    closedir(pDir);
+    return list;
+}
+#endif
 
 pair<bool, string> getStat(int n)
 {
@@ -49,25 +88,22 @@ int main()
 {
     bool AC;
     string prob_str;
+    auto list = listDir("../uva/");
     //
-#if USE_FILE
-    IN.open("temp.txt");
-#endif
-    
     oFile.open("README.md");
-    string s;
-    // in
+    //
     int min_num = INT_MIN;
     int ac_num = 0, total_prob = 0;
-
-    while(IN >> s)
+    // Read problem nums
+    for(auto i = list.begin(); i < list.end(); i++)
     {
-        int sn = stod(s);
+        int sn = stod(*i);
         if(getStat(sn).first)
             ac_num++;
         total_prob++;
         ll[sn / 100].push_back(sn);
     }
+    
     // out
     oFile << "# Uva" << '\n';
     oFile << '\n' << "> ";
@@ -87,10 +123,6 @@ int main()
         }
     }
     //
-#if USE_FILE
-    if(fstm.is_open())
-        fstm.close();
-#endif
     if(oFile.is_open())
         oFile.close();
     return 0;
