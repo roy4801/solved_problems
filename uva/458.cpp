@@ -1,3 +1,8 @@
+/*
+ * Uva 458 - The Decoder
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 #include <cstring>
 

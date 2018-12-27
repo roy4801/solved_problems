@@ -1,5 +1,5 @@
 /*
- * Uva 11547 - 
+ * Uva 11547 - Automatic Answer
  * author: roy4801
  * AC(C++) 0.000
  */

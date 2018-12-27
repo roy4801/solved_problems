@@ -1,7 +1,7 @@
 /*
  * Uva 457 - Linear Cellular Automata
  * author: roy4801
- * AC(c++)
+ * AC(C++)
  */
 #include <iostream>
 

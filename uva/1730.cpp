@@ -1,3 +1,8 @@
+/*
+ * Uva 1730 - Sum of MSLCM
+ * author: roy4801
+ * (C++)
+ */
 #include <iostream>
 
 using namespace std;

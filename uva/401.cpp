@@ -1,3 +1,8 @@
+/*
+ * UVA 401 - Palindromes
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 #include <cstring>
 #include <map>
@@ -5,41 +10,6 @@
 using namespace std;
 
 map<char, char> m;
-
-// bool isPalindrome(const char str[])
-// {
-// 	int length = strlen(str);
-// 	int half, same = 0;
-// 	// Odd
-// 	if(length % 2 != 0)
-// 	{
-// 		half = (length + 1) / 2;
-// 	}
-// 	else
-// 	{
-// 		half = length / 2;
-// 	}
-
-// 	// std::cout << half << std::endl;
-
-// 	for(int i = 0; i < half; i++)
-// 	{
-// 		if(str[i] == str[length - 1 -i] && isalpha(str[i]) && isalpha(str[length - 1 - i]))
-// 		{
-// 			same++;
-// 		}
-// 	}
-
-// 	// std::cout << same << std::endl;
-// 	if(same == half)
-// 	{
-// 		return true;
-// 	}
-// 	else
-// 	{
-// 		return false;
-// 	}
-// }
 
 bool isMirror(const char str[])
 {

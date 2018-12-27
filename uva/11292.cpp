@@ -1,3 +1,8 @@
+/*
+ * Uva 11292 - Dragon of Loowater
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 #include <algorithm>
 

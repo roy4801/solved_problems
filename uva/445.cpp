@@ -1,3 +1,8 @@
+/*
+ * UVA 445 - Marvelous Mazes
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 #include <cctype>
 #include <cstring>

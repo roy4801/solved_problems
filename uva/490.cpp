@@ -1,3 +1,8 @@
+/*
+ * Uva 490 - Rotating Sentences
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 #include <cstring>
 

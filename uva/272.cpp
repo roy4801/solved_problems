@@ -1,3 +1,8 @@
+/*
+ * UVA 272 - TEX Quotes
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 
 using namespace std;

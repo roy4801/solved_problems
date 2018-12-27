@@ -1,5 +1,5 @@
 /*
- * Uva 11875 - 
+ * Uva 11875 - Brick Game
  * author: roy4801
  * AC(C++) 0.000
  */

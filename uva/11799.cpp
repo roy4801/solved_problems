@@ -1,5 +1,5 @@
 /*
- * Uva 11779 - Horror Dash
+ * Uva 11799 - Horror Dash
  * author: roy4801
  * AC(C++) 0.000
  */

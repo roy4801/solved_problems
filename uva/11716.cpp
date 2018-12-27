@@ -1,3 +1,8 @@
+/*
+ * Uva 11716 - Digital Fortress
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 #include <cstring>
 #include <cmath>

@@ -100,10 +100,10 @@ int main()
 			}
 		}
 
-		for(int i = 0; i < d; i++)
-		{
-			printf("%d %d %d\n", doll[i].w, doll[i].h, doll[i].group);
-		}
+		// for(int i = 0; i < d; i++)
+		// {
+		// 	printf("%d %d %d\n", doll[i].w, doll[i].h, doll[i].group);
+		// }
 		// Count the group number
 		int n = 1;
 

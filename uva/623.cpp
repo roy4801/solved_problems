@@ -1,3 +1,8 @@
+/*
+ * Uva 623 - 500!
+ * author: roy4801
+ * (C++)
+ */
 #include <iostream>
 #include <vector>
 

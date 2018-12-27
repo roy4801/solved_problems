@@ -1,10 +1,13 @@
+/*
+ * Uva 11991 - Easy Problem from Rujia Liu?
+ * author: roy4801
+ * AC(C++) 0.050
+ */
 #include <iostream>
 #include <map>
 #include <vector>
 
 using namespace std;
-
-// AC(C++) 0.050
 
 int main()
 {

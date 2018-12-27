@@ -1,3 +1,8 @@
+/*
+ * Uva 10127 - Ones
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 
 using namespace std;

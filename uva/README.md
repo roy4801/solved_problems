@@ -1,9 +1,13 @@
 # Uva
+
+> AC/Total = 150 / 167
+
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
 * [ ] 101 - The Blocks Problem
+* [ ] 104 - Arbitrage
 * [x] 119 - Greedy Gift Givers
-* [ ] 130 - 
+* [ ] 130 - Roman Roulette
 * [x] 145 - Gondwanaland Telecom
 * [x] 146 - ID Codes
 * [x] 147 - Dollars
@@ -11,26 +15,26 @@
 ## Volume 2
 * [x] 200 - Rare Order
 * [ ] 230 - Borrowers
-* [ ] 272 - 
+* [x] 272 - TEX Quotes
 
 ## Volume 3
 * [x] 352 - The Seasonal War
 * [x] 357 - Let Me Count The Ways
 
 ## Volume 4
-* [ ] 401 - 
+* [x] 401 - Palindromes
 * [ ] 403 - Postscript
-* [ ] 445 - 
+* [x] 445 - Marvelous Mazes
 * [x] 457 - Linear Cellular Automata
-* [ ] 458 - 
+* [x] 458 - The Decoder
 * [x] 462 - Bridge Hand Evaluator
 * [x] 476 - Points in Figures: Rectangles
 * [x] 477 - Points in Figures: Rectangles and Circles
 * [x] 482 - Permutation Arrays
-* [ ] 488 - 
+* [ ] 488 - Triangle Wave
 * [x] 489 - Hangman Judge
-* [ ] 490 - 
-* [ ] 494 - 
+* [x] 490 - Rotating Sentences
+* [x] 494 - Kindergarten Counting Game
 
 ## Volume 5
 * [x] 514 - Rails
@@ -41,7 +45,7 @@
 ## Volume 6
 * [x] 620 - Cellular Structure
 * [x] 621 - Secret Research
-* [x] 623 - 
+* [x] 623 - 500!
 * [x] 661 - Blowing Fuses
 * [x] 674 - Coin Change
 * [x] 686 - Goldbach's Conjecture (II)
@@ -71,10 +75,10 @@
 * [ ] 1619 - Feel Good
 
 ## Volume 17
-* [ ] 1730 - 
+* [ ] 1730 - Sum of MSLCM
 
 ## Volume 100
-* [ ] 10010 - 
+* [ ] 10010 - Where's Waldorf?
 * [x] 10018 - Reverse and Add
 * [x] 10035 - Primary Arithmetic
 * [x] 10038 - Jolly Jumpers
@@ -83,9 +87,10 @@
 * [x] 10082 - WERTYU
 
 ## Volume 101
+* [ ] 10101 - Bangla Numbers
 * [x] 10107 - What is the Median?
 * [x] 10114 - Loansome Car Buyer
-* [ ] 10127 - 
+* [x] 10127 - Ones
 * [x] 10141 - Request for Proposal
 * [x] 10144 - Expression
 
@@ -119,6 +124,7 @@
 * [x] 10696 - f91
 
 ## Volume 107
+* [ ] 10776 - Determine the combination
 * [x] 10783 - Odd Sum
 * [x] 10789 - Prime Frequency
 
@@ -150,7 +156,7 @@
 * [x] 11204 - Musical instruments
 * [x] 11219 - How old are you?
 * [x] 11235 - Frequent values
-* [ ] 11292 - 
+* [x] 11292 - Dragon of Loowater
 
 ## Volume 113
 * [x] 11332 - Summing Digits
@@ -170,7 +176,7 @@
 ## Volume 115
 * [x] 11507 - Bender B. Rodríguez Problem
 * [x] 11541 - Decoding
-* [x] 11547 - 
+* [x] 11547 - Automatic Answer
 * [x] 11559 - Event Planning
 * [x] 11577 - Letter Frequency
 * [x] 11586 - Train Tracks
@@ -181,17 +187,17 @@
 * [x] 11679 - Sub-prime
 * [x] 11683 - Laser Sculpture
 * [x] 11687 - Digits
-* [x] 11689 - 
+* [x] 11689 - Soda Surpler
 
 ## Volume 117
-* [ ] 11716 - 
+* [x] 11716 - Digital Fortress
 * [x] 11727 - Cost Cutting
 * [x] 11743 - Credit Check
 * [x] 11764 - Jumping Mario
-* [x] 11799 - 
+* [x] 11799 - Horror Dash
 
 ## Volume 118
-* [x] 11875 - 
+* [x] 11875 - Brick Game
 * [x] 11879 - Multiple of 17
 
 ## Volume 119
@@ -200,7 +206,7 @@
 * [x] 11956 - Brainfuck
 * [x] 11984 - A Change in Thermal Unit
 * [x] 11988 - Broken Keyboard (a.k.a. Beiju Text)
-* [x] 11991 - 
+* [x] 11991 - Easy Problem from Rujia Liu?
 * [x] 11997 - K Smallest Sums
 
 ## Volume 120

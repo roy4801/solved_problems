@@ -1,3 +1,8 @@
+/*
+ * Uva 488 - Triangle Wave
+ * author: roy4801
+ * (C++)
+ */
 #include <iostream>
 
 using namespace std;

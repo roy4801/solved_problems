@@ -1,3 +1,8 @@
+/*
+ * Uva 494 - Kindergarten Counting Game
+ * author: roy4801
+ * AC(C++)
+ */
 #include <iostream>
 //#include <ctype.h>
 
