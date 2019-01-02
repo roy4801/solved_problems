@@ -17,6 +17,7 @@ typedef pair<double, double> P;
 
 #define N 10000
 int n, l, w;
+int size;
 P cir[N]; // l, r
 
 #define CALC(r) sqrt(pow((double)(r), 2) - pow((double)w, 2) / 4.0)
@@ -32,21 +33,70 @@ int main()
 	{
 		for(int i = 0; i < n && cin >> x >> r; i++)
 		{
-			cir[i].F = x - CALC(r);
-			cir[i].S = x + CALC(r);
+			double wid = CALC(r);
+			if(!isnan(wid))
+			{
+				cir[i].F = x - wid;
+				cir[i].S = x + wid;
+				size++;
+			}
 		}
 		
 		sort(cir, cir + n);
-
-		bool valid = true;
-		auto cur = cir[0];
-		for(int i = 1; i < n; i++)
+		//
+		for(int i = 0; i < n; i++)
+			cout << fixed << setprecision(2) << cir[i].F << ' ' << cir[i].S << '\n';
+		puts("------------------------------");
+		//
+		int le = 0, ri = 0;
+		int cnt = 0;
+		int stat = 0;
+		bool pass;
+		//
+		int max = INT_MIN, mI;
+		bool select = false;
+		for(int i = 0; i < size;)
 		{
-			if(cir[i] <= cur.S)
+			auto cur = cir[i];
+			// start
+			if(stat == 0)
 			{
-				
+				if(cur.F <= le)
+				{
+					ri = cur.S;
+					cnt++;
+					stat = 1;
+				}
 			}
+			else if(stat == 1) // mid
+			{
+				if(cur.F <= ri)
+				{
+					if(cur.S > max)
+					{
+						mI = i;
+						select = true;
+					}
+				}
+				else
+				{
+					if(select)
+					{
+						cnt++;
+						ri = cir[mI].S;
+						max = INT_MIN;
+						select = false;
+						continue;
+					}
+				}
+			}
+			i++;
 		}
+		
+		if(le >= 0 && ri <= l)
+			printf("%d\n", cnt);
+		else
+			puts("-1");
 	}
 
 	return 0;
