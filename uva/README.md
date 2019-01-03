@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 150 / 167
+> AC/Total = 151 / 168
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -106,6 +106,7 @@
 * [x] 10340 - All in All
 * [x] 10369 - Arctic Network
 * [x] 10370 - Above Average
+* [x] 10382 - Watering Grass
 * [x] 10391 - Compound Words
 
 ## Volume 104
@@ -255,4 +256,3 @@
 ## Volume 132
 * [x] 13216 - Problem with a ridiculously long name but with a ridiculously short description
 
-* [ ] 10382 - Watering Grass

@@ -9,11 +9,14 @@ vector<int> ll[MAX_CAT];
 ofstream oFile;
 
 #ifdef __APPLE__
-#include <dirent.h>
+    #include <dirent.h>
+#elif defined(_WIN32) || defined(_WIN64)
+    #include "dirent/include/dirent.h"
+#endif
 
 vector<string> listDir(const string dir)
 {
-    static const char* donwant[] = {".DS_Store", "a.out", "README.md", "_ref"};
+    static const char* donwant[] = {".DS_Store", "a.out", "README.md", "_ref", "a.exe"};
     vector<string> list;
     struct dirent *dirEnt;
     DIR *pDir;
@@ -54,7 +57,7 @@ vector<string> listDir(const string dir)
     closedir(pDir);
     return list;
 }
-#endif
+
 
 pair<bool, string> getStat(int n)
 {
@@ -126,4 +129,5 @@ int main()
     if(oFile.is_open())
         oFile.close();
     return 0;
+    
 }
