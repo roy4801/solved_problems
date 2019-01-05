@@ -11,7 +11,7 @@ else
 fi
 
 # echo >> ${1}/README.md
-echo "* [ ] ${2} - ${3}" >> ${1}/README.md
+# echo "* [ ] ${2} - ${3}" >> ${1}/README.md
 touch ${1}/testdata/${2}.in
 touch ${1}/testdata/${2}.out
 echo ${1}/${2} created.

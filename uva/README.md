@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 151 / 168
+> AC/Total = 152 / 170
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -23,6 +23,7 @@
 
 ## Volume 4
 * [x] 401 - Palindromes
+* [ ] 402 - M*A*S*H
 * [ ] 403 - Postscript
 * [x] 445 - Marvelous Mazes
 * [x] 457 - Linear Cellular Automata
@@ -67,6 +68,7 @@
 * [ ] 1152 - Values whose Sum is 0
 
 ## Volume 12
+* [x] 1210 - Sum of Consecutive Prime Numbers
 * [x] 1234 - RACING
 
 ## Volume 16
