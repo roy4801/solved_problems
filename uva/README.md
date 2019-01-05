@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 152 / 170
+> AC/Total = 153 / 171
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -95,6 +95,7 @@
 * [x] 10127 - Ones
 * [x] 10141 - Request for Proposal
 * [x] 10144 - Expression
+* [x] 10178 - Count the Faces.
 
 ## Volume 102
 * [x] 10209 - Is This Integration ?

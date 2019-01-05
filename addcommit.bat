@@ -5,8 +5,11 @@ if -%1-==-- (
 )
 
 echo Update README.md
-utils/cp.bat
-utils/uva_prob.exe
+pushd utils
+start /b cp.bat
+timeout /t 3
+uva_prob.exe
+popd utils
 
 echo Git commands
 git add uva/%1.cpp uva/testdata/%1.in uva/testdata/%1.out
