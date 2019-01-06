@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 153 / 171
+> AC/Total = 154 / 172
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -183,6 +183,7 @@
 * [x] 11547 - Automatic Answer
 * [x] 11559 - Event Planning
 * [x] 11577 - Letter Frequency
+* [x] 11582 - Colossal Fibonacci Numbers!
 * [x] 11586 - Train Tracks
 
 ## Volume 116
