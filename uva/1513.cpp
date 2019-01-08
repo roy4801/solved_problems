@@ -1,19 +1,19 @@
 /*
  * UVA 1513 - Movie collection
  * author: roy4801
- * (C++)
+ * AC(C++) 0.290
  */
 #include <bits/stdc++.h>
 
 using namespace std;
-
+// #BIT #RMQ
 #define PROB "1513"
 #define TESTC ""
 
 #define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
 typedef long long int LL;
 typedef unsigned long long ULL;
-#define N 100000
+#define N 200000
 int n, m;
 int pos[N+5];
 
@@ -47,21 +47,20 @@ int main()
 	cin >> cases;
 	while(cases-- && cin >> n >> m)
 	{
+		memset(BIT, 0, sizeof(BIT));
+		//
 		for(int i = 1; i <= n; i++)
 		{
-			pos[i] = i;
-			add(i, 1);
+			pos[i] = m + i;
+			add(pos[i], 1);
 		}
+		int left = m;
 		int x;
 		for(int i = 0; i < m && cin >> x; i++)
 		{
-			// for(int a = 1; a <= n; a++)
-			// 	printf("%d ", BIT[a]);
-			// puts("");
-			//
-			printf(i==m-1?"%d\n":"%d ", sum(pos[x])-1);
+			printf(i==m-1?"%d\n":"%d ", sum(pos[x]-1));
 			add(pos[x], -1);
-			pos[x] = ++n;
+			pos[x] = left--;
 			add(pos[x], 1);
 		}
 	}
