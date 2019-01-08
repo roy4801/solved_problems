@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 155 / 173
+> AC/Total = 156 / 173
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -65,7 +65,7 @@
 ## Volume 11
 * [x] 1124 - Celebrity jeopardy
 * [x] 1149 - Bin Packing
-* [ ] 1152 - Values whose Sum is 0
+* [x] 1152 - Values whose Sum is 0
 
 ## Volume 12
 * [x] 1210 - Sum of Consecutive Prime Numbers

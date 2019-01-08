@@ -1,8 +1,9 @@
 /*
  * UVA 1152 - Values whose Sum is 0
  * author: roy4801
- * (C++)
+ * AC(C++) 4.950
  */
+// #hash_table
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -11,11 +12,12 @@ using namespace std;
 #define TESTC ""
 
 #define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
-
+typedef unordered_map<int, int> UM;
 #define N 4000
 
+UM um;
 int A[N], B[N], C[N], D[N];
-int fir[N][N], sec[N][N];
+int fir[N][N];
 int n;
 
 int main()
@@ -29,34 +31,39 @@ int main()
 	cin >> cases;
 	while(cases-- && cin >> n)
 	{
-		if(print)
-			putchar('\n');
+		um.clear();
 		int cnt = 0;
+		// input
 		for(int i = 0; i < n && cin >> A[i] >> B[i] >> C[i] >> D[i]; i++);
-
+		//
 		for(int i = 0; i < n; i++)
 		{
 			for(int j = 0; j < n; j++)
 			{
 				fir[i][j] = A[i] + B[j];
-				sec[i][j] = C[i] + D[j];
+				if(um.count(C[i] + D[j]))
+				{
+					um[C[i] + D[j]]++;
+				}
+				else
+					um.insert(make_pair(C[i] + D[j], 1));
 			}
-			sort(fir[i], fir[i] + n);
-			sort(sec[i], sec[i] + n);
 		}
-
+		
 		for(int i = 0; i < n; i++)
 			for(int j = 0; j < n; j++)
-				for(int k = 0; k < n; k++)
+			{
+				// printf("i=%d,j=%d %d + %d ", i, j, A[i], B[j]);
+				if(um.count(-fir[i][j]))
 				{
-					int p = lower_bound(sec[k], sec[k]+n, -fir[i][j]) - sec[k];
-
-					if(p < n && fir[i][j] + sec[k][p] == 0)
-					{
-						cnt++;
-					}
+					cnt += um[-fir[i][j]];
 				}
+			}
+
+		if(print)
+			putchar('\n');
 		cout << cnt << '\n';
+
 		print = true;
 	}
 	return 0;
