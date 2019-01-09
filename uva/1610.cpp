@@ -3,6 +3,7 @@
  * author: roy4801
  * (C++)
  */
+// #rewrite #string
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -11,86 +12,46 @@ using namespace std;
 #define TESTC ""
 
 #define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
+typedef long long int LL;
+typedef unsigned long long ULL;
 
+#define N 1000
+string arr[N+5], le, ri;
 int n;
-
 int main()
 {
 	#ifndef ONLINE_JUDGE
 	freopen("./testdata/" PROB TESTC ".in", "r", stdin);
 	freopen("./testdata/" PROB ".out", "w", stdout);
 	#endif
-	string in;
 	while(cin >> n && n)
 	{
-		vector<string> sl;
+		for(int i = 0; i < n && cin >> arr[i]; i++);
 
-		for(int i = 0; i < n && cin >> in; i++)
-			sl.push_back(in);
-		sort(sl.begin(), sl.end());
+		sort(arr, arr+n);
 
-		int fir = (sl.size()-1) / 2, sec = fir+1;
-		string a = sl[fir], b = sl[sec];
-		string res;
+		le = arr[(n/2)-1];
+		ri = arr[n/2];
 
-		// for(auto &i : sl)
-		// 	cout << i << '\n';
+		string ans = "A";
 
-		if(a.length() >= b.length())
+		int i = 0, l = le.size();
+		while(i < l)
 		{
-			int i = 0, j = 0;
-			while(true)
-			{
-				if(j < b.length()-1)
-				{
-					if(a[i] == b[j])
-						res += a[i];
-					else if(a[i] < b[j])
-					{
-						res += a[i]+1;
-						break;
-					}
-				}
-				else/* if(j == b.length()-1)*/
-				{
-					if(a[i] == b[j])
-					{
-						res += a[i]+1;
-						// cout << "exit : i=" << i << " j=" << j << '\n';
-						break;
-					}
-					else if(a[i] == 'Z' || a[i] < b[j])
-						res += a[i];
-				}
+			while(ans[i] <= 'Z' && ans < le)
+				ans[i]++;
 
-				if(i == a.length()-1 && j == b.length()-1)
-					break;
-				if(i < a.length()-1)
-					i++;
-				if(j < b.length()-1)
-					j++;
+			if(ans[i] <= 'Z' && ans >= le && ans < ri)
+			{
+				cout << ans << '\n';
+				break;
 			}
 
+			if(ans[i] != le[i])
+				ans[i]--;
+			ans += 'A';
+			i++;
 		}
-		else
-		{
-			cout << "-----------------------" << '\n';
-			cout << a << '\n' << b << "\n\n";
-			int i = 0;
-			while(i < a.length() && i < b.length() && a[i] == b[i])
-			{
-				res += a[i];
-				i++;
-			}
-			if(i < a.length())
-				res += a[i] + 1;
-		}
-
-		cout << res << '\n';
-		cout << ">> " << res << '\n';
-
-		// cout << sl[fir] << '\n' << sl[sec] << '\n';
-		cout << "-----------------------" << '\n';
 	}
 
 	return 0;
