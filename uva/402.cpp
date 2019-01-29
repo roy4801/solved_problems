@@ -1,81 +1,75 @@
 /*
  * UVA 402 - M*A*S*H
  * author: roy4801
- * (C++)
+ * AC(C++) 0.090
  */
 #include <bits/stdc++.h>
-
+// #list
 using namespace std;
 
 #define PROB "402"
 #define TESTC ""
 
 #define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
+typedef long long int LL;
+typedef unsigned long long ULL;
+typedef pair<int, int> P;
+#define F first
+#define S second
+#define INF 0x3f3f3f3f
+#define MP make_pair
+#define PB push_back
 
 #define N 50
-int n, luck;
-int d[20];
-vector<int> ans;
-bool valid[N+5];
-int len;
-bool early;
-
+bool line[N+5]; // 1-index
+int n, lp; // num of people, lucky point
+int rem;   // remain num of people
 int main()
 {
 	#ifndef ONLINE_JUDGE
 	freopen("./testdata/" PROB TESTC ".in", "r", stdin);
 	freopen("./testdata/" PROB ".out", "w", stdout);
 	#endif
-	int kase = 1;
-	while(cin >> n >> luck)
+	int card, cases = 1;
+	while(cin >> n >> lp)
 	{
-		// init
-		ans.clear();
-		memset(valid, true, sizeof(valid));
-		len = n;
-		early = false;
-		// input
-		for(int i = 0; i < 20 && cin >> d[i]; i++);
+		for(int i = 1; i <= n; i++)
+			line[i] = true;
 
-		int j = 1;
-		for(int i = 0; i < 20; i++)
+		rem = n;
+		for(int i = 0; i < 20 && cin >> card; i++)
 		{
 			int cnt = 0;
-			while(j <= n)
+			
+			if(rem <= lp) continue;
+			for(int j = 1; j <= n; j++)
 			{
-				if(valid[j])
-					cnt++;
-				if(cnt == d[i])
+				if(line[j])
 				{
-					valid[j] = false;
-					cnt = 0;
-					len--;
-
-					if(len <= luck)
-						goto print;
+					cnt++;
+					if(cnt == card)
+					{
+						line[j] = false;
+						rem--;
+						cnt = 0;
+					}
 				}
-				j++;
-			}
 
-			j = 1;
-			// for(int i = 1; i <= n; i++)
-			// 	printf("%3d", i);
-			// puts("");
-			// for(int i = 1; i <= n; i++)
-			// 	printf("%3c", valid[i]?' ':'X');
-			// puts("");
-			// printf("len=%d\n", len);
-			// puts("------------------------------");
+				if(rem <= lp)
+					break;
+			}
 		}
 
-print:
+		printf("Selection #%d\n", cases++);
+		int cnt = 0;
 		for(int i = 1; i <= n; i++)
-			if(valid[i])
-				ans.push_back(i);
-		cout << "Selection #" << kase++ << '\n';
-		for(int i = 0; i < ans.size(); i++)
-			printf(i<ans.size()-1?"%d ":"%d\n", ans[i]);
+			if(line[i])
+			{
+				cnt++;
+				printf("%d%c", i, (cnt==rem ? '\n' : ' '));
+			}
 		putchar('\n');
 	}
+
 	return 0;
 }
