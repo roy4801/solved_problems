@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 156 / 173
+> AC/Total = 157 / 173
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -23,7 +23,7 @@
 
 ## Volume 4
 * [x] 401 - Palindromes
-* [ ] 402 - M*A*S*H
+* [x] 402 - M*A*S*H
 * [ ] 403 - Postscript
 * [x] 445 - Marvelous Mazes
 * [x] 457 - Linear Cellular Automata
