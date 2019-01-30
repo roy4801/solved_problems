@@ -27,7 +27,7 @@ vector<string> listDir(const string dir)
         return list;
     }
     // Read dir
-    while(dirEnt = readdir(pDir))
+    while((dirEnt = readdir(pDir)))
     {
         if(dirEnt->d_type != DT_DIR)
         {
