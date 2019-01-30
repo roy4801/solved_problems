@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 157 / 173
+> AC/Total = 158 / 174
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -146,6 +146,7 @@
 * [x] 10922 - 2 the 9s
 * [x] 10924 - Prime Words
 * [x] 10929 - You can say 11
+* [x] 10935 - Throwing cards away I
 * [x] 10963 - The Swallowing Ground
 * [x] 10976 - Fractions Again?!
 
