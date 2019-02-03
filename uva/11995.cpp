@@ -1,7 +1,7 @@
 /*
  * UVA 11995 - I Can Guess the Data Structure
  * author: roy4801
- * (C++)
+ * AC(C++) 0.020
  */
 #include <bits/stdc++.h>
 
