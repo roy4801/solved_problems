@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 158 / 175
+> AC/Total = 159 / 175
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -216,7 +216,7 @@
 * [x] 11984 - A Change in Thermal Unit
 * [x] 11988 - Broken Keyboard (a.k.a. Beiju Text)
 * [x] 11991 - Easy Problem from Rujia Liu?
-* [ ] 11995 - I Can Guess the Data Structure
+* [x] 11995 - I Can Guess the Data Structure
 * [x] 11997 - K Smallest Sums
 
 ## Volume 120
