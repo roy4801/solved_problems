@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 159 / 175
+> AC/Total = 160 / 176
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -224,6 +224,7 @@
 * [x] 12019 - Doom's Day Algorithm
 
 ## Volume 121
+* [x] 12100 - Printer Queue
 * [x] 12149 - Feynman
 * [x] 12157 - Tariff Plan
 * [x] 12195 - Jingle Composing
