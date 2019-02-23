@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 160 / 176
+> AC/Total = 161 / 177
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -8,6 +8,7 @@
 * [ ] 104 - Arbitrage
 * [x] 119 - Greedy Gift Givers
 * [ ] 130 - Roman Roulette
+* [x] 136 - Ugly Numbers
 * [x] 145 - Gondwanaland Telecom
 * [x] 146 - ID Codes
 * [x] 147 - Dollars
