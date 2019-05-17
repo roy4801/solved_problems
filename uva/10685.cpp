@@ -1,7 +1,7 @@
 /*
  * UVA 10685 - Nature
  * author: roy4801
- * (C++)
+ * AC(C++) 0.130
  */
 #include <bits/stdc++.h>
 
@@ -26,13 +26,12 @@ string in, inb;
 #define N 5000
 map<string, int> m;
 int mId = 1;
-int rela[N+5][N+5];
 
 int p[N+5];
 int siz[N+5];
 void init()
 {
-	for(int i = 0; i <= N; i++) 
+	for(int i = 0; i <= N; i++)
 	{
 		p[i] = i;
 		siz[i] = 1;
@@ -44,8 +43,20 @@ int find(int x)
 }
 void uni(int a, int b)
 {
-	
-	p[find(a)] = find(b);
+	a = find(a), b = find(b);
+
+	if(siz[a] > siz[b])
+	{
+		p[b] = a;
+		siz[a] += siz[b];
+		siz[b] = 0;
+	}
+	else
+	{
+		p[a] = b;
+		siz[b] += siz[a];
+		siz[a] = 0;
+	}
 }
 
 int main()
@@ -57,6 +68,8 @@ int main()
 	while(cin >> n >> r && (n || r))
 	{
 		init();
+		m.clear();
+		mId = 1;
 
 		for(int i = 0; i < n && cin >> in; i++)
 			if(!m.count(in))
@@ -64,10 +77,19 @@ int main()
 
 		for(int i = 0; i < r && cin >> in >> inb; i++)
 		{
-			uni(m[in], m[inb]);
+			int l = m[in], r = m[inb];
+			if(find(l) != find(r))
+			{
+				uni(l, r);
+			}
 		}
 
+		int maxv = INT_MIN;
+		for_each(siz+1, siz+n+1, [&maxv](int i){ // 1-index
+			maxv = max(maxv, i);
+		});
 
+		cout << maxv << '\n';
 	}
 
 	return 0;
