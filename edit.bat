@@ -1,3 +1,3 @@
 @echo off
 
-"C:\Program Files\Sublime Text 3\sublime_text.exe" uva\%1.cpp uva\testdata\%1.in uva\testdata\%1.out
+"C:\Program Files\Sublime Text 3\sublime_text.exe" %1\%2.cpp %1\testdata\%2.in %1\testdata\%2.out

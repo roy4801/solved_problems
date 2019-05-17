@@ -20,7 +20,7 @@ def uva_handle(prob_num):
 	if name == None:
 		sys.exit('Failed to get the proble name')
 	# Gen files
-	if os.system('./gen.sh uva "{}" "{}"'.format(prob_num, name)):
+	if os.system('bash gen.sh uva "{}" "{}"'.format(prob_num, name)):
 		print('Failed to gen Uva {} - {}'.format(prob_num, name))
 		return False
 	else:
