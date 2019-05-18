@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 162 / 178
+> AC/Total = 163 / 179
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -154,6 +154,7 @@
 
 ## Volume 110
 * [x] 11044 - Searching for Nessy
+* [x] 11078 - Open Credit System
 * [x] 11059 - Maximum Product
 * [x] 11038 - How many 0's?
 
