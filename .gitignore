@@ -3,3 +3,4 @@
 *.exe
 a.out
 /uva/*.out
+.vscode/
