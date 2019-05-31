@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 164 / 180
+> AC/Total = 165 / 183
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -58,6 +58,7 @@
 
 ## Volume 8
 * [x] 893 - Y3K Problem
+* [ ] 884 - Factorial Factors
 
 ## Volume 9
 * [x] 913 - Joana and the Odd Numbers
@@ -119,6 +120,7 @@
 ## Volume 104
 * [x] 10473 - Simple Base Conversion
 * [x] 10499 - The Land of Justice
+* [x] 10405 - Longest Common Subsequence
 * [x] 10424 - Love Calculator
 
 ## Volume 105
@@ -184,6 +186,7 @@
 * [x] 11479 - Is this the easiest problem?
 * [x] 11494 - Queen
 * [x] 11498 - Division of Nlogonia
+* [ ] 11407 - Squares
 
 ## Volume 115
 * [x] 11586 - Train Tracks
