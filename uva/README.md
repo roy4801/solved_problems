@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 165 / 183
+> AC/Total = 166 / 184
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -41,6 +41,7 @@
 ## Volume 5
 * [x] 579 - Clock Hands
 * [x] 591 - Box of Bricks
+* [x] 526 - String Distance and Transform Process
 * [x] 514 - Rails
 * [x] 573 - The Snail
 
