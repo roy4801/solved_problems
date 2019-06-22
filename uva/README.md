@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 167 / 185
+> AC/Total = 168 / 186
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -90,6 +90,7 @@
 * [x] 10062 - Tell me the frequencies!
 * [x] 10038 - Jolly Jumpers
 * [ ] 10010 - Where's Waldorf?
+* [x] 10004 - Bicoloring
 * [x] 10035 - Primary Arithmetic
 * [x] 10018 - Reverse and Add
 * [x] 10082 - WERTYU
