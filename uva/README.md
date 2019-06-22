@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 166 / 184
+> AC/Total = 167 / 185
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -72,6 +72,7 @@
 
 ## Volume 12
 * [x] 1210 - Sum of Consecutive Prime Numbers
+* [x] 1203 - Argus
 * [x] 1234 - RACING
 
 ## Volume 15
