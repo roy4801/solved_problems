@@ -1,59 +1,53 @@
 /*
- * Uva 488 - Triangle Wave
+ * UVA 488 - Triangle Wave
  * author: roy4801
  * (C++)
  */
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
+#define PROB "488"
+#define TESTC ""
+
+#define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
+typedef long long int LL;
+typedef unsigned long long ULL;
+typedef pair<int, int> P;
+#define F first
+#define S second
+#define INF 0x3f3f3f3f
+#define MP make_pair
+#define PB push_back
+int n, m, f;
+bool fl;
 int main()
 {
 	#ifndef ONLINE_JUDGE
-	freopen("./testdata/488.in", "r", stdin);
-	freopen("./testdata/488.out", "w", stdout);
+	freopen("./testdata/" PROB TESTC ".in", "r", stdin);
+	freopen("./testdata/" PROB ".out", "w", stdout);
 	#endif
-
-	int freq, magn;
-	int times;
-
-	if(scanf("%d", &times) != EOF)
+	scanf("%d", &n);
+	while(n-- && ~scanf("%d %d", &m, &f))
 	{
-		while(times--)
+		if(fl) putchar('\n');
+		for(int i = 0; i < f; i++)
 		{
-			scanf("%d\n%d", &magn, &freq);
-			
-			// I'm idiot QQ
-			if(magn == 1 && freq == 1)
+			if(i != 0) putchar('\n');
+			for(int j = 1; j <= m; j++)
 			{
-				printf("1");
+				for(int a = 0; a < j; a++)
+					printf("%d", j);
+				putchar('\n');
 			}
-			else
+			for(int j = m-1; j >= 1; j--)
 			{
-				while(freq--)
-				{
-					for(int i = 0; i < magn; i++)
-					{
-						for(int j = 0; j < i + 1; j++)
-							printf("%d", i + 1);
-						putchar('\n');
-					}
-					for(int i = magn - 1; i > 0; i--)
-					{
-						for(int j = 0; j < i ; j++)
-							printf("%d", i);
-						if(i != 1)
-							putchar('\n');
-					}
-					if(freq)
-					{
-						printf("\n\n");
-					}
-				}
+				for(int a = 0; a < j; a++)
+					printf("%d", j);
+				putchar('\n');
 			}
-			if(times)
-				printf("\n\n");
 		}
+		fl = true;
 	}
 
 	return 0;
