@@ -1,7 +1,7 @@
 /*
  * UVA 488 - Triangle Wave
  * author: roy4801
- * (C++)
+ * AC(C++) 0.310
  */
 #include <bits/stdc++.h>
 

@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 168 / 185
+> AC/Total = 169 / 185
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -34,7 +34,7 @@
 * [x] 476 - Points in Figures: Rectangles
 * [x] 477 - Points in Figures: Rectangles and Circles
 * [x] 482 - Permutation Arrays
-* [ ] 488 - Triangle Wave
+* [x] 488 - Triangle Wave
 * [x] 489 - Hangman Judge
 * [x] 490 - Rotating Sentences
 * [x] 494 - Kindergarten Counting Game
