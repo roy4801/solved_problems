@@ -18,6 +18,7 @@ typedef pair<int, int> P;
 #define S second
 #define INF 0x3f3f3f3f
 #define MP make_pair
+#define MT make_tuple
 #define PB push_back
 
 int main()
