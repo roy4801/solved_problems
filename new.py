@@ -15,10 +15,13 @@ class uhunt:
 			rt = prob['title']
 		return rt
 
-def uva_handle(prob_num):
+def uva_handle(prob_num, sub):
 	name = uhunt.get_problem_name_by_id(prob_num)
 	if name == None:
 		sys.exit('Failed to get the proble name')
+
+	if sub:
+		prob_num = '{}_{}'.format(prob_num, sub)
 	# Gen files
 	if os.system('bash gen.sh uva "{}" "{}"'.format(prob_num, name)):
 		print('Failed to gen Uva {} - {}'.format(prob_num, name))
@@ -27,19 +30,22 @@ def uva_handle(prob_num):
 		return True
 
 def usage():
-	print('Usage: {} <OJ name> <Prob id>'.format(sys.argv[0]))
+	print('Usage: {} <OJ name> <Prob id> []'.format(sys.argv[0]))
 
 def main():
 	oj = sys.argv[1]
 	prob_num = sys.argv[2]
+	sub = None
+	if len(sys.argv) > 3:
+		sub = sys.argv[3]
 
 	if oj.lower() == 'uva':
-		uva_handle(prob_num)
+		uva_handle(prob_num, sub)
 	else:
 		print('Unsupported Online Judge!')
 
 if __name__ == '__main__':
-	if len(sys.argv) != 3:
+	if len(sys.argv) < 3 or len(sys.argv) > 4:
 		usage()
 	else:
 		main()
