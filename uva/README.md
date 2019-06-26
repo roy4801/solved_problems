@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 172 / 191
+> AC/Total = 173 / 191
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -57,7 +57,7 @@
 * [x] 661 - Blowing Fuses
 
 ## Volume 7
-* [ ] 793 - Network Connections
+* [x] 793 - Network Connections
 * [x] 755 - 487--3279
 
 ## Volume 8

@@ -1,7 +1,7 @@
 /*
  * UVA 793 - Network Connections
  * author: roy4801
- * (C++)
+ * AC(C++) 0.850
  */
 #include <bits/stdc++.h>
 
