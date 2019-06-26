@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 171 / 188
+> AC/Total = 172 / 190
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -52,6 +52,7 @@
 * [x] 623 - 500!
 * [x] 686 - Goldbach's Conjecture (II)
 * [x] 694 - The Collatz Sequence
+* [ ] 672 - Gangsters
 * [x] 674 - Coin Change
 * [x] 661 - Blowing Fuses
 
@@ -111,6 +112,7 @@
 * [x] 10260 - Soundex
 * [x] 10209 - Is This Integration ?
 * [x] 10222 - Decode the Mad man
+* [x] 10226 - Hardwood Species
 
 ## Volume 103
 * [x] 10300 - Ecological Premium
