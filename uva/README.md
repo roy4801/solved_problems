@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 173 / 191
+> AC/Total = 174 / 192
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -178,6 +178,7 @@
 * [x] 11235 - Frequent values
 * [x] 11219 - How old are you?
 * [x] 11292 - Dragon of Loowater
+* [x] 11286 - Conformity
 * [x] 11204 - Musical instruments
 
 ## Volume 113
