@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 174 / 192
+> AC/Total = 175 / 193
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -157,6 +157,7 @@
 * [x] 10922 - 2 the 9s
 * [x] 10924 - Prime Words
 * [x] 10919 - Prerequisites?
+* [x] 10954 - Add All
 * [x] 10963 - The Swallowing Ground
 * [x] 10976 - Fractions Again?!
 * [x] 10929 - You can say 11
