@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 176 / 192
+> AC/Total = 177 / 193
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -222,6 +222,7 @@
 * [x] 11799 - Horror Dash
 
 ## Volume 118
+* [x] 11849 - CD
 * [x] 11875 - Brick Game
 * [x] 11879 - Multiple of 17
 
