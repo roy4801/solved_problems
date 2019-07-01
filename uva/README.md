@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 175 / 192
+> AC/Total = 176 / 192
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -201,7 +201,7 @@
 * [x] 11541 - Decoding
 * [x] 11547 - Automatic Answer
 * [x] 11559 - Event Planning
-* [ ] 11572 - Unique Snowflakes
+* [x] 11572 - Unique Snowflakes
 * [x] 11577 - Letter Frequency
 * [x] 11582 - Colossal Fibonacci Numbers!
 * [x] 11586 - Train Tracks

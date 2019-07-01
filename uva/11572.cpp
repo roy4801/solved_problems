@@ -1,7 +1,7 @@
 /*
  * UVA 11572 - Unique Snowflakes
  * author: roy4801
- * (C++)
+ * AC(C++) 0.360
  */
 #include <bits/stdc++.h>
 
