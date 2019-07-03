@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 177 / 193
+> AC/Total = 178 / 195
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -112,6 +112,7 @@
 * [x] 10209 - Is This Integration ?
 * [x] 10222 - Decode the Mad man
 * [x] 10226 - Hardwood Species
+* [ ] 10258 - Contest Scoreboard
 * [x] 10260 - Soundex
 
 ## Volume 103
@@ -197,6 +198,7 @@
 * [x] 11498 - Division of Nlogonia
 
 ## Volume 115
+* [x] 11503 - Virtual Friends
 * [x] 11507 - Bender B. Rodríguez Problem
 * [x] 11541 - Decoding
 * [x] 11547 - Automatic Answer
