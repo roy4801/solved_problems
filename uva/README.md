@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 175 / 193
+> AC/Total = 176 / 194
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -111,6 +111,7 @@
 
 ## Volume 102
 * [x] 10260 - Soundex
+* [x] 10258 - Contest Scoreboard
 * [x] 10209 - Is This Integration ?
 * [x] 10222 - Decode the Mad man
 * [x] 10226 - Hardwood Species
