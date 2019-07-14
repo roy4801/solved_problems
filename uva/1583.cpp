@@ -1,7 +1,7 @@
 /*
  * UVA 1583 - Digit Generator
  * author: roy4801
- * AC(C++) 0.080
+ * AC(C++) 0.070
  */
 #include <bits/stdc++.h>
 
@@ -21,7 +21,7 @@ typedef pair<int, int> P;
 #define MT make_tuple
 #define PB push_back
 #define N 100000
-vector<int> v[N+5];
+int v[N+5];
 inline int cal(int n)
 {
 	int tmp = 0;
@@ -34,11 +34,12 @@ inline int cal(int n)
 }
 void build()
 {
+	memset(v, -1, sizeof(v));
 	for(int i = 1; i <= N; i++)
 	{
 		int tmp = i + cal(i);
 		if(tmp <= N)
-			v[tmp].PB(i);
+			v[tmp] = v[tmp]==-1? i : min(v[tmp], i);
 	}
 }
 int kase, n;
@@ -52,8 +53,8 @@ int main()
 	cin >> kase;
 	while(kase-- && cin >> n)
 	{
-		if(v[n].size())
-			cout << v[n][0] << '\n';
+		if(v[n] != -1)
+			cout << v[n] << '\n';
 		else
 			cout << "0" << '\n';
 	}
