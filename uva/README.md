@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 185 / 201
+> AC/Total = 186 / 202
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -29,6 +29,7 @@
 * [x] 402 - M*A*S*H
 * [ ] 403 - Postscript
 * [x] 445 - Marvelous Mazes
+* [x] 455 - Periodic Strings
 * [x] 457 - Linear Cellular Automata
 * [x] 458 - The Decoder
 * [x] 462 - Bridge Hand Evaluator
