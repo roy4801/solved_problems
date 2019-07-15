@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 181 / 197
+> AC/Total = 184 / 200
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -81,6 +81,9 @@
 ## Volume 15
 * [x] 1513 - Movie collection
 * [x] 1583 - Digit Generator
+* [x] 1584 - Circular Sequence
+* [x] 1585 - Score
+* [x] 1586 - Molar mass
 
 ## Volume 16
 * [x] 1605 - Building for UN
