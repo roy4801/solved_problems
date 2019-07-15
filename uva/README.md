@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 184 / 200
+> AC/Total = 185 / 201
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -76,6 +76,7 @@
 ## Volume 12
 * [x] 1203 - Argus
 * [x] 1210 - Sum of Consecutive Prime Numbers
+* [x] 1225 - Digit Counting
 * [x] 1234 - RACING
 
 ## Volume 15
