@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 186 / 202
+> AC/Total = 187 / 203
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -15,6 +15,7 @@
 
 ## Volume 2
 * [x] 200 - Rare Order
+* [x] 227 - Puzzle
 * [ ] 230 - Borrowers
 * [x] 272 - TEX Quotes
 * [ ] 299 - Train Swapping
