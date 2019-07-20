@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 188 / 204
+> AC/Total = 189 / 205
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -81,6 +81,9 @@
 * [x] 1210 - Sum of Consecutive Prime Numbers
 * [x] 1225 - Digit Counting
 * [x] 1234 - RACING
+
+## Volume 13
+* [x] 1368 - DNA Consensus String
 
 ## Volume 15
 * [x] 1513 - Movie collection
