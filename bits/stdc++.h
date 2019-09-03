@@ -28,6 +28,11 @@
 
 // 17.4.1.2 Headers
 
+int __gcd(int a, int b)
+{
+	return b ? __gcd(b, a%b): a;
+}
+
 // C
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
@@ -114,3 +119,5 @@
 #include <unordered_map>
 #include <unordered_set>
 #endif
+
+#include "dbg.h"
