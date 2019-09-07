@@ -4,8 +4,11 @@
 
 JUDGE=$(echo ${1} | tr a-z A-Z)
 
+# uva
 if [[ "${1}" == "uva" ]]; then
 	cat template.cpp | sed -e "s/{judge}/${JUDGE}/g" -e "s/{pid}/${2}/g" -e "s/{pname}/${3}/g" -e "s/{DEFINE}/#ifndef ONLINE_JUDGE/g" > uva/${2}.cpp
+
+# vjudge
 elif [[ "${1}" == "vjudge" ]]; then
 	case "${2}" in
 		# Problem
@@ -37,6 +40,21 @@ elif [[ "${1}" == "vjudge" ]]; then
 		exit
 		;;
 	esac
+
+# Atcoder
+# gen.sh atcode <contest> <pid> <pname>
+elif [[ "${1}" == "atcoder" ]]; then
+	CONTEST=${2}
+	PID=${3}
+	PNAME=${4}
+	PATH="${1}/${CONTEST}"
+
+	[[ ! -d "atcoder/${CONTEST}" ]] && mkdir -p "atcoder/${CONTEST}/testdata"
+	cat template.cpp | sed -e "s/{judge}/${JUDGE}/g" -e "s/{pid}/${PID}/g" -e "s/{pname}/${PNAME}/g" -e "s/{DEFINE}/#ifdef DBG/g" > "${PATH}/${PID}".cpp
+	touch "${PATH}/${CONTEST}/testdata/${PID}.in"
+	touch "${PATH}/${CONTEST}/testdata/${PID}.out"
+
+	exit
 else
 	cat template.cpp | sed -e "s/{judge}/${JUDGE}/g" -e "s/{pid}/${2}/g" -e "s/{pname}/${3}/g" -e "s/{DEFINE}/#ifdef DBG/g" > ${1}/${2}.cpp
 fi
