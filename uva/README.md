@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 190 / 208
+> AC/Total = 191 / 209
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -17,6 +17,7 @@
 * [ ] 230 - Borrowers
 * [x] 232 - Crossword Answers
 * [x] 227 - Puzzle
+* [x] 275 - Expanding Fractions
 * [x] 272 - TEX Quotes
 * [x] 202 - Repeating Decimals
 * [x] 200 - Rare Order
