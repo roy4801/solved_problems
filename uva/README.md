@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 191 / 209
+> AC/Total = 192 / 210
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -92,6 +92,7 @@
 * [x] 1513 - Movie collection
 * [x] 1583 - Digit Generator
 * [x] 1586 - Molar mass
+* [x] 1587 - Box
 * [x] 1585 - Score
 * [x] 1584 - Circular Sequence
 
