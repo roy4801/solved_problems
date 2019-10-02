@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 193 / 211
+> AC/Total = 194 / 212
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -12,6 +12,7 @@
 * [x] 100 - The 3n + 1 problem
 * [ ] 101 - The Blocks Problem
 * [ ] 104 - Arbitrage
+* [x] 167 - The Sultan's Successors
 
 ## Volume 2
 * [ ] 230 - Borrowers
