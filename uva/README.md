@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 194 / 212
+> AC/Total = 195 / 213
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -223,6 +223,7 @@
 * [x] 11547 - Automatic Answer
 * [x] 11582 - Colossal Fibonacci Numbers!
 * [x] 11541 - Decoding
+* [x] 11536 - Smallest Sub-Array
 * [x] 11507 - Bender B. Rodríguez Problem
 * [x] 11503 - Virtual Friends
 * [x] 11559 - Event Planning
