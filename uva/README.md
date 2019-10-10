@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 195 / 213
+> AC/Total = 196 / 214
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -82,6 +82,7 @@
 
 ## Volume 12
 * [x] 1210 - Sum of Consecutive Prime Numbers
+* [x] 1213 - Sum of Different Primes
 * [x] 1203 - Argus
 * [x] 1225 - Digit Counting
 * [x] 1234 - RACING
