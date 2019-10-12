@@ -15,7 +15,7 @@ class uhunt:
 			rt = prob['title']
 		return rt
 
-def uva_handle(prob_num, sub):
+def uva_handle(prob_num, sub=None):
 	name = uhunt.get_problem_name_by_id(prob_num)
 	if name == None:
 		sys.exit('Failed to get the proble name')

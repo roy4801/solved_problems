@@ -27,11 +27,6 @@ typedef pair<LL, LL> PLL;
 
 int main()
 {
-	{DEFINE}
-	freopen("./testdata/" PROB TESTC ".in", "r", stdin);
-	freopen("./testdata/" PROB ".out", "w", stdout);
-	#endif
 	
-
 	return 0;
 }

@@ -4,3 +4,4 @@
 a.out
 /uva/*.out
 .vscode/
+__pycache__/
