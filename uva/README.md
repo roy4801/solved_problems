@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 192 / 210
+> AC/Total = 196 / 214
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -12,6 +12,7 @@
 * [x] 100 - The 3n + 1 problem
 * [ ] 101 - The Blocks Problem
 * [ ] 104 - Arbitrage
+* [x] 167 - The Sultan's Successors
 
 ## Volume 2
 * [ ] 230 - Borrowers
@@ -81,12 +82,16 @@
 
 ## Volume 12
 * [x] 1210 - Sum of Consecutive Prime Numbers
+* [x] 1213 - Sum of Different Primes
 * [x] 1203 - Argus
 * [x] 1225 - Digit Counting
 * [x] 1234 - RACING
 
 ## Volume 13
 * [x] 1368 - DNA Consensus String
+
+## Volume 14
+* [x] 1442 - Cav
 
 ## Volume 15
 * [x] 1513 - Movie collection
@@ -219,6 +224,7 @@
 * [x] 11547 - Automatic Answer
 * [x] 11582 - Colossal Fibonacci Numbers!
 * [x] 11541 - Decoding
+* [x] 11536 - Smallest Sub-Array
 * [x] 11507 - Bender B. Rodríguez Problem
 * [x] 11503 - Virtual Friends
 * [x] 11559 - Event Planning
