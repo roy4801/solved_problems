@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 196 / 214
+> AC/Total = 198 / 216
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -49,6 +49,7 @@
 * [x] 579 - Clock Hands
 * [x] 591 - Box of Bricks
 * [x] 594 - One Little, Two Little, Three Little Endians
+* [x] 541 - Error Correction
 * [x] 526 - String Distance and Transform Process
 * [x] 514 - Rails
 * [x] 573 - The Snail
@@ -94,6 +95,7 @@
 * [x] 1442 - Cav
 
 ## Volume 15
+* [x] 1588 - Kickdown
 * [x] 1513 - Movie collection
 * [x] 1583 - Digit Generator
 * [x] 1586 - Molar mass
