@@ -7,20 +7,27 @@ import pname as ProblemName
 
 CC = 'g++'
 CFLAG = '-std=c++11 -I.'
-DRY=True
+DRY=False
+PRINT_OUTPUT=True
 
 def system(cmd):
+	print(cmd)
 	if not DRY:
 		return os.system(cmd)
 	else:
-		print(cmd)
-		return 0
+		return None
+def popen(cmd):
+	print(cmd)
+	if not DRY:
+		return os.popen(cmd).read()
+	else:
+		return None
 def compile(src, out):
 	cmd = '{} {} {} -o {}'.format(CC, CFLAG, src, out)
 	return system(cmd)
 def run(out, din, dout):
-	cmd = './{} < {} > {}'.format(out, din, dout)
-	return system(cmd)
+	cmd = './{} < {} | tee {}'.format(out, din, dout)
+	return popen(cmd)
 def edit(oj, pid):
 	return system('subl {oj}/{pid}.cpp {oj}/testdata/{pid}.in {oj}/testdata/{pid}.out'.format(oj=oj, pid=pid))
 
@@ -73,10 +80,17 @@ class uva:
 		out = uva.path / 'a.out'
 		din = uva.path / 'testdata' / '{}.in'.format(pid)
 		dout = uva.path / 'testdata' / '{}.out'.format(pid)
+		print('Compiling...')
 		if compile(src, out):
 			return 1
-		if run(out, din, dout):
+		print('Running...')
+		res = run(out, din, dout)
+		if not res:
 			return 1
+		if PRINT_OUTPUT:
+			print('------------------------------')
+			print(res)
+		print('END')
 		if edit('uva', pid):
 			return 1
 		return 0
@@ -86,7 +100,7 @@ class uva:
 		pid = sys.argv[3]
 		pname = sys.argv[4] if len(sys.argv) == 5 else None
 		if pname == None: # TODO(roy4801): call api
-			pname = ProblemName.uva_handle(pid)
+			pname = ProblemName.uhunt.get_problem_name_by_id(pid)
 		# Create the files (.c, .in, .out)
 		src = uva.path / '{}.cpp'.format(pid)
 		din = uva.path / 'testdata' / '{}.in'.format(pid)
