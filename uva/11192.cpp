@@ -3,55 +3,39 @@
  * author: roy4801
  * AC(C++) 0.000
  */
-#include <iostream>
-#include <cstring>
-// #include <algorithm>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-// My practice of implment reverse()
-// Of course, it's slower than std::reverse() a little bit :(
-void myreverse(char *s, char *endp)
-{
-    int length = 0;
-    char *c = s;
+#define PROB "11192"
+#define TESTC ""
 
-    // Counting the lenght of [s, endp)
-    while(c != endp)
-    {
-        c++;
-        length++;
-    }
-    endp--;
-
-    for(int a = 0; a < length / 2; a++)
-    {
-        // swap
-        char tmp = s[a];
-        s[a] = endp[-a];
-        endp[-a] = tmp;
-    }
-}
-
+#define USE_CPPIO() ios_base::sync_with_stdio(0); cin.tie(0)
+typedef long long int LL;
+typedef unsigned long long ULL;
+typedef pair<int, int> P;
+typedef pair<LL, LL> PLL;
+#define F first
+#define S second
+#define INF 0x3f3f3f3f
+#define MP make_pair
+#define MT make_tuple
+#define PB push_back
+#define PPB pop_back
+#define PF push_front
+#define PPF pop_front
+int n;
+string s;
 int main()
 {
-    #ifndef ONLINE_JUDGE
-    freopen("./testdata/11192.in", "r", stdin);
-    freopen("./testdata/11192.out", "w", stdout);
-    #endif
-    int group;
-    char s[101];
-
-    while(scanf("%d", &group) != EOF && group 
-        && scanf("%s", s) != EOF)
-    {
-        int n = strlen(s) / group;
-
-        for(int i = 0; i < group; i++)
-            myreverse(s + i * n, s + (i + 1) * n);
-
-        printf("%s\n", s);
-    }
-
-    return 0;
+	while(cin >> n >> s)
+	{
+		int num = s.size() / n;
+		for(int i = 0; i < s.size();)
+		{
+			reverse(s.begin()+i, s.begin()+i+num);
+			i += num;
+		}
+		cout << s << '\n';
+	}
 }

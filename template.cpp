@@ -4,7 +4,6 @@
  * (C++)
  */
 #include <bits/stdc++.h>
-
 using namespace std;
 
 #define PROB "{pid}"
@@ -28,5 +27,4 @@ typedef pair<LL, LL> PLL;
 int main()
 {
 	
-	return 0;
 }
