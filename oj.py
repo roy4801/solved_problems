@@ -6,7 +6,7 @@ from pathlib import Path
 import pname as ProblemName
 
 CC = 'g++'
-CFLAG = '-std=c++11 -I.'
+CFLAG = '-std=c++17 -I.'
 DRY=False
 PRINT_OUTPUT=True
 
@@ -22,14 +22,6 @@ def popen(cmd):
 		return os.popen(cmd).read()
 	else:
 		return None
-def compile(src, out):
-	cmd = '{} {} {} -o {}'.format(CC, CFLAG, src, out)
-	return system(cmd)
-def run(out, din, dout):
-	cmd = './{} < {} | tee {}'.format(out, din, dout)
-	return popen(cmd)
-def edit(oj, pid):
-	return system('subl {oj}/{pid}.cpp {oj}/testdata/{pid}.in {oj}/testdata/{pid}.out'.format(oj=oj, pid=pid))
 
 class template:
 	tem_file = 'template.cpp'
@@ -55,12 +47,6 @@ class template:
 		with t.open('w', encoding='utf-8') as f:
 			f.write(con)
 
-def vjudge():
-	need_arg = 3
-	@staticmethod
-	def do():
-		pass
-
 class uva:
 	need_arg = 3
 	path = Path('./uva/')
@@ -73,27 +59,6 @@ class uva:
 		if res == 1:
 			uva.usage()
 		return res
-	@staticmethod
-	def cp():
-		pid = sys.argv[3]
-		src = uva.path / '{}.cpp'.format(pid)
-		out = uva.path / 'a.out'
-		din = uva.path / 'testdata' / '{}.in'.format(pid)
-		dout = uva.path / 'testdata' / '{}.out'.format(pid)
-		print('Compiling...')
-		if compile(src, out):
-			return 1
-		print('Running...')
-		res = run(out, din, dout)
-		if not res:
-			return 1
-		if PRINT_OUTPUT:
-			print('------------------------------')
-			print(res)
-		print('END')
-		if edit('uva', pid):
-			return 1
-		return 0
 
 	@staticmethod
 	def gen():
@@ -111,7 +76,7 @@ class uva:
 
 	@staticmethod
 	def usage():
-		print('Usage: {} uva cp <pid>\n{}uva gen <pid> [pname]'.format(sys.argv[0], ' '*(8+len(sys.argv[0]))))
+		print('Usage: {} uva gen <pid> [pname]'.format(sys.argv[0],))
 
 support = {'uva': uva()}
 
