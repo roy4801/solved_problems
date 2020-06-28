@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 200 / 219
+> AC/Total = 200 / 215
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -50,11 +50,11 @@
 * [x] 579 - Clock Hands
 * [x] 591 - Box of Bricks
 * [x] 594 - One Little, Two Little, Three Little Endians
-* [x] 541 - Error Correction
 * [x] 526 - String Distance and Transform Process
 * [x] 514 - Rails
 * [x] 573 - The Snail
 * [x] 572 - Oil Deposits
+* [x] 514 - Rails
 
 ## Volume 6
 * [x] 621 - Secret Research
@@ -62,7 +62,6 @@
 * [x] 623 - 500!
 * [x] 686 - Goldbach's Conjecture (II)
 * [x] 694 - The Collatz Sequence
-* [ ] 672 - Gangsters
 * [x] 674 - Coin Change
 * [x] 661 - Blowing Fuses
 
@@ -72,8 +71,6 @@
 
 ## Volume 8
 * [x] 893 - Y3K Problem
-* [ ] 884 - Factorial Factors
-* [ ] 820 - Internet Bandwidth
 
 ## Volume 9
 * [x] 913 - Joana and the Odd Numbers
@@ -98,7 +95,6 @@
 * [x] 1442 - Cav
 
 ## Volume 15
-* [x] 1588 - Kickdown
 * [x] 1513 - Movie collection
 * [x] 1583 - Digit Generator
 * [x] 1586 - Molar mass
@@ -199,6 +195,7 @@
 ## Volume 111
 * [x] 11185 - Ternary
 * [x] 11192 - Group Reverse
+* [x] 11151 - Water Shortage
 * [x] 11172 - Relational Operator
 
 ## Volume 112
@@ -222,7 +219,6 @@
 * [x] 11479 - Is this the easiest problem?
 * [x] 11494 - Queen
 * [x] 11498 - Division of Nlogonia
-* [ ] 11407 - Squares
 
 ## Volume 115
 * [x] 11586 - Train Tracks
