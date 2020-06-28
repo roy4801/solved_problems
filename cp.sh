@@ -20,3 +20,4 @@ function compile_and_run()
     echo Complete
 }
 
+compile_and_run $1 $2
