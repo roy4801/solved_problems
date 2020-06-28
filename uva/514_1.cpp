@@ -45,17 +45,17 @@ int main()
 		int now = 1, i = 0; // 現在想要的數字, 處理到第幾個
 		while(i < n)
 		{
-			if(a[i] == now)
+			if(a[i] == now) // A - > B
 			{
 				now++;
 				i++;
 			}
-			else if(!s.empty() && s.top() == a[i])
+			else if(!s.empty() && s.top() == a[i]) // C -> B
 			{
 				s.pop();
 				i++;
 			}
-			else if(now <= n)
+			else if(now <= n) // A -> C
 			{
 				s.push(now++);
 			}
