@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 200 / 215
+> AC/Total = 201 / 216
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -150,6 +150,7 @@
 ## Volume 104
 * [x] 10473 - Simple Base Conversion
 * [x] 10499 - The Land of Justice
+* [x] 10474 - Zones
 * [x] 10405 - Longest Common Subsequence
 * [x] 10424 - Love Calculator
 
