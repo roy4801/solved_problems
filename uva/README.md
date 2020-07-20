@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 201 / 216
+> AC/Total = 202 / 217
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -126,6 +126,7 @@
 * [ ] 10101 - Bangla Numbers
 * [x] 10107 - What is the Median?
 * [x] 10141 - Request for Proposal
+* [x] 10193 - All You Need Is Love
 * [x] 10144 - Expression
 * [x] 10178 - Count the Faces.
 * [x] 10127 - Ones
