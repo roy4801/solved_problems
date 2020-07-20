@@ -7,7 +7,7 @@ function usage_msg()
     echo "   gen    generate"
 }
 
-[[ -n "$1" ]] && usage_msg
+[[ "$1" == "" ]] && usage_msg
 
 function compile_and_run()
 {
