@@ -1,5 +1,5 @@
 /*
- * Leetcode - Medium 2 - Add Two Numbers
+ * Leetcode Medium 2. Add Two Numbers
  * author: roy4801
  * AC(C++) 0.024
  */
