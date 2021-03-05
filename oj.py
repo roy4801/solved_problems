@@ -78,7 +78,55 @@ class uva:
 	def usage():
 		print('Usage: {} uva gen <pid> [pname]'.format(sys.argv[0],))
 
-support = {'uva': uva()}
+class LeetCode:
+	need_arg = 3
+	path = Path('./leetcode/')
+
+	@staticmethod
+	def do():
+		res = 1
+		for key, val in LeetCode.__dict__.items():
+			if sys.argv[2].lower() == key:
+				res = LeetCode.__dict__[key].__func__()
+		if res == 1:
+			LeetCode.usage()
+		return res
+
+	@staticmethod
+	def gen():
+		pid = sys.argv[3]
+		pname = ProblemName.LeetCode.get_problem_name(pid)
+		src = LeetCode.path / '{}.cpp'.format(pid)
+		if pname:
+			LeetCodeTemplate(src, title=pname)
+		else:
+			print('Wrong problem id...')
+
+	@staticmethod
+	def usage():
+		print('Usage: {} leetcode gen <id>')
+
+class LeetCodeTemplate:
+	tem_file = 'leetcode/template.cpp'
+	content = None
+
+	@staticmethod
+	def get_content():
+		with open(LeetCodeTemplate.tem_file, 'r') as f:
+			LeetCodeTemplate.content = f.read()
+
+	def __init__(self, path, **kargs):
+		LeetCodeTemplate.get_content()
+		self.gen(path, **kargs)
+	# judge pid pname
+	def gen(self, path, **kargs):
+		con = LeetCodeTemplate.content
+		con = con.replace('{title}', kargs['title'])
+		t = Path(path)
+		with t.open('w', encoding='utf-8') as f:
+			f.write(con)
+
+support = {'uva': uva(), 'leetcode': LeetCode()}
 
 def usage():
 	print('Usage: {} <Online Judge> ...'.format(sys.argv[0]))
@@ -87,6 +135,7 @@ def usage():
 		print(i, end=' ')
 
 if __name__ == '__main__':
+	print(sys.argv)
 	if len(sys.argv) < 2:
 		usage()
 		exit(1)
