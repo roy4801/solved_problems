@@ -1,5 +1,5 @@
 /*
- * Leetcode {num} - {diff} - {name}
+ * {title}
  * author: roy4801
  * (C++)
  */

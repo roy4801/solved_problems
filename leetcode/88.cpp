@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 88. Merge Sorted Array
  * author: roy4801
- * (C++)
+ * AC(C++) 0.000
  */
 #include <bits/stdc++.h>
 using namespace std;
