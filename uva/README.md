@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 202 / 217
+> AC/Total = 203 / 218
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -30,6 +30,7 @@
 
 ## Volume 4
 * [x] 490 - Rotating Sentences
+* [x] 484 - The Department of Redundancy Department
 * [x] 445 - Marvelous Mazes
 * [x] 482 - Permutation Arrays
 * [x] 455 - Periodic Strings
