@@ -65,7 +65,10 @@ class uva:
 		pid = sys.argv[3]
 		pname = sys.argv[4] if len(sys.argv) == 5 else None
 		if pname == None: # TODO(roy4801): call api
-			pname = ProblemName.uhunt.get_problem_name_by_id(pid[:pid.find('_')])
+			ui = pid.find('_')
+			if ui != -1:
+				pid = pid[:ui]
+			pname = ProblemName.uhunt.get_problem_name_by_id(pid)
 		# Create the files (.c, .in, .out)
 		src = uva.path / '{}.cpp'.format(pid)
 		din = uva.path / 'testdata' / '{}.in'.format(pid)
