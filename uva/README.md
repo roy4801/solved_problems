@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 204 / 220
+> AC/Total = 205 / 221
 
 ## Volume 1
 * [x] 100 - The 3n + 1 problem
@@ -65,6 +65,7 @@
 * [x] 623 - 500!
 * [x] 661 - Blowing Fuses
 * [x] 674 - Coin Change
+* [x] 679 - Dropping Balls
 * [x] 686 - Goldbach's Conjecture (II)
 * [x] 694 - The Collatz Sequence
 
