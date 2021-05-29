@@ -29,7 +29,6 @@ public:
                 if(nums[i] == val)
                     i--;
             }
-            
         }
         return n-del;
     }
