@@ -92,7 +92,7 @@ class LeetCode:
 		op = sys.argv[2].lower()
 
 		if op in LeetCode.__dict__:
-			res = LeetCode.__dict__[key].__func__()
+			res = LeetCode.__dict__[op].__func__()
 		if res == 1:
 			LeetCode.usage()
 		return res
@@ -110,14 +110,24 @@ class LeetCode:
 			if ans:
 				LeetCodeTemplate(src, title='')
 
-	# @staticmethod
-	# def cp():
-	# 	pid = sys.argv[3]
-		
+	@staticmethod
+	def cp():
+		pid = sys.argv[3]
+		print('Compiling...')
+		system(f'g++ leetcode/{pid}.cpp -Ileetcode/ -std=c++17 -o /tmp/a.out')
+		print('Running...')
+		system('/tmp/a.out')
 
 	@staticmethod
 	def usage():
-		print(f'Usage: {sys.argv[0]} leetcode gen <id>')
+		print(f'Usage: {sys.argv[0]} leetcode', end=' ')
+		flag = False
+		for k, v in LeetCode.__dict__.items():
+			if isinstance(v, staticmethod) and k != 'do':
+				if flag:
+					print('|', end='')
+				print(k, end='')
+				flag = True
 
 class LeetCodeTemplate:
 	tem_file = 'leetcode/template.cpp'
