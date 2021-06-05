@@ -114,9 +114,12 @@ class LeetCode:
 	def cp():
 		pid = sys.argv[3]
 		print('Compiling...')
-		system(f'g++ leetcode/{pid}.cpp -Ileetcode/ -std=c++17 -o /tmp/a.out')
+		system(f'g++ leetcode/{pid}.cpp -Ileetcode/ -std=c++17')
 		print('Running...')
-		system('/tmp/a.out')
+		if os.name == 'nt':
+			system('a.exe')
+		else:
+			system('./a.out')
 
 	@staticmethod
 	def usage():
