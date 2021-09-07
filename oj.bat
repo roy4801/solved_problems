@@ -1,2 +1,2 @@
 @echo off
-python3 oj.py %*
+py oj.py %*

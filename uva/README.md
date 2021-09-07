@@ -1,6 +1,6 @@
 # Uva
 
-> AC/Total = 202 / 217
+> AC/Total = 205 / 220
 
 ## Volume 1
 * [x] 147 - Dollars
@@ -26,10 +26,12 @@
 ## Volume 3
 * [x] 357 - Let Me Count The Ways
 * [x] 340 - Master-Mind Hints
+* [x] 382 - Perfection
 * [x] 352 - The Seasonal War
 
 ## Volume 4
 * [x] 490 - Rotating Sentences
+* [x] 484 - The Department of Redundancy Department
 * [x] 445 - Marvelous Mazes
 * [x] 482 - Permutation Arrays
 * [x] 455 - Periodic Strings
@@ -221,6 +223,7 @@
 * [x] 11479 - Is this the easiest problem?
 * [x] 11494 - Queen
 * [x] 11498 - Division of Nlogonia
+* [x] 11470 - Square Sums
 
 ## Volume 115
 * [x] 11586 - Train Tracks

@@ -2,13 +2,10 @@
 # -*- coding: utf-8 -*-
 import requests, sys, json, os
 
-url_base = 'https://uhunt.onlinejudge.org/api'
 class uhunt:
-	url_prob_id = url_base + '/p/num'
-
 	@staticmethod
 	def get_problem_name_by_id(i):
-		r = requests.get(uhunt.url_prob_id + '/{}'.format(i))
+		r = requests.get(f'https://uhunt.onlinejudge.org/api/p/num/{i}')
 		rt = None
 		if r.status_code == requests.codes.ok:
 			prob = json.loads(r.text)

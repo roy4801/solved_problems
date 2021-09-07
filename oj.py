@@ -65,7 +65,10 @@ class uva:
 		pid = sys.argv[3]
 		pname = sys.argv[4] if len(sys.argv) == 5 else None
 		if pname == None: # TODO(roy4801): call api
-			pname = ProblemName.uhunt.get_problem_name_by_id(pid[:pid.find('_')])
+			ui = pid.find('_')
+			if ui != -1:
+				pid = pid[:ui]
+			pname = ProblemName.uhunt.get_problem_name_by_id(pid)
 		# Create the files (.c, .in, .out)
 		src = uva.path / '{}.cpp'.format(pid)
 		din = uva.path / 'testdata' / '{}.in'.format(pid)
@@ -85,9 +88,11 @@ class LeetCode:
 	@staticmethod
 	def do():
 		res = 1
-		for key, val in LeetCode.__dict__.items():
-			if sys.argv[2].lower() == key:
-				res = LeetCode.__dict__[key].__func__()
+
+		op = sys.argv[2].lower()
+
+		if op in LeetCode.__dict__:
+			res = LeetCode.__dict__[op].__func__()
 		if res == 1:
 			LeetCode.usage()
 		return res
@@ -101,23 +106,45 @@ class LeetCode:
 			LeetCodeTemplate(src, title=pname)
 		else:
 			print('Wrong problem id...')
+			ans = input('Still generate the file? (y/N)') == 'y' or False
+			if ans:
+				LeetCodeTemplate(src, title='')
+
+	@staticmethod
+	def cp():
+		pid = sys.argv[3]
+		print('Compiling...')
+		system(f'g++ leetcode/{pid}.cpp -Ileetcode/ -std=c++17')
+		print('Running...')
+		if os.name == 'nt':
+			system('a.exe')
+		else:
+			system('./a.out')
 
 	@staticmethod
 	def usage():
-		print('Usage: {} leetcode gen <id>')
+		print(f'Usage: {sys.argv[0]} leetcode', end=' ')
+		flag = False
+		for k, v in LeetCode.__dict__.items():
+			if isinstance(v, staticmethod) and k != 'do':
+				if flag:
+					print('|', end='')
+				print(k, end='')
+				flag = True
 
 class LeetCodeTemplate:
 	tem_file = 'leetcode/template.cpp'
 	content = None
+
+	def __init__(self, path, **kargs):
+		LeetCodeTemplate.get_content()
+		self.gen(path, **kargs)
 
 	@staticmethod
 	def get_content():
 		with open(LeetCodeTemplate.tem_file, 'r') as f:
 			LeetCodeTemplate.content = f.read()
 
-	def __init__(self, path, **kargs):
-		LeetCodeTemplate.get_content()
-		self.gen(path, **kargs)
 	# judge pid pname
 	def gen(self, path, **kargs):
 		con = LeetCodeTemplate.content
@@ -125,6 +152,7 @@ class LeetCodeTemplate:
 		t = Path(path)
 		with t.open('w', encoding='utf-8') as f:
 			f.write(con)
+		print(f'Leetcode {path} created')
 
 support = {'uva': uva(), 'leetcode': LeetCode()}
 
@@ -135,7 +163,7 @@ def usage():
 		print(i, end=' ')
 
 if __name__ == '__main__':
-	print(sys.argv)
+	# print(sys.argv)
 	if len(sys.argv) < 2:
 		usage()
 		exit(1)
