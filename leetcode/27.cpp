@@ -15,6 +15,24 @@ public:
         return my(nums, val);
     }
 
+    // https://leetcode.com/problems/remove-element/discuss/12289/My-solution-for-your-reference.
+    int sol1(vector<int> &A, int elem)
+    {
+        int i = 0, n = A.size();
+        while (i < n)
+        {
+            if (A[i] == elem)
+            {
+                A[i] = A[n - 1];
+                n--;
+            }
+            else
+                i++;
+        }
+        return n;
+    }
+
+    // preserve order
     int my(vector<int> &nums, int val)
     {
         int n = nums.size();
@@ -29,7 +47,6 @@ public:
                 if(nums[i] == val)
                     i--;
             }
-            
         }
         return n-del;
     }
@@ -37,7 +54,7 @@ public:
 
 int main()
 {
-    vector<int> v = {0, 1, 2, 2, 3, 0, 4, 2};
+    vector<int> v = {0, 1, 2, 2, 3, 0, 4, 3, 2};
     printf("%d\n", Solution{}.removeElement(v, 2));
     print(v);
 }
