@@ -1,7 +1,7 @@
 /*
  * Leetcode Medium 78. Subsets
  * author: roy4801
- * (C++)
+ * AC(C++) 0.007ms 7.3MB
  */
 #include <bits/stdc++.h>
 using namespace std;
