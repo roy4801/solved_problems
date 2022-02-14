@@ -11,13 +11,13 @@ DRY=False
 PRINT_OUTPUT=True
 
 def system(cmd):
-	print(cmd)
+	# print(cmd)
 	if not DRY:
 		return os.system(cmd)
 	else:
 		return None
 def popen(cmd):
-	print(cmd)
+	# print(cmd)
 	if not DRY:
 		return os.popen(cmd).read()
 	else:
