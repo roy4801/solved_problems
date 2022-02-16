@@ -38,4 +38,26 @@ void build_tree(TreeNode *r, const std::vector<T> &v, int idx)
     }
 }
 
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+ListNode* build_sll(const std::vector<int> &v)
+{
+    ListNode *head = nullptr, *cur = nullptr, *prev = nullptr;
+    for(auto i : v)
+    {
+        cur = new ListNode;
+        if(prev) prev->next = cur;
+        if(!head) head = cur;
+        cur->val = i;
+        prev = cur;
+    }
+    return head;
+}
+
 #endif

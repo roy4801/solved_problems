@@ -4,6 +4,8 @@
 
 #include <bits/stdc++.h>
 
+#include "leetcode_helper.h"
+
 template<typename T>
 std::string plain_print(const T &v)
 {
@@ -14,6 +16,23 @@ template<>
 std::string plain_print(const std::string &v)
 {
     return "\"" + v + "\"";
+}
+
+using ListNodePtr = ListNode*;
+template<>
+std::string plain_print(const ListNodePtr &v)
+{
+    std::string res = "{";
+    ListNodePtr cur = v;
+    while(cur)
+    {
+        res += std::to_string(cur->val);
+        cur = cur->next;
+        if(cur) res += " -> ";
+    }
+    res += "}\n";
+
+    return res;
 }
 
 template<typename T>
