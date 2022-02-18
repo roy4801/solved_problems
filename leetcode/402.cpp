@@ -24,7 +24,7 @@ public:
             
             ans.push_back(c);
         }
-        // if the nums are monotone ascending, delete digits from back
+        // if remaining nums are monotone ascending, delete digits from back
         while(k--)
             ans.pop_back();
         
