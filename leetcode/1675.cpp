@@ -1,5 +1,5 @@
 /*
- * Leetcode Medium 1675. Magnetic Force Between Two Balls
+ * Leetcode Hard 1675. Minimize Deviation in Array
  * author: roy4801
  * (C++)
  */
