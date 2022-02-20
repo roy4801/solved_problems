@@ -19,7 +19,7 @@ public:
         // DBG(v);
 
         int ans = v.size();
-        int ml = INT_MAX, mr = INT_MIN;
+        int /*ml = INT_MAX,*/ mr = INT_MIN;
         int l, r;
         for(auto &p : v)
         {
@@ -27,13 +27,13 @@ public:
 
             // printf("l=%d r=%d | ml=%d mr=%d\n", l, r, ml, mr);
 
-            if(ml != INT_MAX && mr != INT_MIN)
+            if(/*ml != INT_MAX &&*/ mr != INT_MIN)
             {
-                if(ml <= l && r <= mr)
+                if(/*ml <= l &&*/ r <= mr)
                     ans--;
             }
 
-            ml = min(ml, l);
+            // ml = min(ml, l);
             mr = max(mr, r);
         }
 
