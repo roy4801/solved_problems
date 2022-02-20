@@ -1,5 +1,5 @@
 /*
- * Leetcode Medium 1288. Maximum Subarray Sum with One Deletion
+ * Leetcode Medium 1288. Remove Covered Intervals
  * author: roy4801
  * AC(C++) 28ms 11.MB
  */
