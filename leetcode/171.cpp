@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 171. Excel Sheet Column Number
  * author: roy4801
- * (C++)
+ * AC(C++) 4ms 5.9MB
  */
 #include <bits/stdc++.h>
 using namespace std;
