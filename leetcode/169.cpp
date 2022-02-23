@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 169. Majority Element
  * author: roy4801
- * (C++)
+ * AC(C++) 30ms 19.7MB
  */
 #include <bits/stdc++.h>
 using namespace std;
