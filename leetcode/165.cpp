@@ -1,7 +1,7 @@
 /*
  * Leetcode Medium 165. Compare Version Numbers
  * author: roy4801
- * (C++)
+ * AC(C++) 0ms 6.3MB
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -36,8 +36,6 @@ public:
         split(a, A);
         split(b, B);
 
-        puts("FUCK");
-        
         vector<int> *p = nullptr;
         int siz = max(A.size(), B.size());
         if(A.size() != siz)
