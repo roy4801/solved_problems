@@ -1,5 +1,5 @@
 /*
- * Leetcode Medium 1295. Minimum Garden Perimeter to Collect Enough Apples
+ * Leetcode Easy 1295. Find Numbers with Even Number of Digits
  * author: roy4801
  * AC(C++) 4ms 9.8MB
  */
