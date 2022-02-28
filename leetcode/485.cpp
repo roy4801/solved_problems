@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 485. Max Consecutive Ones
  * author: roy4801
- * (C++)
+ * AC(C++) 36ms 36.2MB
  */
 #include <bits/stdc++.h>
 using namespace std;
