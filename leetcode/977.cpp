@@ -1,16 +1,17 @@
 /*
  * Leetcode Easy 977. Squares of a Sorted Array
  * author: roy4801
- * AC(C++) 0.032
+ * AC(C++) 32ms 26.9MB
  */
 #include <bits/stdc++.h>
 using namespace std;
 #include "helper.h"
 
-class Solution
-{
+#define PB push_back
+
+class Solution {
 public:
-    vector<int> sortedSquares(vector<int> &n)
+    vector<int> sortedSquares(vector<int>& n)
     {
         vector<int> ans;
         int neg = -1;
@@ -20,9 +21,7 @@ public:
                 neg = i;
             n[i] *= n[i];
         }
-
-        printf("> %d\n", neg);
-
+        // printf("> %d\n", neg);
         int pos = neg + 1;
         while (pos < n.size() && neg >= 0)
         {
@@ -43,7 +42,7 @@ public:
 
 int main()
 {
-    vector<int> v = {-4, -1, 0, 3, 10}, v2 = {-7, -3, 2, 3, 11};
-    print(v2);
-    print(Solution{}.sortedSquares(v2));
+    vector<int> v = {-7,-3,2,3,11};
+    v = Solution{}.sortedSquares(v);
+    DBG(v);
 }
