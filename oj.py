@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import os, sys
+import time
 from pathlib import Path
 
 import pname as ProblemName
@@ -116,10 +117,18 @@ class LeetCode:
 		print('Compiling...')
 		if system(f'g++ leetcode/{pid}.cpp -Ileetcode/ -std=c++17') == 0:
 			print('Running...')
+
+			st = time.time()
 			if os.name == 'nt':
 				system('a.exe')
 			else:
 				system('./a.out')
+			elapsed = time.time() - st
+			if elapsed < 1.0:
+				elapsed = '{} ms'.format(elapsed*1000)
+			else:
+				elapsed = '{} s'.format(elapsed)
+			print(f'Elapsed {elapsed}')
 
 	@staticmethod
 	def usage():
