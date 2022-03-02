@@ -18,9 +18,9 @@ public:
 
         if(v.size() <= 1) return v;
 
-        // sort(v.begin(), v.end(), [](vector<int> &lhs, vector<int> &rhs) {
-        //     return lhs[0] == rhs[0] ? lhs[1] < rhs[1] : lhs[0] < rhs[0];
-        // });
+        sort(v.begin(), v.end(), [](vector<int> &lhs, vector<int> &rhs) {
+            return lhs[0] == rhs[0] ? lhs[1] < rhs[1] : lhs[0] < rhs[0];
+        });
 
         int cur = 0, r = 1;
 
