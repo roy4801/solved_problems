@@ -10,12 +10,13 @@ using namespace std;
 #define PB push_back
 #define N 100
 
+#define N 100
+
 class Solution
 {
 public:
     double b[N+5][N+5];
-
-    double champagneTower(int p, int r, int g)
+    double bottom_up(int p, int r, int c)
     {
         b[0][0] = p;
         
@@ -23,36 +24,45 @@ public:
         {
             for(int j = 0; j <= i; j++)
             {
-                if(j > 0)
+                if(j > 0 && b[i-1][j-1] > 1.0)
                 {
-                    if(b[i-1][j-1] > 1.0)
-                    {
-                        b[i][j] += (b[i-1][j-1]-1.0) / 2.0;
-                    }
+                    b[i][j] += (b[i-1][j-1]-1.0) / 2.0;
                 }
-                if(j < i)
+                if(j < i && b[i-1][j] > 1.0)
                 {
-                    if(b[i-1][j] > 1.0)
-                    {
-                        b[i][j] += (b[i-1][j]-1.0) / 2.0;
-                    }
+                    b[i][j] += (b[i-1][j]-1.0) / 2.0;
                 }
             }
         }
 
-        return b[r][g] >= 1.0 ? 1.0 : b[r][g];
+        return b[r][c] >= 1.0 ? 1.0 : b[r][c];
     }
-
-    /*void dbg(int start, int end)
+    
+    double dp[105][105];
+    double top_down(int r, int c)
     {
-        for(int i = start; i < end; i++)
-        {
-            for(int j = 0; j <= i; j++)
-            {
-                printf("%.2lf%s", b[i][j], (j == i ? "\n" : " "));
-            }
-        }
-    }*/
+        if(c < 0 || c > r)
+            return 0;
+        if(r == 0 && c == 0)
+            return dp[0][0];
+
+        if(dp[r][c] != -1.0)
+            return dp[r][c];
+
+        return dp[r][c] = (max(top_down(r-1, c-1)-1, 0.0) / 2.0 
+                         + max(top_down(r-1, c)-1, 0.0) / 2.0);
+    }
+//     for(int i = 0; i <= r; i++)
+//         for(int j = 0; j <= c; j++)
+//             dp[i][j] = -1.0;
+
+//     dp[0][0] = p;
+//     return min(1.0, top_down(r, c));
+    
+    double champagneTower(int p, int r, int c)
+    {
+        return bottom_up(p, r, c);
+    }
 };
 
 
