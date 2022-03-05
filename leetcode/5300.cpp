@@ -14,7 +14,7 @@ class Solution
 public:
     vector<int> G[N+5];
 
-    vector<int> an;
+    vector<int> an; // ancestors
     bool vis[N+5];
     void dfs(int r)
     {
