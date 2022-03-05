@@ -21,8 +21,7 @@ public:
 
         if(dp[i] != -1) return dp[i];
 
-        int cur = v[i];
-        int sum = v[i];
+        int cur = v[i], sum = v[i];
         int j = i+1;
 
         // Sum up for cur val
