@@ -1,7 +1,7 @@
 /*
  * Leetcode Medium 740. Delete and Earn
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -17,9 +17,10 @@ public:
 
     int solve(int i)
     {
-        if(i >= v.size()) return 0;
-
-        if(dp[i] != -1) return dp[i];
+        if(i >= v.size())
+            return 0;
+        if(dp[i] != -1)
+            return dp[i];
 
         int cur = v[i], sum = v[i];
         int j = i+1;
