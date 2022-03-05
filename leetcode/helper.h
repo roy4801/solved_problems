@@ -6,6 +6,9 @@
 
 #include "leetcode_helper.h"
 
+template<typename T1, typename T2>
+std::string plain_print(const std::pair<T1, T2> &p);
+
 template<typename T>
 std::string plain_print(const T &v)
 {
@@ -64,20 +67,35 @@ std::string plain_print(const std::map<T1, T2> &m)
 }
 
 template<typename T1, typename T2>
-std::string plain_print(const std::unordered_map<T1, T2> &m)
+std::string plain_print(const std::multimap<T1, T2> &m)
 {
     std::string res = "{\n";
     int n = 0;
-
-    std::map<T1, T2> tmp;
     for(auto && [k, v] : m)
-        tmp[k] = v;
-
-    for(auto && [k, v] : tmp)
         res +=  "  " + plain_print(k) + " -> " + plain_print(v) + (n++==m.size()-1 ? "" : ",") + '\n';
     res += "}\n";
 
     return res;
+}
+
+template<typename T1, typename T2>
+std::string plain_print(const std::unordered_map<T1, T2> &m)
+{
+    std::map<T1, T2> tmp;
+    for(auto && [k, v] : m)
+        tmp[k] = v;
+
+    return plain_print(tmp);
+}
+
+template<typename T1, typename T2>
+std::string plain_print(const std::unordered_multimap<T1, T2> &m)
+{
+    std::multimap<T1, T2> tmp;
+    for(auto && [k, v] : m)
+        tmp.insert(std::make_pair(k, v));
+
+    return plain_print(tmp);
 }
 
 template<typename T>
@@ -89,6 +107,17 @@ std::string plain_print(const std::set<T> &v)
     for(auto & i : v)
         res += (cnt++ > 0 ? ", " : "") + plain_print(i);
     res += "}\n";
+
+    return res;
+}
+
+template<typename T1, typename T2>
+std::string plain_print(const std::pair<T1, T2> &p)
+{
+    std::string res = "p(";
+    res += plain_print(p.first) + ", ";
+    res += plain_print(p.second);
+    res += ")\n";
 
     return res;
 }
