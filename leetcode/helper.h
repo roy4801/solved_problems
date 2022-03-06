@@ -4,7 +4,9 @@
 
 #include <bits/stdc++.h>
 
+#ifndef LEETCODE_NO_HELPER
 #include "leetcode_helper.h"
+#endif
 
 template<typename T1, typename T2>
 std::string plain_print(const std::pair<T1, T2> &p);
@@ -36,6 +38,25 @@ std::string plain_print(const ListNodePtr &v)
     res += "}\n";
 
     return res;
+}
+
+using TreeNodePtr = TreeNode*;
+template<>
+std::string plain_print(const TreeNodePtr &r)
+{
+    std::string buf;
+    // Ref: https://stackoverflow.com/questions/36802354/print-binary-tree-in-a-pretty-way-using-c
+    std::function<void(const std::string &, TreeNode *, bool)> print_impl =
+        [&print_impl, &buf](const std::string &prefix, TreeNode *r, bool left) {
+            if(!r) return;
+            buf += prefix;
+            buf += (left ? "+--" : "|--" );
+            buf += plain_print(r->val) + "\n";
+            print_impl(prefix + (left ? "|   " : "    "), r->left, true);
+            print_impl(prefix + (left ? "|   " : "    "), r->right, false);
+        };
+    print_impl("", r, false);
+    return buf;
 }
 
 template<typename T>
@@ -126,6 +147,13 @@ template<typename T>
 void print(const char *name, const T &v)
 {
     cout << name << " = " << plain_print(v) << '\n';
+}
+
+template<>
+void print(const char *name, const TreeNodePtr &r)
+{
+    cout << name << ": " << '\n';
+    cout << plain_print(r);
 }
 
 #define DBG(x) print(#x, (x))
