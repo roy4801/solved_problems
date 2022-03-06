@@ -40,15 +40,7 @@ public:
         for(auto &i : des)
         {
             p = i[0], c = i[1], l = i[2];
-            
-            // if(!M.count(p))
-            // {
-            //     M[p] = new TreeNode(p);
-            // }
-            // if(!M.count(c))
-            // {
-            //     M[c] = new TreeNode(c);
-            // }
+
             if(!M[p])
                 M[p] = new TreeNode(p);
             if(!M[c])
@@ -62,36 +54,9 @@ public:
             else
                 M[p]->right = M[c];
         }
-
-        // TreeNode *head = nullptr;
-        // DBG(N);
-        // for(auto &&[id, node] : M)
-        // {
-        //     // printf("%d %p\n", id, node);
-        //     vis.clear();
-        //     dfs(node);
-
-        //     int cnt = 0;
-        //     for(int i : N)
-        //     {
-        //         if(vis[i])
-        //             cnt++;
-        //     }
-        //     if(cnt == N.size())
-        //         head = node;
-        // }
         
         return M[*N.begin()];
     }
-
-    // void dfs(TreeNode *r)
-    // {
-    //     vis[r->val] = true;
-    //     if(r->left)
-    //         dfs(r->left);
-    //     if(r->right)
-    //         dfs(r->right);
-    // }
 };
 
 int main()

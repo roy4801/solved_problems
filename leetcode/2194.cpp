@@ -1,5 +1,5 @@
 /*
- * Leetcode Easy 6016. Cells in a Range on an Excel Sheet
+ * Leetcode Easy 2194. Cells in a Range on an Excel Sheet
  * author: roy4801
  * AC(C++)
  */
@@ -18,8 +18,6 @@ public:
         string tmp;
         int a = s[0]-'A', b = s[3]-'A';
         int av = s[1]-'0', bv = s[4]-'0';
-
-        printf("%d %d %d %d\n", a, b, av, bv);
 
         for(int i = a; i <= b; i++)
             for(int j = av; j <= bv; j++)
