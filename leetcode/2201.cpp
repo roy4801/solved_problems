@@ -1,7 +1,7 @@
 /*
- * Leetcode Hard 2201. Valid Arrangement of Pairs
+ * Leetcode Medium 2201. Count Artifacts That Can Be Extracted
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
