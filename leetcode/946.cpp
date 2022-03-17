@@ -1,7 +1,7 @@
 /*
  * Leetcode Medium 946. Validate Stack Sequences
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
