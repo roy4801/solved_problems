@@ -75,6 +75,20 @@ std::string plain_print(const std::vector<T> &v)
     return res;
 }
 
+template<typename T>
+std::string plain_print(const std::stack<T> &s)
+{
+    std::stack<T> tmp = s;
+    std::vector<T> ans;
+    while(!tmp.empty())
+    {
+        ans.push_back(tmp.top());
+        tmp.pop();
+    }
+    reverse(ans.begin(), ans.end());
+    return plain_print(ans);
+}
+
 template<typename T1, typename T2>
 std::string plain_print(const std::map<T1, T2> &m)
 {

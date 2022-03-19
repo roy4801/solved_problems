@@ -1,7 +1,7 @@
 /*
  * Leetcode Hard 895. Maximum Frequency Stack
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
