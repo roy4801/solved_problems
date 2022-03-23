@@ -1,5 +1,5 @@
 /*
- * Leetcode Hard 763. Special Binary String
+ * Leetcode Medium 763. Partition Labels
  * author: roy4801
  * AC(C++)
  */
