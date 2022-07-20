@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 119. Pascal's Triangle II
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
