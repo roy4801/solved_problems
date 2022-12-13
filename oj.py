@@ -101,7 +101,11 @@ class LeetCode:
 	@staticmethod
 	def gen():
 		pid = sys.argv[3]
-		pname = ProblemName.LeetCode.get_problem_name(pid)
+		try:
+			pname = ProblemName.LeetCode.get_problem_name(pid)
+		except:
+			pname = ''
+			pass
 		src = LeetCode.path / '{}.cpp'.format(pid)
 		if pname:
 			LeetCodeTemplate(src, title=pname)

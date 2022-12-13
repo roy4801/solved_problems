@@ -33,7 +33,7 @@ class LeetCode:
 	def get_problem_name(pid):
 		data = None
 
-		r = requests.get(LeetCode.url)
+		r = requests.get(LeetCode.url, timeout=3)
 		if r.status_code == requests.codes.ok:
 			# Get the problem data
 			pd = json.loads(r.text)['stat_status_pairs']
