@@ -49,6 +49,52 @@ public:
     }
 };
 
+// DFS
+class Solution2 {
+public:
+    vector<int> G[N+5];
+    bool vis[N+5];
+    bool ans = false;
+
+    void dfs(int s, int d)
+    {
+        //printf("> %d %d\n", s, d);
+        // vis[s] = true;
+
+        if(s == d)
+        {
+            ans = true;
+            return;
+        }
+
+        for(int i : G[s])
+        {
+            if(!vis[i])
+            {
+                vis[i] = true;
+                dfs(i, d);
+                // vis[i] = false; TLE!
+            }
+        }
+        // vis[s] = false;
+    }
+
+    bool validPath(int n, vector<vector<int>>& e, int src, int dst)
+    {
+        // build
+        for(auto &i : e)
+        {
+            auto &&[a, b] = tie(i[0], i[1]);
+            G[a].push_back(b);
+            G[b].push_back(a);
+        }
+        memset(vis, 0, sizeof(vis));
+        vis[src] = true;
+        dfs(src, dst);
+        return ans;
+    }
+};
+
 int main()
 {
     // skip
