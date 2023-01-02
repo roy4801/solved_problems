@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import os, sys
+import platform
 import time
 from pathlib import Path
 
@@ -123,8 +124,8 @@ class LeetCode:
 			print('Running...')
 
 			st = time.time()
-			if os.name == 'nt':
-				system('a.exe')
+			if 'nt' in platform.system().lower():
+				system('./a.exe')
 			else:
 				system('./a.out')
 			elapsed = time.time() - st
