@@ -63,7 +63,7 @@ template<typename T>
 std::string plain_print(const std::vector<T> &v)
 {
     std::string res = "[ ";
-    int cnt = 0;
+    typename std::vector<T>::size_type cnt = 0;
 
     for(auto &i : v)
     {
