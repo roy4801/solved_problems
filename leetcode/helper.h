@@ -157,6 +157,8 @@ std::string plain_print(const std::pair<T1, T2> &p)
     return res;
 }
 
+// TODO: add support for priority_queue
+
 template<typename T>
 void print(const char *name, const T &v)
 {
