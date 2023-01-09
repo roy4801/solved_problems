@@ -17,28 +17,26 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-int TREE_NULL = 999;
-
 #define TREE_LEFT(x) (((x)<<2)+1)
 #define TREE_RIGHT(x) (((x)<<2)+2)
 
 template<typename T>
-void build_tree(TreeNode *r, const std::vector<T> &v, int idx)
+void build_tree(TreeNode *r, const std::vector<T> &v, int idx, T treeNull)
 {
     r->val = v[idx];   
 
     int i = TREE_LEFT(idx);
-    if(i < v.size() && v[i] != TREE_NULL)
+    if(i < v.size() && v[i] != treeNull)
     {
         r->left = new TreeNode;
-        build_tree(r->left, v, i);
+        build_tree(r->left, v, i, treeNull);
     }
 
     i = TREE_RIGHT(idx);
-    if(i < v.size() && v[i] != TREE_NULL)
+    if(i < v.size() && v[i] != treeNull)
     {
         r->right = new TreeNode;
-        build_tree(r->right, v, i);
+        build_tree(r->right, v, i, treeNull);
     }
 }
 
