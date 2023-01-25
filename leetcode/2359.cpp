@@ -15,7 +15,6 @@ typedef long long int LL;
 #define Y second
 
 #define N 100000
-vector<int> G[N+5];
 class Solution {
 public:
     int n;
@@ -25,11 +24,6 @@ public:
     void build()
     {
         n = E.size();
-        for(int i = 0; i < E.size(); i++)
-        {
-            if(E[i] != -1)
-                G[i].push_back(E[i]);
-        }
     }
 
     bool visit[N+5];
@@ -45,14 +39,13 @@ public:
         while(!q.empty())
         {
             auto i = q.front(); q.pop();
-            for(int j : G[i.X])
+            int j = E[i.X];
+            
+            if(j != -1 && !visit[j])
             {
-                if(!visit[j])
-                {
-                    visit[j] = true;
-                    dis[j] = i.Y+1;
-                    q.push(MP(j, i.Y+1));
-                }
+                visit[j] = true;
+                dis[j] = i.Y+1;
+                q.push(MP(j, i.Y+1));
             }
         }
         
@@ -60,7 +53,6 @@ public:
 
     int closestMeetingNode(vector<int>& _E, int a, int b) {
         E = _E;
-        for(int i = 0; i <= N; i++) G[i].clear();
         memset(A, 0xff, sizeof(A));
         memset(B, 0xff, sizeof(B));
         //
