@@ -1,5 +1,5 @@
 /*
- * Leetcode Easy 1137. Height Checker
+ * Leetcode Easy 1137. N-th Tribonacci Number
  * author: roy4801
  * AC(C++)
  */
