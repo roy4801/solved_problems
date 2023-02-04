@@ -50,6 +50,30 @@ public:
     }
 };
 
+class Solution2
+{
+public:
+    int A[26], B[26];
+    bool checkInclusion(string a, string b) {
+        int n = a.size(), m = b.size();
+        for(char c : a)
+            A[c-'a']++;
+
+        int len = m-n+1;
+        for(int i = 0; i < len; i++)
+        {
+            memset(B, 0, sizeof(B));
+            for(int j = 0; j < n; j++)
+            {
+                B[b[i+j]-'a']++;
+            }
+            if(equal(A, A+26, B))
+                return true;
+        }
+        return false;
+    }
+};
+
 int main()
 {
     cout << Solution{}.checkInclusion("ab", "eidbaooo") << '\n';
