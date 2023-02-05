@@ -149,15 +149,16 @@ std::string plain_print(const std::set<T> &v)
 template<typename T1, typename T2>
 std::string plain_print(const std::pair<T1, T2> &p)
 {
-    std::string res = "p(";
+    std::string res = "{";
     res += plain_print(p.first) + ", ";
     res += plain_print(p.second);
-    res += ")\n";
+    res += "}";
 
     return res;
 }
 
 // TODO: add support for priority_queue
+// TODO: add support for print graph in graphviz
 
 template<typename T>
 void print(const char *name, const T &v)
