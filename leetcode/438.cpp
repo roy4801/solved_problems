@@ -1,7 +1,7 @@
 /*
  * Leetcode Medium 438. Find All Anagrams in a String
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;

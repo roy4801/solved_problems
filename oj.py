@@ -115,6 +115,7 @@ class LeetCode:
 			ans = input('Still generate the file? (y/N)') == 'y' or False
 			if ans:
 				LeetCodeTemplate(src, title='')
+		system(f'code leetcode/{pid}.cpp')
 
 	@staticmethod
 	def cp():
