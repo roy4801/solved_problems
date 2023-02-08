@@ -8,6 +8,10 @@
 #include "leetcode_helper.h"
 #endif
 
+#ifndef PRINT_INDEX
+#define PRINT_INDEX 0
+#endif
+
 template<typename T1, typename T2>
 std::string plain_print(const std::pair<T1, T2> &p);
 
@@ -163,16 +167,26 @@ std::string plain_print(const std::pair<T1, T2> &p)
 template<typename T>
 void print(const char *name, const T &v)
 {
-    cout << name << " = " << plain_print(v) << '\n';
+    std::cout << name << " = " << plain_print(v) << '\n';
+}
+
+template<typename T>
+void print(const char *name, const T *v, int length)
+{
+    std::cout << name << " = [";
+    for(int i = 0; i < length; i++)
+        std::cout << (PRINT_INDEX ? std::to_string(i)+": " : "") << plain_print(v[i]) << (i==length-1 ? "" : ", ");
+    std::cout << "]\n";
 }
 
 template<>
 void print(const char *name, const TreeNodePtr &r)
 {
-    cout << name << ": " << '\n';
-    cout << plain_print(r);
+    std::cout << name << ": " << '\n';
+    std::cout << plain_print(r);
 }
 
 #define DBG(x) print(#x, (x))
+#define DBGN(x, n) print(#x, (x), (n))
 
 #endif
