@@ -27,11 +27,12 @@
  */
 
 // 17.4.1.2 Headers
-
+#if !defined(__APPLE__)
 int __gcd(int a, int b)
 {
 	return b ? __gcd(b, a%b): a;
 }
+#endif
 
 // C
 #ifndef _GLIBCXX_NO_ASSERT
