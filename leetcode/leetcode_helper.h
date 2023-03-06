@@ -23,7 +23,8 @@ struct TreeNode {
 template<typename T>
 void build_tree(TreeNode *r, const std::vector<T> &v, int idx, T treeNull)
 {
-    r->val = v[idx];   
+    if(idx < v.size())
+        r->val = v[idx];   
 
     int i = TREE_LEFT(idx);
     if(i < v.size() && v[i] != treeNull)
