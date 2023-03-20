@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 605. Can Place Flowers
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
