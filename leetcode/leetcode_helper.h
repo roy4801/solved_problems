@@ -20,6 +20,10 @@ struct TreeNode {
 #define TREE_LEFT(x) (((x)<<2)+1)
 #define TREE_RIGHT(x) (((x)<<2)+2)
 
+/*
+ * TreeNode *r = new TreeNode;
+ * build_tree(r, v, 0, -1);
+ */
 template<typename T>
 void build_tree(TreeNode *r, const std::vector<T> &v, int idx, T treeNull)
 {
