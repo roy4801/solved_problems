@@ -51,6 +51,25 @@ public:
         }
         return -1;
     }
+
+    int search(vector<int>& v, int a)
+    {
+        int l = 0, r = v.size();
+
+        while(l < r)
+        {
+            int mid = (l+r)/2;
+            if(v[mid] >= a)
+            {
+                r = mid;
+            }
+            else
+            {
+                l = mid + 1;
+            }
+        }
+        return l < v.size() && v[l]==a ? l : -1;
+    }
     
     int search(vector<int>& nums, int target)
     {
