@@ -19,7 +19,7 @@ public:
     int compress(vector<char>& s) {
         int ans = 0;
         int n = s.size();
-        int i = 0, j = 0;
+        int i = 0, j = 0; // i=開頭 j=結尾+1
         int cnt = 1;
         int k = 0;
         char cur = s[0];
