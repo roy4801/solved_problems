@@ -34,6 +34,52 @@ public:
     }
 };
 
+class Solution2
+{
+public:
+    ListNode* swapPairs(ListNode* h)
+    {
+        ListNode *a = nullptr, *b = nullptr, *c, *n = h;
+
+        int i = 0;
+        while(n)
+        {
+            i++;
+            c = n;
+            n = n->next;
+            
+            if(i % 2 == 0)
+            {
+                if(a)
+                {
+                    // 1 2 3 4
+                    //   a b c n
+                    //   a c b n
+                    a->next = c;
+                    c->next = b;
+                    b->next = n;
+                }
+                else
+                {
+                    // 1 2 3 4
+                    // b c n
+                    // c b n
+                    b->next = n;
+                    c->next = b;
+                    h = c;
+                }
+                a = c;
+            }
+            else
+            {
+                a = b;
+                b = c;
+            }
+        }
+        return h;
+    }
+};
+
 int main()
 {
     vector<int> v = {1, 2, 3, 4};
