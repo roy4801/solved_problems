@@ -9,6 +9,7 @@ using namespace std;
 
 typedef pair<int, int> P;
 typedef long long int LL;
+#define arr array
 #define PB push_back
 #define MP make_pair
 #define X first
