@@ -1,5 +1,7 @@
 # leetcode
 
+![solved](https://leetcode-badge.haozibi.dev/v1/solved/roy4801.svg)
+
 - 刷題方法
     - 打開 [leetcode](https://leetcode.com/)
     - 刷題
