@@ -19,11 +19,8 @@ public:
         int l = n[0];
         for(int i = 1; i < n.size(); i++)
         {
-            l = min(l, n[i-1]);
-
             if(n[i]-1 != n[i-1])
             {
-                printf("%d->%d\n", l, n[i-1]);
                 if(l == n[i-1])
                     ans.push_back(to_string(l));
                 else
@@ -36,6 +33,63 @@ public:
             ans.push_back(to_string(l));
         else
             ans.push_back(to_string(l) + "->" + to_string(n.back()));
+        return ans;
+    }
+};
+
+class Solution2 {
+public:
+    vector<string> summaryRanges(vector<int>& v)
+    {
+        int n = v.size(), left = 0, right = 0;
+        bool rw = false;
+        vector<string> ans;
+        int state = 0;
+        // 0 = left
+        // 1 = rigth
+
+        if(n == 0)
+            return ans;
+
+        for(int i = 0; i < n;)
+        {
+        switch(state)
+        {
+            case 0:
+            {
+                left = v[i];
+                state = 1;
+                i++;
+            }
+            break;
+            case 1:
+            {
+                if((LL)v[i] - v[i-1] == 1LL)
+                {
+                    right = v[i];
+                    rw = true;
+                    i++;
+                }
+                else
+                {
+                    if(rw && right - left > 0)
+                        ans.push_back(to_string(left)+"->"+to_string(right));
+                    else
+                        ans.push_back(to_string(left));
+                    state = 0;
+                    left = right = 0;
+                    rw = false;
+                }
+            }
+            break;
+        }
+        }
+
+        if(rw)
+            ans.push_back(to_string(left)+"->"+to_string(right));
+        else
+            ans.push_back(to_string(left));
+
         return ans;
     }
 };
