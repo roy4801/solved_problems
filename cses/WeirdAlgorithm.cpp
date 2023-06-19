@@ -1,5 +1,5 @@
 /*
- * CSES Introductory Problems - WeirdAlgorithm
+ * CSES 1068 - WeirdAlgorithm
  * author: roy4801
  * AC(C++)
  */
