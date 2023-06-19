@@ -83,6 +83,36 @@ class uva:
 	def usage():
 		print('Usage: {} uva gen <pid> [pname]'.format(sys.argv[0],))
 
+class CSES:
+	need_arg = 3
+	path = Path('./cses/')
+
+	@staticmethod
+	def do():
+		res = 1
+
+		op = sys.argv[2].lower()
+
+		if op in CSES.__dict__:
+			res = CSES.__dict__[op].__func__()
+		if res == 1:
+			CSES.usage()
+		return res
+
+	@staticmethod
+	def gen():
+		pid = sys.argv[3]
+		pname = sys.argv[4]
+
+		src_path = CSES.path / '{}.cpp'.format(pname.replace(' ', ''))
+		template(src_path, judge='CSES', pid=pid, pname=pname)
+		print(src_path)
+		system(f'code "{src_path}"')
+
+	@staticmethod
+	def usage():
+		print('Usage: {} cses gen <pid> [pname]'.format(sys.argv[0],))
+
 class LeetCode:
 	need_arg = 3
 	path = Path('./leetcode/')
@@ -169,7 +199,11 @@ class LeetCodeTemplate:
 			f.write(con)
 		print(f'Leetcode {path} created')
 
-support = {'uva': uva(), 'leetcode': LeetCode()}
+support = {
+	'uva': uva(),
+	'leetcode': LeetCode(),
+	'cses': CSES()
+}
 
 def usage():
 	print('Usage: {} <Online Judge> ...'.format(sys.argv[0]))
