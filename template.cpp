@@ -24,6 +24,8 @@ typedef pair<LL, LL> PLL;
 #define PF push_front
 #define PPF pop_front
 
+void __attribute__ ((constructor)) ctor() { USE_CPPIO(); }
+
 int main()
 {
 	
