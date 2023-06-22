@@ -104,7 +104,7 @@ class CSES:
 		pid = sys.argv[3]
 		pname = sys.argv[4]
 
-		src_path = CSES.path / '{}.cpp'.format(pname.replace(' ', ''))
+		src_path = CSES.path / '{}.cpp'.format(pname.replace(' ', '_'))
 		template(src_path, judge='CSES', pid=pid, pname=pname)
 		print(src_path)
 		system(f'code "{src_path}"')
