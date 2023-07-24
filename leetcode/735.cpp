@@ -17,18 +17,18 @@ typedef long long int LL;
 
 class Solution {
 public:
-	bool check(vector<int>& v)
-	{
-		int n = v.size();
-		for(int i = 0; i < n-1; i++)
-        	if(v[i] > 0 && v[i+1] < 0)
-        		return 1;
+    bool check(vector<int>& v)
+    {
+        int n = v.size();
+        for(int i = 0; i < n-1; i++)
+            if(v[i] > 0 && v[i+1] < 0)
+                return 1;
         return 0;
-	}
-	vector<int> solve(vector<int>& v)
-	{
-		int n = v.size();
-		stack<int> s;
+    }
+    vector<int> solve(vector<int>& v)
+    {
+        int n = v.size();
+        stack<int> s;
         for(int i = 0; i < n; i++)
         {
             int b = v[i];
@@ -55,14 +55,14 @@ public:
             ans.push_back(s.top()), s.pop();
         reverse(ans.begin(), ans.end());
         return ans;
-	}
+    }
 
     vector<int> asteroidCollision(vector<int>& ast) {
         vector<int> ans;
- 		ans = solve(ast);
+         ans = solve(ast);
 
- 		while(check(ans))
- 			ans = solve(ans);
+         while(check(ans))
+             ans = solve(ans);
 
         return ans;
     }
