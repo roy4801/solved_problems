@@ -61,6 +61,29 @@ public:
     }
 };
 
+class Solution2
+{
+public:
+    bool hasCycle(ListNode *head)
+    {
+        ListNode *a = head, *b = head;
+        if(head && head->next == nullptr)
+            return 0;
+        while(a && b)
+        {
+            if(a)
+                a = a->next;
+            if(b)
+                b = b->next;
+            if(b)
+                b = b->next;
+            if(a == b)
+                return 1;
+        }
+        return 0;
+    }
+};
+
 int main()
 {
     // vector<int> v = {3,2,0,-4};
