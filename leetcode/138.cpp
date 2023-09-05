@@ -1,7 +1,7 @@
 /*
  * Leetcode Medium 138. Copy List with Random Pointer
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -49,6 +49,42 @@ public:
             n->random = o->random ? M[o->random] : nullptr;
         }
         return M[h];
+    }
+};
+
+class Solution2
+{
+public:
+    Node* copyRandomList(Node* head)
+    {
+        map<Node*, Node*> rm; // old node random map (from, to)
+        Node *n = head;
+        while(n)
+        {
+            rm[n] = n->random;
+            n = n->next;
+        }
+        // copy list
+        map<Node*, Node*> otn; // old node to new node
+        Node *nh, *prev = nullptr;
+        n = head;
+        while(n)
+        {
+            nh = new Node(n->val);
+            if(prev)
+                prev->next = nh;
+            otn[n] = nh;
+            prev = nh;
+            n = n->next;
+        }
+        // link random
+        n = head;
+        while(n)
+        {
+            otn[n]->random = otn[rm[n]];
+            n = n->next;
+        }
+        return otn[head];
     }
 };
 
