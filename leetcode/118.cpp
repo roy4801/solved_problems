@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 118. Pascal's Triangle
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -35,6 +35,30 @@ public:
             tmp.push_back(1);
             ans.push_back(tmp);
         }
+        return ans;
+    }
+};
+
+class Solution2 {
+public:
+    vector<vector<int>> generate(int n)
+    {
+        vector<vector<int>> ans;
+        for(int i = 1; i <= n; i++)
+        {
+            ans.push_back(vector<int>(i));
+            auto &cur = ans.back();
+            cur[0] = 1;
+            if(n >= 2)
+            {
+                cur[i-1] = 1;
+
+                auto &prev = *(ans.end()-2);
+                for(int j = 1; j <= i-2; j++)
+                    cur[j] = prev[j] + prev[j-1];
+            }
+        }
+
         return ans;
     }
 };
