@@ -49,6 +49,30 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    bool isSubsequence(string s, string t)
+    {
+        int n = s.size(), m = t.size();
+        int i = 0, j = 0;
+        int cnt = 0;
+        while(i < n && j < m)
+        {
+            if(s[i] == t[j])
+            {
+                i++;
+                j++;
+                cnt++;
+            }
+            else
+            {
+                j++;
+            }
+        }
+        return cnt == n;
+    }
+};
+
 int main()
 {
     cout << Solution{}.isSubsequence("axc", "ahbgdc") << '\n';
