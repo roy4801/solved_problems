@@ -1,7 +1,7 @@
 /*
- * Leetcode Medium 905. Length of Longest Fibonacci Subsequence
+ * Leetcode Easy 905. Sort Array By Parity
  * author: roy4801
- * (C++)
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,14 +10,35 @@ using namespace std;
 class Solution
 {
 public:
-	vector<int> sortArrayByParity(vector<int>& n) {
+	vector<int> sortArrayByParity(vector<int>& n)
+	{
         sort(n.begin(), n.end(), [](int a, int b) {
         	return a % 2 == 0 && b % 2 != 0;
         });
         return n;
     }
+};
 
-    // TODO: Learning more elegant solution
+class Solution2 {
+public:
+    vector<int> sortArrayByParity(vector<int>& nums)
+    {
+        int n = nums.size();
+        int i = 0;
+        while(i < n && nums[i] % 2 == 0)
+            i++;
+
+        for(int j = i+1; j < n; j++)
+        {
+            if(nums[j] % 2 == 0)
+            {
+                swap(nums[i], nums[j]);
+                i++;
+            }
+        }
+
+        return nums;
+    }
 };
 
 int main()
