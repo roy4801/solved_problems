@@ -33,12 +33,39 @@ public:
         {
             if(ans[e] == ' ')
             {
-                //printf("%d %d\n", s, e);
                 rev(s, e-1);
                 s = e+1;
             }
         }
         rev(s, S.size()-1);
+        return ans;
+    }
+};
+
+class Solution2 {
+public:
+    string reverseWords(string s)
+    {
+        string ans;
+        int n = s.size();
+        string tmp;
+        for(int i = 0; i < n; i++)
+        {
+            char c = s[i];
+
+            if(c == ' ')
+            {
+                reverse(tmp.begin(), tmp.end());
+                ans += tmp + ' ';
+                tmp = "";
+            }
+            else
+            {
+                tmp += c;
+            }
+        }
+        reverse(tmp.begin(), tmp.end());
+        ans += tmp;
         return ans;
     }
 };
