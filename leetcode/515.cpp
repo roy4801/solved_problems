@@ -40,6 +40,32 @@ public:
     }
 };
 
+#define N 17000
+class Solution {
+public:
+    int ans[N+5];
+    bool vis[N+5];
+    int lev = -1;
+    void dfs(TreeNode* n, int l)
+    {
+        lev = max(lev, l+1);
+        if(n->left) dfs(n->left, l+1);
+        if(n->right) dfs(n->right, l+1);
+        if(!vis[l])
+            ans[l] = n->val, vis[l] = 1;
+        else
+            ans[l] = max(ans[l], n->val);
+    }
+    vector<int> largestValues(TreeNode* r)
+    {
+        fill(ans, ans+N, INT_MIN);
+        if(!r) return {};
+        dfs(r, 0);
+        cout << lev << '\n';
+        return vector<int>(ans, ans+lev);
+    }
+};
+
 int main()
 {
     // skip
