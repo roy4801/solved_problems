@@ -33,6 +33,19 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    vector<int> sortByBits(vector<int>& arr)
+    {
+        sort(arr.begin(), arr.end(), [](const int lhs, const int rhs) {
+            return __popcount(lhs) == __popcount(rhs) ?
+                        lhs < rhs :
+                        __popcount(lhs) < __popcount(rhs);
+        });
+        return arr;
+    }
+};
+
 int main()
 {
     // skip
