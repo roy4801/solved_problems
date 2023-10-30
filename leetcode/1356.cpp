@@ -46,6 +46,29 @@ public:
     }
 };
 
+inline int popcount(int n)
+{
+    int ans = 0;
+    while(n)
+    {
+        n &= n-1;
+        ans++;
+    }
+    return ans;
+}
+class Solution3 {
+public:
+    vector<int> sortByBits(vector<int>& arr)
+    {
+        sort(arr.begin(), arr.end(), [](const int lhs, const int rhs) {
+            return popcount(lhs) == popcount(rhs) ?
+                        lhs < rhs :
+                        popcount(lhs) < popcount(rhs);
+        });
+        return arr;
+    }
+};
+
 int main()
 {
     // skip
