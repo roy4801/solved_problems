@@ -1,0 +1,39 @@
+/*
+ * Leetcode Easy 356. Sort Integers by The Number of 1 Bits
+ * author: roy4801
+ * AC(C++)
+ */
+#include <bits/stdc++.h>
+using namespace std;
+#include "helper.h"
+
+typedef pair<int, int> P;
+typedef long long int LL;
+#define arr array
+#define PB push_back
+#define MP make_pair
+#define X first
+#define Y second
+
+class Solution {
+public:
+    vector<int> sortByBits(vector<int>& arr)
+    {
+        vector<int> ans;
+        vector<int> b[32];
+        for(int n : arr)
+            b[__popcount(n)].push_back(n);
+        for(int i = 0; i < 32; i++)
+            if(b[i].size())
+                sort(b[i].begin(), b[i].end());
+        for(int i = 0; i < 32; i++)
+            if(b[i].size())
+                ans.insert(ans.end(), b[i].begin(), b[i].end());
+        return ans;
+    }
+};
+
+int main()
+{
+    // skip
+}
