@@ -151,7 +151,7 @@ class LeetCode:
 	def cp():
 		pid = sys.argv[3]
 		print('Compiling...')
-		if system(f'g++ -g leetcode/{pid}.cpp -Ileetcode/ -std=c++17') == 0:
+		if system(f'g++ -g leetcode/{pid}.cpp -I. -Ileetcode/ -std=c++17') == 0:
 			print('Running...')
 
 			st = time.time()
