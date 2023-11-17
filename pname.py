@@ -26,6 +26,16 @@ def uva_handle(prob_num, sub=None):
 	else:
 		return True
 
+# /html/body/div[3]/div[2]/div/ul/li[contains(@class, 'task')]/a
+class CSES:
+	url = ''
+
+	@staticmethod
+	def get_problem_info_by_pid(pid):
+		r = requests.get(CSES.url, timeout=3)
+		if r.status_code == requests.codes.ok:
+			pass
+
 class LeetCode:
 	url = 'https://leetcode.com/api/problems/algorithms/'
 
@@ -56,7 +66,7 @@ class LeetCode:
 		if pass_flag:
 			return 'Leetcode {diff} {id}. {title}'.format(diff=difficulty, id=pid, title=title)
 		else:
-			return None
+			return 'Leetcode diff id. title'
 
 def usage():
 	print('Usage: {} <OJ name> <Prob id> []'.format(sys.argv[0]))
