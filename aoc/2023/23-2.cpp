@@ -5,7 +5,7 @@
  */
 #include <bits/stdc++.h>
 using namespace std;
-#include "C:\Users\roy4801\Desktop\Program\my_code\solved_problems\leetcode\helper.h"
+#include "../helper.h"
 
 typedef pair<int, int> P;
 typedef long long int LL;
