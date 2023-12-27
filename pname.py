@@ -54,7 +54,7 @@ class LeetCode:
 		# iterate through the problem list
 		for i in pd:
 			# the problem id matched
-			if i['stat']['question_id'] == int(pid):
+			if i['stat']['frontend_question_id'] == int(pid):
 				pass_flag = True
 				difficulty = {
 					1: 'Easy',
