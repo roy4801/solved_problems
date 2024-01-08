@@ -1,7 +1,7 @@
 /*
  * Leetcode Easy 938. Range Sum of BST
  * author: roy4801
- * (C++) 327 ms
+ * AC(C++)
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -36,6 +36,15 @@ public:
         a = low, b = high;
         solve(root);
         return sum;
+    }
+};
+
+class Solution2 {
+public:
+    int rangeSumBST(TreeNode* root, int low, int high) {
+        return (root->left ? rangeSumBST(root->left, low, high) : 0) +
+               (root->right ? rangeSumBST(root->right, low, high) : 0) +
+               ((low <= root->val && root->val <= high) ? root->val : 0);
     }
 };
 
