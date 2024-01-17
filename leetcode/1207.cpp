@@ -31,6 +31,24 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    bool uniqueOccurrences(vector<int>& arr)
+    {
+        unordered_map<int, int> m; // val -> count
+        for(int i : arr)
+            m[i]++;
+        set<int> s;
+        for(auto [val, cnt] : m)
+        {
+            if(s.count(cnt))
+                return 0;
+            s.insert(cnt);
+        }
+        return 1;
+    }
+};
+
 int main()
 {
     // skip
