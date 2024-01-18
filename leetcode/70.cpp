@@ -7,7 +7,7 @@
 using namespace std;
 #include "leetcode_helper.h"
 #include "helper.h"
-
+// Buttom-Up
 class Solution {
 public:
     int dp[50];
@@ -20,6 +20,28 @@ public:
         return dp[n];
     }
 };
+
+// Top-Down
+class Solution2 {
+public:
+    int memo[50];
+    Solution()
+    {
+        memset(memo, 0xff, sizeof(memo));
+    }
+    int solve(int i)
+    {
+        if(memo[i] != -1)
+            return memo[i];
+        if(i == 0 || i == 1)
+            return 1;
+        return memo[i] = (solve(i-1) + solve(i-2));
+    }
+    int climbStairs(int n) {
+        return solve(n);
+    }
+};
+
 
 int main()
 {
