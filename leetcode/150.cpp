@@ -45,6 +45,55 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    inline bool isNumber(const string& s)
+    {
+        if(s[0] == '-' && s.size() <= 1)
+            return 0;
+        int i = s[0] == '-' ? 1 : 0;
+        for(; i < s.size(); i++)
+            if(!isdigit(s[i]))
+                return 0;
+        return 1;
+    }
+    int evalRPN(vector<string>& tokens)
+    {
+        stack<int> opn;
+        for(auto tok : tokens)
+        {
+            if(isNumber(tok))
+            {
+                opn.push(stoi(tok));
+            }
+            else
+            {
+                char op = tok[0];
+                int b = opn.top(); opn.pop();
+                int a = opn.top(); opn.pop();
+                int c;
+                switch(op)
+                {
+                    case '+':
+                        c = a+b;
+                    break;
+                    case '-':
+                        c = a-b;
+                    break;
+                    case '*':
+                        c = a*b;
+                    break;
+                    case '/':
+                        c = a/b;
+                    break;
+                }
+                opn.push(c);
+            }
+        }
+        return opn.top();
+    }
+};
+
 int main()
 {
     // skip
