@@ -37,6 +37,35 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    vector<int> dailyTemperatures(vector<int>& temp)
+    {
+        int n = temp.size();
+        stack<pair<int,int>> s; // val, idx
+        // desecnding
+        vector<int> ans(n);
+
+        for(int i = 0; i < n; i++)
+        {
+            while(!s.empty())
+            {
+                auto [val, idx] = s.top();
+                if(temp[i] > val)
+                {
+                    ans[idx] = i - idx;
+                    s.pop();
+                }
+                else
+                    break;
+            }
+
+            s.push({temp[i], i});
+        }
+        return ans;
+    }
+};
+
 int main()
 {
     vector<int> v = {73,74,75,71,69,72,76,73};
