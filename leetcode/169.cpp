@@ -49,9 +49,6 @@ public:
             cnt++;
         }
         
-        // printf("%d %d\n", acc, ans);
-        // printf("%d\n", cnt);
-        
         if(cnt > acc)
         {
             acc = cnt;
@@ -65,6 +62,56 @@ public:
     int majorityElement(vector<int>& nums)
     {
         return normal(nums);
+    }
+};
+
+// Time: O(n) Space: O(n)
+class Solution2 {
+public:
+    int majorityElement(vector<int>& nums)
+    {
+        int n = nums.size();
+        unordered_map<int, int> m;
+        for(int i : nums)
+            m[i]++;
+        int mi, mv = INT_MIN;
+        for(auto [num, cnt] : m)
+        {
+            if(cnt > mv)
+            {
+                mv = cnt;
+                mi = num;
+            }
+        }
+        return mi;
+    }
+};
+
+// Boyer-Moore Majority Vote Algorithm
+// Time: O(n) Space: O(1)
+class Solution3 {
+public:
+    int majorityElement(vector<int>& nums)
+    {
+        int n = nums.size();
+        int ans = nums[0], cnt = 1;
+        for(int i = 1; i < n; i++)
+        {
+            if(ans == nums[i])
+            {
+                cnt++;
+            }
+            else if(cnt > 0)
+            {
+                cnt--;
+            }
+            else
+            {
+                ans = nums[i];
+                cnt = 1;
+            }
+        }
+        return ans;
     }
 };
 
