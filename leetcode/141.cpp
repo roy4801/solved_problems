@@ -84,6 +84,27 @@ public:
     }
 };
 
+class Solution3
+{
+public:
+    bool hasCycle(ListNode *head)
+    {
+        ListNode* a = head, *b = head;
+        auto go = [&]() {
+            a = a->next;
+            b = b->next->next;
+        };
+
+        while(a && b && b->next)
+        {
+            go();
+            if(a == b)
+                return 1;
+        }
+        return 0;
+    }
+};
+
 int main()
 {
     // vector<int> v = {3,2,0,-4};
