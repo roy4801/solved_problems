@@ -35,6 +35,26 @@ public:
         return a;
     }
 };
+
+class Solution2 { 
+public:
+    ListNode* middleNode(ListNode* head)
+    {
+        int n = 0;
+        ListNode* p = head;
+        while(p)
+        {
+            p = p->next;
+            n++;
+        }
+        n = ceil(n/2);
+        p = head;
+        while(n--)
+            p = p->next;
+        return p;
+    }
+};
+
 int main()
 {
     // skip
