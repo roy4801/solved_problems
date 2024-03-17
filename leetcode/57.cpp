@@ -75,6 +75,52 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    bool IsOverlap(vector<int>& a, vector<int>& b)
+    {
+        return b[0] <= a[1] && a[0] <= b[1];
+    }
+
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval)
+    {
+        int n = intervals.size();
+        if(!n)
+            return {newInterval};
+
+        bitset<10005> overlap;
+        int minX = INT_MAX, maxX = INT_MIN;
+        for(int i = 0; i < n; i++)
+        {
+            auto& a = intervals[i];
+
+            if(IsOverlap(a, newInterval))
+            {
+                overlap[i] = 1;
+                minX = min(minX, min(a[0], newInterval[0]));
+                maxX = max(maxX, max(a[1], newInterval[1]));
+            }
+        }
+
+        vector<vector<int>> ans;
+        for(int i = 0; i < n; i++)
+        {
+            if(!overlap[i])
+            {
+                ans.push_back(intervals[i]);
+            }
+        }
+
+        if(overlap.any())
+            ans.push_back({minX, maxX});
+        else
+            ans.push_back(newInterval);
+
+        sort(ans.begin(), ans.end(), [](auto& a, auto& b) { return a[0] == b[0] ? a[1] < b[1] : a[0] < b[0]; });
+        return ans;
+    }
+};
+
 int main()
 {
     using Input=pair<vector<vector<int>>, vector<int>>;
