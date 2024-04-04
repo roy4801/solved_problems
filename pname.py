@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import requests, sys, json, os
+import requests, sys, json, os, pprint
+
+pp = pprint.PrettyPrinter(indent=4)
 
 class uhunt:
 	@staticmethod
@@ -37,16 +39,21 @@ class CSES:
 			pass
 
 class LeetCode:
-	url = 'https://leetcode.com/api/problems/algorithms/'
+	url = "https://leetcode.com/graphql/"
 
 	@staticmethod
 	def get_problem_name(pid):
 		data = None
 
-		r = requests.get(LeetCode.url, timeout=3)
+		payload = "{\"query\":\"query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {\\n  problemsetQuestionList: questionList(\\n    categorySlug: $categorySlug\\n    limit: $limit\\n    skip: $skip\\n    filters: $filters\\n  ) {\\n    total: totalNum\\n    questions: data {\\n      acRate\\n      difficulty\\n      freqBar\\n      frontendQuestionId: questionFrontendId\\n      isFavor\\n      paidOnly: isPaidOnly\\n      status\\n      title\\n      titleSlug\\n      topicTags {\\n        name\\n        id\\n        slug\\n      }\\n      hasSolution\\n      hasVideoSolution\\n    }\\n  }\\n}\",\"variables\":{\"categorySlug\":\"\",\"skip\":0,\"limit\":10,\"filters\":{\"searchKeywords\":\"@pid@\"}}}"
+		payload = payload.replace('@pid@', str(pid))
+		headers = {
+		'Content-Type': 'application/json',
+		}
+		r = requests.request("POST", LeetCode.url, headers=headers, data=payload, timeout=3)
 		if r.status_code == requests.codes.ok:
 			# Get the problem data
-			pd = json.loads(r.text)['stat_status_pairs']
+			pd = json.loads(r.text)['data']['problemsetQuestionList']['questions']
 
 		title = ''
 		difficulty = None
@@ -54,14 +61,10 @@ class LeetCode:
 		# iterate through the problem list
 		for i in pd:
 			# the problem id matched
-			if i['stat']['frontend_question_id'] == int(pid):
+			if int(i['frontendQuestionId']) == int(pid):
 				pass_flag = True
-				difficulty = {
-					1: 'Easy',
-					2: 'Medium',
-					3: 'Hard'
-				}[i['difficulty']['level']]
-				title = i['stat']['question__title']
+				difficulty = i['difficulty']
+				title = i['title']
 
 		if pass_flag:
 			return 'Leetcode {diff} {id}. {title}'.format(diff=difficulty, id=pid, title=title)
