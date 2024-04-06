@@ -52,6 +52,39 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    string minRemoveToMakeValid(string s)
+    {
+        int n = s.size();
+        vector<int> stk;
+        unordered_set<int> dump;
+
+        for(int i = 0; i < n; i++)
+        {
+            if(s[i] == '(')
+            {
+                stk.push_back(i);
+            }
+            else if(s[i] == ')')
+            {
+                if(stk.size())
+                    stk.pop_back();
+                else
+                    dump.insert(i);   
+            }
+        }
+        for(int i : stk)
+            dump.insert(i);
+
+        string ans;
+        for(int i = 0; i < n; i++)
+            if(!dump.count(i))
+                ans += s[i];
+        return ans;
+    }
+};
+
 /*
 lee(t(c)o)de)
 a)b(c)d
