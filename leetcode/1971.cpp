@@ -95,6 +95,72 @@ public:
     }
 };
 
+// dfs (iteratively)
+class Solution {
+public:
+    bool validPath(int n, vector<vector<int>>& edges, int src, int dst)
+    {
+        vector<vector<int>> G(n);
+        for(auto& e : edges)
+        {
+            int a = e[0], b = e[1];
+            G[a].push_back(b);
+            G[b].push_back(a);
+        }
+
+        stack<int> s;
+        vector<bool> vis(n, 0);
+        vis[src] = 1;
+        s.push(src);
+        while(!s.empty())
+        {
+            int i = s.top();
+            s.pop();
+
+            for(auto j : G[i])
+            {
+                if(!vis[j])
+                {
+                    s.push(j);
+                    vis[j] = 1;
+                }
+            }
+        }
+        
+        return vis[dst];
+    }
+};
+
+// disjoint (lambda)
+class Solution {
+public:
+    vector<int> p;
+    bool validPath(int n, vector<vector<int>>& edges, int src, int dst)
+    {
+        p.resize(n+5);
+        for(int i = 0; i <= n; i++)
+            p[i] = i;
+
+        function<int(int)> Find;
+        Find = [&](int x) -> int {
+            return x == p[x] ? x : (p[x]=Find(p[x]));
+        };
+        auto Union = [&](int a, int b) -> void {
+            p[Find(a)] = Find(b);
+        };
+        auto IsSame = [&](int a, int b) -> bool {
+            return Find(a) == Find(b);
+        };
+
+        for(auto e : edges)
+        {
+            int a = e[0], b = e[1];
+            Union(a, b);
+        }
+        return IsSame(src, dst);
+    }
+};
+
 int main()
 {
     // skip
