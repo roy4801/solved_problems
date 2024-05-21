@@ -63,6 +63,27 @@ public:
     }
 };
 
+class Solution3
+{
+public:
+    vector<vector<int>> subsets(vector<int>& nums)
+    {
+        int n = nums.size();
+        int N = pow(2, n) - 1;
+        vector<vector<int>> ans;
+        for(int i = 0; i <= N; i++)
+        {
+            bitset<10> vis(i);
+            vector<int> cur;
+            for(int j = 0; j < n; j++)
+                if(vis[j])
+                    cur.push_back(nums[j]);
+            ans.push_back(cur);
+        }
+        return ans;
+    }
+};
+
 int main()
 {
     vector<int> v = {1, 2, 3};
