@@ -36,6 +36,33 @@ public:
     }
 };
 
+class Solution2
+{
+public:
+    vector<vector<int>> subsets(vector<int>& nums)
+    {
+        int n = nums.size();
+        vector<vector<int>> ans;
+
+        auto solve = [&](vector<int> cur, int i, auto&& solve)
+        {
+            if(i == n)
+            {
+                ans.push_back(cur);
+                return;
+            }
+
+            solve(cur, i+1, solve);
+            cur.push_back(nums[i]);
+            solve(cur, i+1, solve);
+            cur.pop_back();
+        };
+
+        solve({}, 0, solve);
+        return ans;
+    }
+};
+
 int main()
 {
     vector<int> v = {1, 2, 3};
