@@ -47,6 +47,39 @@ public:
     }
 };
 
+// 觀察: 找每個字元最小的出現次數，即是該字元在答案陣列出現的次數
+class Solution2 {
+public:
+    vector<string> commonChars(vector<string>& words)
+    {
+        int n = words.size();
+        array<int, 26> cnt;
+        cnt.fill(INT_MAX);
+        
+        for(int i = 0; i < n; i++)
+        {
+            int ch[26] = {0};
+            for(int j = 0; j < words[i].size(); j++)
+            {
+                char c = words[i][j];
+                ch[c-'a']++;   
+            }
+
+            for(int j = 0; j < 26; j++)
+                cnt[j] = min(cnt[j], ch[j]);
+        }
+
+        vector<string> ans;
+        for(int i = 0; i < 26; i++)
+            while(cnt[i]--)
+            {
+                char c = 'a'+i;
+                ans.push_back(string{c});
+            }
+        return ans;
+    }
+};
+
 int main()
 {
     // skip
