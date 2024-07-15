@@ -1,5 +1,5 @@
 /*
- * Leetcode Medium 6018. Create Binary Tree From Descriptions
+ * Leetcode Medium 2196. Create Binary Tree From Descriptions
  * author: roy4801
  * AC(C++)
  */
@@ -56,6 +56,50 @@ public:
         }
         
         return M[*N.begin()];
+    }
+};
+
+class Solution2 {
+public:
+    TreeNode* createBinaryTree(vector<vector<int>>& desc)
+    {
+        unordered_map<int, int> in; // in degree
+        unordered_map<int, TreeNode*> m; // val -> node
+
+        for(auto& it : desc)
+        {
+            int a = it[0], b = it[1], left = it[2];
+            if(!m.count(a))
+            {
+                m[a] = new TreeNode(a);
+                in[a] = 0;
+            }
+            if(!m.count(b))
+            {
+                m[b] = new TreeNode(b);
+                in[b] = 0;
+            }
+            if(left)
+            {
+                m[a]->left = m[b];
+            }
+            else
+            {
+                m[a]->right = m[b];
+            }
+            in[b]++;
+        }
+        
+        TreeNode* ans = nullptr;
+        for(auto [i, deg] : in)
+        {
+            if(deg == 0)
+            {
+                ans = m[i];
+                break;
+            }
+        }
+        return ans;
     }
 };
 
