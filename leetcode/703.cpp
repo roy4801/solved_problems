@@ -46,6 +46,35 @@ public:
     priority_queue<int, vector<int>, greater<int>> pq;
 };
 
+class KthLargest {
+public:
+    int k;
+    priority_queue<int,vector<int>,greater<int>> pq;
+    KthLargest(int _k, vector<int>& nums)
+    {
+        k = _k;
+        for(int i : nums)
+            add(i);
+    }
+    
+    inline int add(int val) 
+    {
+        if(pq.size() >= k)
+        {
+            if(pq.top() < val)
+            {
+                pq.pop();
+                pq.push(val);
+            }
+        }
+        else
+        {
+            pq.push(val);
+        }
+        return pq.top();
+    }
+};
+
 int main()
 {
     vector<int> v = {4, 5, 8, 2};
