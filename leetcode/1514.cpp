@@ -57,6 +57,42 @@ public:
     }
 };
 
+class Solution {
+public:
+    using P=pair<int, double>;
+    double maxProbability(int n, vector<vector<int>>& edge, vector<double>& prob, int st, int en)
+    {
+        int m = edge.size();
+        vector<vector<P>> G(n); // [from idx] = (to idx, probability)
+        vector<double> d(n, -1.0); // [idx] = max probability
+
+        for(int i = 0; i < m; i++)
+        {
+            int a = edge[i][0], b = edge[i][1];
+            G[a].emplace_back(b, prob[i]);
+            G[b].emplace_back(a, prob[i]);
+        }
+
+        priority_queue<pair<double,int>> pq; // probability, idx
+        pq.emplace(1.0, st);
+        while(!pq.empty())
+        {
+            auto [p, i] = pq.top(); pq.pop();
+            
+            if(d[i] != -1.0)
+                continue;
+            d[i] = p;
+
+            for(auto [j, w] : G[i])
+            {
+                pq.emplace(p * w, j);
+            }
+        }
+
+        return d[en] == -1.0 ? 0.0 : d[en];
+    }
+};
+
 int main()
 {
     // skip
