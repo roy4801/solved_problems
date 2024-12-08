@@ -6,12 +6,14 @@ chec_err() {
     fi
 }
 
-g++ -std=c++20 day$1.cpp -o day$1
+g++ -std=c++20 -ggdb day$1.cpp -o day$1
 chec_err $?
 
-SUFFIX=${1//[^0-9]/}
-./day$1 < day${SUFFIX}.in > day${SUFFIX}.out
+#SUFFIX=${1//[^0-9]/}
+SUFFIX=${1}
+./day$1 < day${SUFFIX}.in${2} > day${SUFFIX}.out
 chec_err $?
 
-less day${SUFFIX}.out
+#less day${SUFFIX}.out
+cat day${SUFFIX}.out
 
