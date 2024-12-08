@@ -7,15 +7,18 @@ vector<int> v;
 ULL target;
 ULL ans = 0;
 
-ULL to_num (string x)
+inline int digit (ULL v)
 {
-    ULL result = 0;
-    for(auto& c : x)
-    {
-        result *= 10;
-        result += c - '0';
-    }
-    return result;
+    int r = 0;
+    r = (v >= 10000000000000000000ULL) ? 19 : (v >= 1000000000000000000ULL) ? 18 : 
+        (v >= 100000000000000000ULL) ? 17 : (v >= 10000000000000000ULL) ? 16 :
+        (v >= 1000000000000000ULL) ? 15 : (v >= 100000000000000ULL) ? 14 :
+        (v >= 10000000000000ULL) ? 13 : (v >= 1000000000000ULL) ? 12 :
+        (v >= 100000000000ULL) ? 11 : (v >= 10000000000ULL) ? 10 :
+        (v >= 1000000000ULL) ? 9 : (v >= 100000000ULL) ? 8 : (v >= 10000000ULL) ? 7 : 
+        (v >= 1000000ULL) ? 6 : (v >= 100000ULL) ? 5 : (v >= 10000ULL) ? 4 : 
+        (v >= 1000ULL) ? 3 : (v >= 100ULL) ? 2 : (v >= 10ULL) ? 1 : 0;
+    return r+1;
 }
 
 void solve(int n)
@@ -39,7 +42,9 @@ void solve(int n)
             }
             else 
             {
-                tmp = to_num(to_string(tmp) + to_string(v[j+1]));
+                int d = digit(v[j+1]);
+                tmp *= pow(10, d);
+                tmp += v[j+1];
             }
             state /= 3;
         }
