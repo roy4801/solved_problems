@@ -20,28 +20,39 @@ public:
     vector<int> productExceptSelf(vector<int>& nums)
     {
         int n = nums.size();
-        vector<int> v(n);
+        vector<int> ans(n);
+        int p = 1;
 
         int z = 0;
         for(int i = 0; i < n; i++)
+        {
             if(nums[i] == 0)
+            {
                 z++;
-
-        int p = 1;
-        for(int i = 0; i < n; i++)
-            if(z == 1 && nums[i] != 0 || z != 1)
+                continue;
+            }
             p *= nums[i];
+        }
 
+        if(z >= 2)
+            return ans;
+        
         for(int i = 0; i < n; i++)
-            if(z == 1)
-                v[i] = nums[i] == 0 ? p : 0;
+        {
+            if(z)
+            {
+                ans[i] = nums[i] == 0 ? p : 0;
+            }
             else
-                v[i] = nums[i] ? p / nums[i] : p;
-        return v;
+            {
+                ans[i] = p / nums[i];
+            }
+        }
+        return ans;
     }
 };
 
 int main()
 {
-    // skip
+	// skip
 }
