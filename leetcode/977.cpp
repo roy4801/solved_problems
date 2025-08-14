@@ -40,6 +40,40 @@ public:
     }
 };
 
+// 20250813
+class Solution {
+public:
+    vector<int> sortedSquares(vector<int>& nums)
+    {
+        int n = nums.size();
+
+        int z = 0;
+        while(z < n && nums[z] < 0)
+            z++;
+        
+        int i = z-1, j = z;
+        int k = 0;
+        vector<int> ans(n);
+        while(k < n)
+        {
+            int a = i >= 0 ? nums[i]*nums[i] : INT_MAX;
+            int b = j <= n-1 ? nums[j]*nums[j] : INT_MAX;
+            if(a < b)
+            {
+                ans[k++] = a;
+                i--;
+            }
+            else
+            {
+                ans[k++] = b;
+                j++;
+            }
+        }
+        
+        return ans;
+    }
+};
+
 int main()
 {
     vector<int> v = {-7,-3,2,3,11};
