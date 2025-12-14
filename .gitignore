@@ -12,3 +12,6 @@ a.out
 /uva/*.out
 .vscode/
 __pycache__/
+
+build/
+.vs/
