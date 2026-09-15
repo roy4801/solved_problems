@@ -44,6 +44,37 @@ public:
     }
 };
 
+class Solution2 {
+public:
+    int getdigit(int n, int i)
+    {
+        if(i == 0)
+            return n % 10;
+        return n / (int)pow(10, i) % 10;
+    }
+    bool isPalindrome(int x)
+    {
+        if(x < 0)
+            return false;
+        else if(x == 0)
+            return true;
+
+        int tmp = x, d = 0;
+        while(tmp)
+        {
+            tmp /= 10;
+            d++;
+        }
+
+        for(int i = 0; i <= d/2; i++)
+        {
+            if(getdigit(x, i) != getdigit(x, d-1-i))
+                return false;
+        }
+        return true;
+    }
+};
+
 int main()
 {
     // skip
